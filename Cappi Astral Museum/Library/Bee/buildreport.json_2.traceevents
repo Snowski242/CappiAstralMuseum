@@ -1,0 +1,803 @@
+{ "pid": 43656, "tid": 81604378624, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053630853, "dur": 20769, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053651624, "dur": 244399, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053651638, "dur": 62, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053651704, "dur": 533, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053652243, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053652245, "dur": 51, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053652299, "dur": 5, "ph": "X", "name": "ProcessMessages 47", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053652306, "dur": 4622, "ph": "X", "name": "ReadAsync 47", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053656936, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053656941, "dur": 106, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657055, "dur": 5, "ph": "X", "name": "ProcessMessages 1473", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657062, "dur": 72, "ph": "X", "name": "ReadAsync 1473", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657137, "dur": 3, "ph": "X", "name": "ProcessMessages 1725", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657141, "dur": 73, "ph": "X", "name": "ReadAsync 1725", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657218, "dur": 1, "ph": "X", "name": "ProcessMessages 719", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657220, "dur": 58, "ph": "X", "name": "ReadAsync 719", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657283, "dur": 1, "ph": "X", "name": "ProcessMessages 558", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657285, "dur": 44, "ph": "X", "name": "ReadAsync 558", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657331, "dur": 1, "ph": "X", "name": "ProcessMessages 300", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657333, "dur": 61, "ph": "X", "name": "ReadAsync 300", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657398, "dur": 45, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657447, "dur": 6, "ph": "X", "name": "ProcessMessages 349", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657456, "dur": 112, "ph": "X", "name": "ReadAsync 349", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657573, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657576, "dur": 71, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657653, "dur": 2, "ph": "X", "name": "ProcessMessages 818", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657657, "dur": 158, "ph": "X", "name": "ReadAsync 818", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657820, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657822, "dur": 48, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657873, "dur": 1, "ph": "X", "name": "ProcessMessages 732", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657875, "dur": 33, "ph": "X", "name": "ReadAsync 732", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657911, "dur": 32, "ph": "X", "name": "ReadAsync 463", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657947, "dur": 30, "ph": "X", "name": "ReadAsync 601", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657979, "dur": 1, "ph": "X", "name": "ProcessMessages 725", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053657980, "dur": 47, "ph": "X", "name": "ReadAsync 725", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658033, "dur": 44, "ph": "X", "name": "ReadAsync 703", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658079, "dur": 1, "ph": "X", "name": "ProcessMessages 689", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658081, "dur": 128, "ph": "X", "name": "ReadAsync 689", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658214, "dur": 2, "ph": "X", "name": "ProcessMessages 423", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658217, "dur": 40, "ph": "X", "name": "ReadAsync 423", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658262, "dur": 45, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658310, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658311, "dur": 35, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658349, "dur": 1, "ph": "X", "name": "ProcessMessages 771", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658350, "dur": 33, "ph": "X", "name": "ReadAsync 771", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658387, "dur": 37, "ph": "X", "name": "ReadAsync 321", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658427, "dur": 1, "ph": "X", "name": "ProcessMessages 715", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658430, "dur": 100, "ph": "X", "name": "ReadAsync 715", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658531, "dur": 1, "ph": "X", "name": "ProcessMessages 623", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658534, "dur": 44, "ph": "X", "name": "ReadAsync 623", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658580, "dur": 2, "ph": "X", "name": "ProcessMessages 2037", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658583, "dur": 34, "ph": "X", "name": "ReadAsync 2037", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658620, "dur": 1, "ph": "X", "name": "ProcessMessages 454", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658622, "dur": 54, "ph": "X", "name": "ReadAsync 454", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658679, "dur": 1, "ph": "X", "name": "ProcessMessages 888", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658682, "dur": 34, "ph": "X", "name": "ReadAsync 888", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658719, "dur": 1, "ph": "X", "name": "ProcessMessages 362", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658721, "dur": 119, "ph": "X", "name": "ReadAsync 362", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658845, "dur": 1, "ph": "X", "name": "ProcessMessages 203", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658848, "dur": 51, "ph": "X", "name": "ReadAsync 203", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658901, "dur": 1, "ph": "X", "name": "ProcessMessages 960", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658904, "dur": 38, "ph": "X", "name": "ReadAsync 960", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658944, "dur": 1, "ph": "X", "name": "ProcessMessages 788", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053658946, "dur": 53, "ph": "X", "name": "ReadAsync 788", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659001, "dur": 1, "ph": "X", "name": "ProcessMessages 550", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659003, "dur": 40, "ph": "X", "name": "ReadAsync 550", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659048, "dur": 1, "ph": "X", "name": "ProcessMessages 397", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659050, "dur": 45, "ph": "X", "name": "ReadAsync 397", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659098, "dur": 1, "ph": "X", "name": "ProcessMessages 789", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659101, "dur": 46, "ph": "X", "name": "ReadAsync 789", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659151, "dur": 1, "ph": "X", "name": "ProcessMessages 626", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659153, "dur": 52, "ph": "X", "name": "ReadAsync 626", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659209, "dur": 1, "ph": "X", "name": "ProcessMessages 917", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659212, "dur": 45, "ph": "X", "name": "ReadAsync 917", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659262, "dur": 1, "ph": "X", "name": "ProcessMessages 477", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659265, "dur": 51, "ph": "X", "name": "ReadAsync 477", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659320, "dur": 44, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659368, "dur": 1, "ph": "X", "name": "ProcessMessages 833", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659371, "dur": 49, "ph": "X", "name": "ReadAsync 833", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659422, "dur": 1, "ph": "X", "name": "ProcessMessages 1132", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659424, "dur": 39, "ph": "X", "name": "ReadAsync 1132", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659467, "dur": 1, "ph": "X", "name": "ProcessMessages 622", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659468, "dur": 32, "ph": "X", "name": "ReadAsync 622", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659503, "dur": 1, "ph": "X", "name": "ProcessMessages 559", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659505, "dur": 34, "ph": "X", "name": "ReadAsync 559", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659540, "dur": 1, "ph": "X", "name": "ProcessMessages 797", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659542, "dur": 27, "ph": "X", "name": "ReadAsync 797", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659572, "dur": 267, "ph": "X", "name": "ReadAsync 748", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659847, "dur": 3, "ph": "X", "name": "ProcessMessages 517", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659851, "dur": 95, "ph": "X", "name": "ReadAsync 517", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659950, "dur": 3, "ph": "X", "name": "ProcessMessages 2333", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053659962, "dur": 67, "ph": "X", "name": "ReadAsync 2333", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660032, "dur": 1, "ph": "X", "name": "ProcessMessages 755", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660035, "dur": 57, "ph": "X", "name": "ReadAsync 755", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660095, "dur": 2, "ph": "X", "name": "ProcessMessages 515", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660098, "dur": 65, "ph": "X", "name": "ReadAsync 515", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660168, "dur": 2, "ph": "X", "name": "ProcessMessages 1089", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660172, "dur": 61, "ph": "X", "name": "ReadAsync 1089", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660236, "dur": 2, "ph": "X", "name": "ProcessMessages 500", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660239, "dur": 55, "ph": "X", "name": "ReadAsync 500", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660299, "dur": 2, "ph": "X", "name": "ProcessMessages 970", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660302, "dur": 48, "ph": "X", "name": "ReadAsync 970", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660354, "dur": 1, "ph": "X", "name": "ProcessMessages 612", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660356, "dur": 53, "ph": "X", "name": "ReadAsync 612", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660413, "dur": 1, "ph": "X", "name": "ProcessMessages 882", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660416, "dur": 49, "ph": "X", "name": "ReadAsync 882", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660469, "dur": 2, "ph": "X", "name": "ProcessMessages 835", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660473, "dur": 68, "ph": "X", "name": "ReadAsync 835", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660544, "dur": 1, "ph": "X", "name": "ProcessMessages 979", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660547, "dur": 56, "ph": "X", "name": "ReadAsync 979", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660610, "dur": 1, "ph": "X", "name": "ProcessMessages 598", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660613, "dur": 59, "ph": "X", "name": "ReadAsync 598", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660678, "dur": 2, "ph": "X", "name": "ProcessMessages 823", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660681, "dur": 69, "ph": "X", "name": "ReadAsync 823", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660753, "dur": 1, "ph": "X", "name": "ProcessMessages 1035", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660755, "dur": 55, "ph": "X", "name": "ReadAsync 1035", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660815, "dur": 1, "ph": "X", "name": "ProcessMessages 613", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660818, "dur": 59, "ph": "X", "name": "ReadAsync 613", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660882, "dur": 38, "ph": "X", "name": "ReadAsync 359", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660924, "dur": 1, "ph": "X", "name": "ProcessMessages 707", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660926, "dur": 37, "ph": "X", "name": "ReadAsync 707", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660965, "dur": 1, "ph": "X", "name": "ProcessMessages 617", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053660967, "dur": 31, "ph": "X", "name": "ReadAsync 617", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661000, "dur": 1, "ph": "X", "name": "ProcessMessages 574", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661002, "dur": 46, "ph": "X", "name": "ReadAsync 574", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661051, "dur": 1, "ph": "X", "name": "ProcessMessages 483", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661053, "dur": 37, "ph": "X", "name": "ReadAsync 483", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661093, "dur": 32, "ph": "X", "name": "ReadAsync 803", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661127, "dur": 1, "ph": "X", "name": "ProcessMessages 869", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661129, "dur": 36, "ph": "X", "name": "ReadAsync 869", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661171, "dur": 1, "ph": "X", "name": "ProcessMessages 845", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661174, "dur": 39, "ph": "X", "name": "ReadAsync 845", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661218, "dur": 74, "ph": "X", "name": "ReadAsync 860", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661297, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661299, "dur": 35, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661335, "dur": 1, "ph": "X", "name": "ProcessMessages 1138", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661337, "dur": 29, "ph": "X", "name": "ReadAsync 1138", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661369, "dur": 28, "ph": "X", "name": "ReadAsync 406", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661399, "dur": 32, "ph": "X", "name": "ReadAsync 713", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661434, "dur": 1, "ph": "X", "name": "ProcessMessages 613", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661436, "dur": 45, "ph": "X", "name": "ReadAsync 613", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661484, "dur": 32, "ph": "X", "name": "ReadAsync 646", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661519, "dur": 32, "ph": "X", "name": "ReadAsync 557", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661553, "dur": 37, "ph": "X", "name": "ReadAsync 496", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661592, "dur": 1, "ph": "X", "name": "ProcessMessages 536", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661594, "dur": 32, "ph": "X", "name": "ReadAsync 536", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661629, "dur": 39, "ph": "X", "name": "ReadAsync 503", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661671, "dur": 1, "ph": "X", "name": "ProcessMessages 595", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661673, "dur": 36, "ph": "X", "name": "ReadAsync 595", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661711, "dur": 1, "ph": "X", "name": "ProcessMessages 839", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661713, "dur": 49, "ph": "X", "name": "ReadAsync 839", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661764, "dur": 1, "ph": "X", "name": "ProcessMessages 743", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661766, "dur": 27, "ph": "X", "name": "ReadAsync 743", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661796, "dur": 32, "ph": "X", "name": "ReadAsync 674", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661831, "dur": 1, "ph": "X", "name": "ProcessMessages 686", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661836, "dur": 28, "ph": "X", "name": "ReadAsync 686", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661867, "dur": 23, "ph": "X", "name": "ReadAsync 1014", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661893, "dur": 25, "ph": "X", "name": "ReadAsync 325", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661920, "dur": 1, "ph": "X", "name": "ProcessMessages 374", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661922, "dur": 28, "ph": "X", "name": "ReadAsync 374", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661952, "dur": 29, "ph": "X", "name": "ReadAsync 467", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053661984, "dur": 26, "ph": "X", "name": "ReadAsync 528", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053662013, "dur": 33, "ph": "X", "name": "ReadAsync 507", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053662050, "dur": 1, "ph": "X", "name": "ProcessMessages 21", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053662053, "dur": 22352, "ph": "X", "name": "ReadAsync 21", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684426, "dur": 5, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684434, "dur": 331, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684772, "dur": 3, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684777, "dur": 81, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684864, "dur": 3, "ph": "X", "name": "ProcessMessages 228", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684869, "dur": 62, "ph": "X", "name": "ReadAsync 228", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684938, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053684941, "dur": 57, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685003, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685005, "dur": 133, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685145, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685148, "dur": 60, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685214, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685217, "dur": 197, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685422, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685425, "dur": 65, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685495, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685498, "dur": 104, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685607, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685610, "dur": 51, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685665, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053685671, "dur": 633, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053686313, "dur": 8, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053686324, "dur": 74, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053686402, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053686408, "dur": 5725, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053692185, "dur": 17, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053692212, "dur": 226, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053692446, "dur": 42, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053692492, "dur": 1080, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053693608, "dur": 7, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053693632, "dur": 177, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053693824, "dur": 13, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053693839, "dur": 8289, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053702142, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053702147, "dur": 55, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053702205, "dur": 22, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053702230, "dur": 1843, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704083, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704088, "dur": 58, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704152, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704158, "dur": 597, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704762, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704766, "dur": 85, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704857, "dur": 7, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053704866, "dur": 598, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705472, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705476, "dur": 79, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705562, "dur": 3, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705567, "dur": 400, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705973, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053705976, "dur": 57, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706038, "dur": 16, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706057, "dur": 356, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706422, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706426, "dur": 275, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706709, "dur": 21, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053706733, "dur": 582, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053707326, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053707330, "dur": 61, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053707396, "dur": 12, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053707410, "dur": 1004, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053708420, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053708423, "dur": 58, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053708485, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053708487, "dur": 6756, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715257, "dur": 4, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715264, "dur": 101, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715371, "dur": 5, "ph": "X", "name": "ProcessMessages 148", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715379, "dur": 73, "ph": "X", "name": "ReadAsync 148", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715460, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715463, "dur": 51, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715518, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715520, "dur": 28, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715552, "dur": 44, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715601, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715604, "dur": 82, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715691, "dur": 1, "ph": "X", "name": "ProcessMessages 68", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715694, "dur": 104, "ph": "X", "name": "ReadAsync 68", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715803, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715805, "dur": 98, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715908, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053715911, "dur": 136, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716053, "dur": 2, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716057, "dur": 58, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716119, "dur": 2, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716123, "dur": 78, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716204, "dur": 1, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716207, "dur": 46, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716258, "dur": 2, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716261, "dur": 43, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716310, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716312, "dur": 39, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716356, "dur": 26, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716384, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716386, "dur": 45, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716437, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716439, "dur": 57, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716501, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716504, "dur": 25, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716533, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716536, "dur": 165, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716707, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716709, "dur": 58, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716773, "dur": 2, "ph": "X", "name": "ProcessMessages 180", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716777, "dur": 57, "ph": "X", "name": "ReadAsync 180", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716839, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716842, "dur": 48, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716893, "dur": 46, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716943, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716945, "dur": 40, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716988, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053716990, "dur": 40, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717034, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717036, "dur": 27, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717067, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717070, "dur": 18, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717092, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717095, "dur": 34, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717135, "dur": 38, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717177, "dur": 2, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717180, "dur": 63, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717247, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717250, "dur": 56, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717310, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717312, "dur": 54, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717372, "dur": 6, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717380, "dur": 42, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717426, "dur": 184, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717616, "dur": 37, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053717656, "dur": 718, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053718384, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053718386, "dur": 43, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053718433, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053718435, "dur": 754, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719199, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719204, "dur": 71, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719281, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719287, "dur": 697, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719992, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053719996, "dur": 66, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720069, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720075, "dur": 531, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720616, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720621, "dur": 61, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720689, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053720697, "dur": 1066, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053721780, "dur": 5, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053721787, "dur": 79, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053721875, "dur": 6, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053721882, "dur": 2463, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724359, "dur": 4, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724367, "dur": 90, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724464, "dur": 32, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724498, "dur": 187, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724693, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724697, "dur": 64, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724766, "dur": 18, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053724786, "dur": 618, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725414, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725420, "dur": 131, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725556, "dur": 26, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725583, "dur": 315, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725907, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053725911, "dur": 93, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053726015, "dur": 38, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053726056, "dur": 136754, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053862826, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053862831, "dur": 60, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053862894, "dur": 13, "ph": "X", "name": "ProcessMessages 512", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053862910, "dur": 17162, "ph": "X", "name": "ReadAsync 512", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053880082, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053880087, "dur": 70, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053880164, "dur": 4, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053880171, "dur": 1195, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053881379, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053881383, "dur": 84, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053881475, "dur": 22, "ph": "X", "name": "ProcessMessages 50", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053881499, "dur": 509, "ph": "X", "name": "ReadAsync 50", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053882014, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053882016, "dur": 53, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053882073, "dur": 1, "ph": "X", "name": "ProcessMessages 13", "args": {} },
+{ "pid": 43656, "tid": 81604378624, "ts": 1759293053882076, "dur": 13937, "ph": "X", "name": "ReadAsync 13", "args": {} },
+{ "pid": 43656, "tid": 76, "ts": 1759293053897163, "dur": 1083, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 43656, "tid": 77309411328, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 43656, "tid": 77309411328, "ts": 1759293053626476, "dur": 269612, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 43656, "tid": 77309411328, "ts": 1759293053626635, "dur": 4119, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 43656, "tid": 77309411328, "ts": 1759293053896094, "dur": 15, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 43656, "tid": 77309411328, "ts": 1759293053896112, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 43656, "tid": 76, "ts": 1759293053898251, "dur": 16, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 43656, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 43656, "tid": 1, "ts": 1759293053586028, "dur": 1774, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 43656, "tid": 1, "ts": 1759293053587806, "dur": 36993, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 43656, "tid": 1, "ts": 1759293053624802, "dur": 1639, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 43656, "tid": 76, "ts": 1759293053898270, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1759293053650496, "dur":98, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053650647, "dur":4282, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053654947, "dur":215, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053655220, "dur":607, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053655990, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1759293053656098, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1759293053657096, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053657718, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053657796, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053657971, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053658611, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053658879, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053658987, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1759293053655858, "dur":5180, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053661039, "dur":219397, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053880440, "dur":255, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053880696, "dur":82, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053880995, "dur":5215, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1759293053656172, "dur":4881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053661063, "dur":21828, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053682950, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15855221969325316263.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1759293053683058, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053683732, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053683932, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053684322, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053684644, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053684846, "dur":561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053685420, "dur":731, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053686154, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053686757, "dur":397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053687168, "dur":630, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053687802, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053688408, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053688730, "dur":626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1759293053690363, "dur":501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1759293053690876, "dur":707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1759293053691587, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1759293053691880, "dur":853, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1759293053683278, "dur":10633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/Cappi Astral Museum/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1759293053693917, "dur":13455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053713883, "dur":2447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1759293053716332, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053717280, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1759293053717364, "dur":163105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053656272, "dur":4824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053661107, "dur":2638, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053663746, "dur":2778, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053666525, "dur":16454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053683004, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1759293053683290, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053683441, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1759293053683597, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053685019, "dur":16074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1759293053701150, "dur":12775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053713938, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714046, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714172, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714249, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714344, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714526, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714650, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714735, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714810, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714899, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053714984, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715114, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715190, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715243, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715334, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715565, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715672, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715729, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715813, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053715882, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053716084, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1759293053716157, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1759293053716309, "dur":164143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053656249, "dur":4832, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053661091, "dur":2160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053663252, "dur":2153, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053665406, "dur":1529, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053666935, "dur":16095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053683042, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1759293053683302, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053683457, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1759293053683642, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053704458, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1759293053706367, "dur":7524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053713906, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714069, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714208, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714277, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714383, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714458, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714640, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714751, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714868, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053714946, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715057, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715125, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715212, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715273, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715414, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715467, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715610, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053715801, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053716042, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1759293053716193, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1759293053716291, "dur":164138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053656207, "dur":4859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053661077, "dur":2893, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053663971, "dur":2120, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053666091, "dur":17070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053683173, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1759293053683436, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053683592, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053683747, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053683936, "dur":29945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053713882, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714024, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714187, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714340, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714443, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714503, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714628, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714785, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053714951, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715004, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715073, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715402, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715471, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715543, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715614, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715713, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1759293053715873, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053716110, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1759293053716197, "dur":164236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053656332, "dur":4797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053661139, "dur":2535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053663675, "dur":1836, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053665511, "dur":643, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053666155, "dur":16990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683155, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683330, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683404, "dur":222, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683629, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683774, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683845, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053683908, "dur":29975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053713885, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714035, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714195, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714272, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714369, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714431, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714608, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714745, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053714954, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715047, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715139, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715230, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715292, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715473, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715541, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715635, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715693, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715785, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053715934, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1759293053716011, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1759293053716224, "dur":164203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053656313, "dur":4803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053661126, "dur":3034, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053664161, "dur":2750, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053666912, "dur":16136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683063, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683309, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683413, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683564, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683667, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683772, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683841, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1759293053683894, "dur":29994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053713890, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714028, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714237, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714317, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714424, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714494, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714645, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714720, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714833, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053714898, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715012, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715099, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715212, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715264, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715409, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715687, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715760, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715863, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053715967, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053716021, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053716161, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1759293053716266, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1759293053716364, "dur":164097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053656387, "dur":4763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053661163, "dur":2532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053665019, "dur":600, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.4f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053663695, "dur":2824, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053666520, "dur":16586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053683120, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1759293053683276, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053683395, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1759293053683455, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1759293053683628, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053703741, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1759293053705599, "dur":8309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053713923, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714054, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714288, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714366, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714527, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714646, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714762, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714824, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714922, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053714994, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715075, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715157, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715211, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715288, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715358, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715520, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715793, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715856, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053715950, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053716014, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053716119, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1759293053716180, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1759293053716296, "dur":164154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053656421, "dur":4749, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053661181, "dur":2393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053663575, "dur":2494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053666070, "dur":17205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053683277, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1759293053683636, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053685389, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1759293053690906, "dur":23040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053713958, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714068, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714231, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714295, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714467, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714673, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714745, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714890, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053714977, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715145, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715233, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715429, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715643, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715717, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715812, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053715997, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1759293053716066, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1759293053716189, "dur":164242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053656456, "dur":4736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053661209, "dur":2547, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053663757, "dur":1994, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053665751, "dur":17481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053683243, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1759293053683388, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053683502, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1759293053683645, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1759293053720663, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1759293053724461, "dur":156027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053656518, "dur":4694, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053661225, "dur":1927, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053663154, "dur":1637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053664792, "dur":2071, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053666863, "dur":16262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053683137, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1759293053683293, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053683389, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1759293053683654, "dur":650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1759293053683567, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum.exe" }}
+,{ "pid":12345, "tid":10, "ts":1759293053684307, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053684397, "dur":29481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053713880, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714024, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714259, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714319, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714486, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714561, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714654, "dur":231, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714886, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053714946, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715033, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715186, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715250, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715322, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715469, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715624, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715725, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715858, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053715980, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053716144, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1759293053716214, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1759293053716344, "dur":164133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053656550, "dur":4675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053661240, "dur":2215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053663456, "dur":1766, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053665222, "dur":1993, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053667216, "dur":15852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053683082, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1759293053683257, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053683494, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053683658, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053703055, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1759293053705032, "dur":8930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053713963, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714148, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714275, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714344, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714454, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714526, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714636, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714766, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714860, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053714917, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715026, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715086, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715167, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715241, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715361, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715450, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715508, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715610, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715733, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715796, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053715972, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053716038, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053716148, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1759293053716225, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1759293053716337, "dur":164149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053656591, "dur":4658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053661266, "dur":2689, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053663956, "dur":2607, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053666564, "dur":16379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053682963, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":12, "ts":1759293053683041, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053683318, "dur":169, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":12, "ts":1759293053683506, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1759293053683749, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1759293053684060, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053684346, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053684649, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053684867, "dur":560, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053685429, "dur":729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053686162, "dur":614, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053686781, "dur":510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053687295, "dur":519, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053687817, "dur":579, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053688408, "dur":328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053688740, "dur":612, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\trety\\OneDrive\\Documents\\GitHub\\CappiAstralMuseum\\Cappi Astral Museum\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1759293053683489, "dur":6937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1759293053691814, "dur":444, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053692287, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1759293053696182, "dur":165603, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1759293053878894, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1759293053878860, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1759293053879031, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1759293053656667, "dur":4602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053661280, "dur":2396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053663676, "dur":1757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053665434, "dur":1707, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053667142, "dur":15946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053683102, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1759293053683300, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1759293053683403, "dur":309, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1759293053718162, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1759293053723758, "dur":156726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053656706, "dur":4621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053661339, "dur":2407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053663747, "dur":2844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053666592, "dur":16412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053683025, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1759293053683259, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053683504, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1759293053683590, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1759293053683715, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1759293053718973, "dur":5925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1759293053724992, "dur":155449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053656771, "dur":4585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053661367, "dur":1873, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053663241, "dur":1695, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053664937, "dur":1866, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053666804, "dur":16159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053682996, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683308, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683429, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683529, "dur":188, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683727, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683718, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1759293053683995, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053684113, "dur":29762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053713877, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714133, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714280, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714378, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714540, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714638, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714821, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714882, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053714958, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715027, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715135, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715216, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715267, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715366, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715611, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715719, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053715836, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053716020, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1759293053716076, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1759293053716214, "dur":164243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053656814, "dur":4601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053661416, "dur":2203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053663620, "dur":2286, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053665907, "dur":17276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053683194, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1759293053683362, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053683460, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1759293053683606, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053683743, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1759293053719569, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Cappi Astral Museum_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1759293053723386, "dur":157079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1759293053892813, "dur":1450, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 43656, "tid": 76, "ts": 1759293053898327, "dur": 2163, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 43656, "tid": 76, "ts": 1759293053900617, "dur": 13248, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 43656, "tid": 76, "ts": 1759293053897150, "dur": 16795, "ph": "X", "name": "Write chrome-trace events", "args": {} },
