@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7df9270a9210f45b6cca48b4cb811b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: {fileID: 8300000, guid: b0bc4dd0477ceef41b78d4463606ce4a, type: 3}
+  collectFX: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
+  offset: {x: 0, y: 0.4, z: 0}
 --- !u!136 &2046383711138573664
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -65,7 +68,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.94
+  m_Radius: 4.21
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}

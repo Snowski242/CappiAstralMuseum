@@ -6,6 +6,7 @@ using UnityEngine;
 public class UITracker : MonoBehaviour
 {
     public TextMeshProUGUI munAmount;
+    public Animator animator;
 
     void Start()
     {
@@ -16,5 +17,20 @@ public class UITracker : MonoBehaviour
     void Update()
     {
         munAmount.text = ObjectiveManager.instance.munCount.ToString();
+    }
+
+    private void OnEnable()
+    {
+        MunCollect.OnCoinCollect += CoinTrig;
+    }
+
+    private void OnDisable()
+    {
+        MunCollect.OnCoinCollect -= CoinTrig;
+    }
+
+    private void CoinTrig()
+    {
+        animator.SetTrigger("Coin");
     }
 }

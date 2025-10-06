@@ -2,10 +2,24 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Billboard",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "CFXRRuntime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CartoonFX.CFXR_Effect",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -67,6 +81,20 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EnemyDamage",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EnemyHP",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "GameManager",
             "fullManagedTypeName": "",
@@ -80,6 +108,20 @@
             "nativeClass": "GlobalGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Homing",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HomingTarget",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -140,6 +182,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ParticleEnd",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "pauseMenu",
             "moduleName": "",
             "usedInScenes": []
@@ -147,7 +196,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "PlayerMovement2",
+            "fullManagedTypeName": "PlayerDamage",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PlayerGrind",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PlayerMovement",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RailScript",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -177,6 +247,13 @@
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "tensionGaugeUI",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -329,8 +406,35 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioResource",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
@@ -475,6 +579,27 @@
             ]
         },
         {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.InputSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.InputSystemObject",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.RemoteInputPlayerConnection",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Light",
             "fullManagedTypeName": "UnityEngine.Light",
@@ -506,6 +631,15 @@
             "nativeClass": "Mesh",
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
@@ -616,15 +750,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Rigidbody",
-            "fullManagedTypeName": "UnityEngine.Rigidbody",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "RuntimeAnimatorController",
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
@@ -649,6 +774,29 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "Unity.Splines.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Splines.SplineContainer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Splines.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Splines.SplineExtrude",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",

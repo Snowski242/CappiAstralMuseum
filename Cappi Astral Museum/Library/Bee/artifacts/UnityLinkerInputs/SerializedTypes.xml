@@ -1,4 +1,8 @@
 <linker>
+	<assembly fullname="CFXRRuntime">
+		<type fullname="CartoonFX.CFXR_Effect/AnimatedLight" preserve="nothing" serialized="true"/>
+		<type fullname="CartoonFX.CFXR_Effect/CameraShake" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Cinemachine">
 		<type fullname="Cinemachine.AxisState" preserve="nothing" serialized="true"/>
 		<type fullname="Cinemachine.AxisState/Recentering" preserve="nothing" serialized="true"/>
@@ -9,6 +13,18 @@
 		<type fullname="Cinemachine.CinemachineOrbitalTransposer/Heading" preserve="nothing" serialized="true"/>
 		<type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true"/>
 		<type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.Mathematics">
+		<type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true"/>
+		<type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true"/>
+		<type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.Splines">
+		<type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Splines.SplineDataDictionary`1" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>

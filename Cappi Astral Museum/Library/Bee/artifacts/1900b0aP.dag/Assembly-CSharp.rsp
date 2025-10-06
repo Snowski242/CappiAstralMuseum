@@ -109,6 +109,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
@@ -311,10 +312,16 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/CFXRDemo.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/CFXRRuntime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/KinoBloom.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Animation.Rigging.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Splines.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
@@ -325,9 +332,20 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Collectables/MunCollect.cs"
+"Assets/Scripts/Enemy Scripts/EnemyDamage.cs"
+"Assets/Scripts/Enemy Scripts/EnemyHP.cs"
+"Assets/Scripts/Particles/ParticleEnd.cs"
 "Assets/Scripts/Player Scripts/CameraMovemnt.cs"
 "Assets/Scripts/Player Scripts/ObjectiveManager.cs"
-"Assets/Scripts/Player Scripts/PlayerMovement2.cs"
+"Assets/Scripts/Player Scripts/PlayerDamage.cs"
+"Assets/Scripts/Player Scripts/PlayerGrind.cs"
+"Assets/Scripts/Player Scripts/PlayerMovement.cs"
+"Assets/Scripts/Player Scripts/RailGrind.cs"
+"Assets/Scripts/Player Scripts/RailScript.cs"
+"Assets/Scripts/Target/Homing.cs"
+"Assets/Scripts/Target/HomingTarget.cs"
+"Assets/Scripts/UI/Billboard.cs"
+"Assets/Scripts/UI/BoostGaugeUI.cs"
 "Assets/Scripts/UI/pauseMenu.cs"
 "Assets/Scripts/UI/UITracker.cs"
 -langversion:9.0
