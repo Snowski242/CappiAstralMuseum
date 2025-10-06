@@ -222,7 +222,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (speed < maxSpeed)
                 {
-                    speed += accel;
+                    speed += (accel/2);
                 }
             }
             else
@@ -324,7 +324,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (speed < maxSpeed)
                 {
-                    speed += accel;
+                    speed += (accel / 2);
                 }
             }
             else
@@ -1291,6 +1291,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 PlayerGrind grind = FindAnyObjectByType<PlayerGrind>();
                 railFX.Stop();
+                grind.railDelay = 10;
                 grind.onRail = false;
                 grind.currentRailScript = null;
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);

@@ -2861,9 +2861,10 @@ MonoBehaviour:
   input: {x: 0, y: 0, z: 0}
   onRail: 0
   grindSpeed: 70
-  heightOffset: 0.55
+  heightOffset: 0.25
   lerpSpeed: 10
   currentRailScript: {fileID: 0}
+  railDelay: 30
 --- !u!1 &736214060
 GameObject:
   m_ObjectHideFlags: 0
@@ -5379,7 +5380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.122360855, y: -0.00000001860933, z: 0.0000000022942934, w: 0.9924857}
+  m_LocalRotation: {x: 0.122360855, y: 0.000000018609324, z: -0.0000000022942925, w: 0.9924857}
   m_LocalPosition: {x: 0, y: 2, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6777,7 +6778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231754811}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13870122, y: 1e-45, z: -0, w: 0.99033433}
+  m_LocalRotation: {x: 0.13870122, y: -1e-45, z: -0, w: 0.99033433}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9378,7 +9379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930075643}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12236085, y: -0.000000017077088, z: 0.0000000021053876, w: 0.9924857}
+  m_LocalRotation: {x: 0.12236085, y: 0.000000017077085, z: -0.0000000021053872, w: 0.9924857}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

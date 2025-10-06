@@ -26,6 +26,8 @@ public class PlayerGrind : MonoBehaviour
     CharacterController charController;
     PlayerMovement pl;
 
+    public float railDelay = 30;
+
     private void Start()
     {
         playerRigidbody = GetComponent<Rigidbody>();
@@ -50,7 +52,7 @@ public class PlayerGrind : MonoBehaviour
     }
     private void Update()
     {
-        
+        railDelay = Mathf.MoveTowards(railDelay, 0, 0.30f);
     }
     void MovePlayerAlongRail()
     {
@@ -108,7 +110,7 @@ public class PlayerGrind : MonoBehaviour
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.gameObject.tag == "Rail")
+        if (hit.gameObject.tag == "Rail" && railDelay <= 0)
         {
             /*When the player hits the rail, onRail is set to true, the current rail script is set to the
              *rail script of the rail the player hits. Then we calculate the player's position on that rail.
@@ -158,6 +160,7 @@ public class PlayerGrind : MonoBehaviour
         pl.isGrounded = false;
         pl.state = "jump";
         pl.railFX.Stop();
+        railDelay = 10;
 
         onRail = false;
         currentRailScript = null;
