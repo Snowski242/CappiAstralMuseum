@@ -676,15 +676,15 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-                characterController.height = 0.35f;
-                characterController.center = new Vector3(0f, 0.15f, 0f);
+                characterController.height = 1.15f;
+                characterController.center = new Vector3(0f, 0.5f, 0f);
 
                 RaycastHit downHit;
 
                 Vector3 p1 = transform.position + characterController.center;
 
                 //shoots raycast forward to see if theres a raycast hit
-                if (Physics.SphereCast(p1, characterController.height, transform.up, out downHit, 0.5f, LayerMask.GetMask("Ground")))
+                if (Physics.SphereCast(p1, characterController.height, transform.up, out downHit, 1.15f, LayerMask.GetMask("Ground")))
                 {
                     Debug.Log("cant get out of slide, keep going");
                 }
@@ -763,8 +763,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (state == "crouch")
         {
-            characterController.height = 0.35f;
-            characterController.center = new Vector3(0f, 0.15f, 0f);
+            characterController.height = 1.15f;
+            characterController.center = new Vector3(0f, 0.5f, 0f);
 
             //ground check
             if (transformVelocity.y < 0)
@@ -941,7 +941,7 @@ public class PlayerMovement : MonoBehaviour
         else if (state == "rev run")
         {
             //ground check
-            revTime -= 0.5f;
+            revTime -= 1.15f;
 
 
             if (transformVelocity.y < 0)
@@ -1072,7 +1072,7 @@ public class PlayerMovement : MonoBehaviour
         else if (state == "dashpad")
         {
             //ground check
-            dashPadTimer -= 0.5f;
+            dashPadTimer -= 1.15f;
 
             runTimer -= 1;
             if (runTimer < 0)
@@ -1437,7 +1437,7 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.15f);
        // animator.SetBool("Rolling", false);
         canMove = true;
         canDash = true;
@@ -1472,7 +1472,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (speed < 7)
             {
-                animator.speed = 0.5f;
+                animator.speed = 0.55f;
             }
             else if (speed > 7 && speed < 11)
             {
