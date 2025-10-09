@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1239033896024620116}
   - component: {fileID: 592870203184875078}
   - component: {fileID: 2046383711138573664}
+  - component: {fileID: 6884201037903600299}
   m_Layer: 0
   m_Name: Mun
   m_TagString: Untagged
@@ -72,6 +73,28 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!95 &6884201037903600299
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144285569753879626}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34cd703cb6a283b4db8c4741f6f7935a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &8566680504970906806
 PrefabInstance:
   m_ObjectHideFlags: 0

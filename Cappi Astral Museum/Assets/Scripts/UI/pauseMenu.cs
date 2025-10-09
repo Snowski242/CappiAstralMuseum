@@ -15,6 +15,7 @@ public class pauseMenu : MonoBehaviour
     public Image Button2;
     public Image Button3;
     public static bool isPaused;
+    public static bool canPause = true;
     int inputDelay;
 
 
@@ -116,7 +117,7 @@ public class pauseMenu : MonoBehaviour
             }
         }
         
-        if (Input.GetButtonDown("Pause"))
+        if (Input.GetButtonDown("Pause") && canPause)
         {
             if(isPaused)
             {
@@ -160,14 +161,24 @@ public class pauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+        if(currentScene.name != "Hub")
+        {
+            SceneManager.LoadScene("Hub");
+        }
+        else
+        {
+            SaveManager.instance.Save();
+            Application.Quit();
+        }
 
-        Application.Quit();
+        
     }
 
     public void RestartScene()
     {
 
-
+        ObjectiveManager.instance.munCount = 0;
         StartCoroutine(LoadYourAsyncScene());
 
     }

@@ -14884,6 +14884,7 @@ GameObject:
   - component: {fileID: 8771972552311404798}
   - component: {fileID: 8771972552311404739}
   - component: {fileID: 5762408178661966202}
+  - component: {fileID: 6889977387327840715}
   m_Layer: 0
   m_Name: CFXR3 Hit Light B (Air)
   m_TagString: Untagged
@@ -19985,3 +19986,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d641020a43acf54e978b3ff28a94b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6889977387327840715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771972552311404799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5fccfac03d582745abe06e2ea015394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  cam: {fileID: 0}

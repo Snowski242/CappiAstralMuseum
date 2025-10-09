@@ -4,8 +4,11 @@ ScriptsOnlyBuild:
     - Billboard
     - EnemyDamage
     - EnemyHP
+    - GoToLevel
     - Homing
     - HomingTarget
+    - LevelSelectText
+    - LevelSelector
     - MunCollect
     - ObjectiveManager
     - ParticleEnd
@@ -13,7 +16,10 @@ ScriptsOnlyBuild:
     - PlayerGrind
     - PlayerMovement
     - RailScript
+    - SaveManager
+    - StellarineBehavior
     - UITracker
+    - WinUI
     - pauseMenu
     - tensionGaugeUI
     CFXRRuntime.dll:
@@ -134,14 +140,26 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: pauseMenu
     methodName: RestartScene
-  - assembly: Assembly-CSharp
-    fullTypeName: pauseMenu
-    methodName: ResumeGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Object
     methodName: set_name
+  - assembly: Assembly-CSharp
+    fullTypeName: pauseMenu
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: pauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: pauseMenu
+    methodName: RestartScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Object
+    methodName: set_name
+  - assembly: Assembly-CSharp
+    fullTypeName: pauseMenu
+    methodName: ResumeGame
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Hub.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -161,6 +179,190 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26544}
+    - Class: 114
+      Script: {instanceID: 26818}
+    - Class: 114
+      Script: {instanceID: 27120}
+    - Class: 114
+      Script: {instanceID: 27154}
+    - Class: 114
+      Script: {instanceID: 27534}
+    - Class: 114
+      Script: {instanceID: 27744}
+    - Class: 114
+      Script: {instanceID: 27870}
+    - Class: 114
+      Script: {instanceID: 27950}
+    - Class: 114
+      Script: {instanceID: 28130}
+    - Class: 114
+      Script: {instanceID: 28542}
+    - Class: 114
+      Script: {instanceID: 28564}
+    - Class: 114
+      Script: {instanceID: 28612}
+    - Class: 114
+      Script: {instanceID: 28890}
+    - Class: 114
+      Script: {instanceID: 29686}
+    - Class: 114
+      Script: {instanceID: 29744}
+    - Class: 114
+      Script: {instanceID: 30534}
+    - Class: 114
+      Script: {instanceID: 31828}
+    - Class: 114
+      Script: {instanceID: 32212}
+    - Class: 114
+      Script: {instanceID: 32262}
+    - Class: 114
+      Script: {instanceID: 32548}
+    - Class: 114
+      Script: {instanceID: 33042}
+    - Class: 114
+      Script: {instanceID: 33508}
+    - Class: 114
+      Script: {instanceID: 33584}
+    - Class: 114
+      Script: {instanceID: 33636}
+    - Class: 114
+      Script: {instanceID: 34134}
+    - Class: 114
+      Script: {instanceID: 34546}
+    - Class: 114
+      Script: {instanceID: 34876}
+    - Class: 114
+      Script: {instanceID: 45416}
+    - Class: 114
+      Script: {instanceID: 88434}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/LoadToLevel.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26818}
+    - Class: 114
+      Script: {instanceID: 27120}
+    - Class: 114
+      Script: {instanceID: 28542}
+    - Class: 114
+      Script: {instanceID: 29130}
+    - Class: 114
+      Script: {instanceID: 29394}
+    - Class: 114
+      Script: {instanceID: 32548}
+    - Class: 114
+      Script: {instanceID: 33584}
+    - Class: 114
+      Script: {instanceID: 146860}
+    - Class: 114
+      Script: {instanceID: 186174}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/PlantForest.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -194,8 +396,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 27154}
     - Class: 114
       Script: {instanceID: 27534}
-    - Class: 114
-      Script: {instanceID: 27744}
     - Class: 114
       Script: {instanceID: 27870}
     - Class: 114
@@ -237,13 +437,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 32212}
     - Class: 114
-      Script: {instanceID: 32262}
-    - Class: 114
       Script: {instanceID: 32548}
     - Class: 114
       Script: {instanceID: 33042}
-    - Class: 114
-      Script: {instanceID: 33508}
     - Class: 114
       Script: {instanceID: 33584}
     - Class: 114
@@ -256,6 +452,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 34876}
     - Class: 114
       Script: {instanceID: 34974}
+    - Class: 114
+      Script: {instanceID: 45406}
+    - Class: 114
+      Script: {instanceID: 45416}
+    - Class: 114
+      Script: {instanceID: 96720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -671,7 +873,7 @@ ScriptsOnlyBuild:
     className: CFXR_Demo_Translate
   - hash:
       serializedVersion: 2
-      Hash: 82cf525a47bcb45050233cba06bf8880
+      Hash: ea4236e7c86c3fe5f1833f1077d5429a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UITracker
@@ -1821,8 +2023,52 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: fbe2e301fb4b903ff31cfc2d28bc80ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StellarineBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 8defbdf068b617d6113e721d176e5606
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveManager
+  - hash:
+      serializedVersion: 2
+      Hash: d272f203aa5f2887b5e72cf7c5425dc5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleSceneManagerController
+  - hash:
+      serializedVersion: 2
+      Hash: 2d7878bb2903839e0b8cbb648af78f89
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 30219691a532d61cdbaeb190ddffa1cc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WinUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad0bc909a0f2d0cfd49ad00022b74e1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 27de3f57e00e818df4b30a167ba29e9e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelSelectText
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Hub.unity
+  - Assets/Scenes/LoadToLevel.unity
+  - Assets/Scenes/PlantForest.unity
   playerPath: C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha
-    2/Cappi Astral Museum.exe
+    3/Cappi Astral Museum.exe

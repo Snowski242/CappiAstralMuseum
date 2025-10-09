@@ -6,6 +6,7 @@ using UnityEngine;
 public class UITracker : MonoBehaviour
 {
     public TextMeshProUGUI munAmount;
+    public TextMeshProUGUI gemAmount;
     public Animator animator;
 
     void Start()
@@ -17,6 +18,7 @@ public class UITracker : MonoBehaviour
     void Update()
     {
         munAmount.text = ObjectiveManager.instance.munCount.ToString();
+        gemAmount.text = SaveManager.instance.gems.Count.ToString();
     }
 
     private void OnEnable()

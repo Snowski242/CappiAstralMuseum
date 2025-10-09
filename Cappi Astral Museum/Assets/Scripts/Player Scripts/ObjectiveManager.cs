@@ -13,7 +13,7 @@ public class ObjectiveManager : MonoBehaviour
 
     private void Awake()
     {
-
+        munCount = 0;
         if (instance == null)
         {
             instance = this;
@@ -28,7 +28,7 @@ public class ObjectiveManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        munCount = 0;
     }
 
     // Update is called once per frame

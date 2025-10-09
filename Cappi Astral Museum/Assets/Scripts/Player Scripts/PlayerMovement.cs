@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -689,7 +690,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else 
                 {
-                    speed -= 0.045f;
+                    speed -= 0.025f;
                 }
 
                 
@@ -859,6 +860,8 @@ public class PlayerMovement : MonoBehaviour
         {
 
             revTime += 1f;
+            tensionGauge -= decel;
+
             if(revTime > revTimeMax)
             {
                 revTime = revTimeMax;
@@ -878,7 +881,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = 0f;
             }
 
-            if (Input.GetButtonUp("Fire3") && revTime > 20f)
+            if (Input.GetButtonUp("Fire3") && revTime > 20f || revTime > 20f && tensionGauge <= 0)
             {
                 characterController.height = 1.15f;
                 characterController.center = new Vector3(0f, 0.55f, 0f);
@@ -1301,6 +1304,16 @@ public class PlayerMovement : MonoBehaviour
                 state = "jump";
             }
         }
+        else if(state == "win")
+        {
+            speed = 0;
+
+            CinemachineFreeLook cine = FindAnyObjectByType<CinemachineFreeLook>();
+            cine.m_Lens.FieldOfView = Mathf.Lerp(cine.m_Lens.FieldOfView, 16.64f, 0.2f);
+
+            transform.LookAt(transform.position + cam.transform.rotation * Vector3.forward,
+            cam.transform.rotation * Vector3.up);
+        }
 
         tensionGauge = Mathf.MoveTowards(tensionGauge, tensionGaugeMax, 0.035f);
 
@@ -1482,23 +1495,19 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Walk", true);
 
 
-            if (speed < 7)
+            if (speed < 8)
             {
-                animator.speed = 0.5f;
+                animator.speed = 0.3f;
             }
             else if (speed > 7 && speed < 11)
             {
-                animator.speed = 0.75f;
+                animator.speed = 0.65f;
             }
             else
             {
                 animator.speed = 1f;
             }
 
-        }
-        else
-        {
-            animator.speed = 1f;
         }
 
         if (state == "rev")
@@ -1605,6 +1614,12 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("Hanging", false);
+        }
+
+        if(state == "win")
+        {
+            ResetAnimations();
+            animator.SetBool("GemWin", true);
         }
 
     }
