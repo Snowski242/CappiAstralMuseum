@@ -676,15 +676,15 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-                characterController.height = 1.15f;
-                characterController.center = new Vector3(0f, 0.5f, 0f);
+                characterController.height = 0.75f;
+                characterController.center = new Vector3(0f, 0.35f, 0f);
 
                 RaycastHit downHit;
 
                 Vector3 p1 = transform.position + characterController.center;
-
+                
                 //shoots raycast forward to see if theres a raycast hit
-                if (Physics.SphereCast(p1, characterController.height, transform.up, out downHit, 1.15f, LayerMask.GetMask("Ground")))
+                if (Physics.SphereCast(p1, 0.2f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Ground")))
                 {
                     Debug.Log("cant get out of slide, keep going");
                 }
@@ -763,8 +763,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (state == "crouch")
         {
-            characterController.height = 1.15f;
-            characterController.center = new Vector3(0f, 0.5f, 0f);
+            characterController.height = 0.75f;
+            characterController.center = new Vector3(0f, 0.35f, 0f);
 
             //ground check
             if (transformVelocity.y < 0)
@@ -1622,6 +1622,13 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("GemWin", true);
         }
 
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.white;
+        Vector3 p1 = transform.position + characterController.center;
+        Gizmos.DrawWireSphere(p1, characterController.height + 2.9f);
     }
 
     private void ResetAnimations()
