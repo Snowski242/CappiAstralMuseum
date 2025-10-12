@@ -36,10 +36,6 @@ public class EnemyDamage : MonoBehaviour
             Instantiate(hitFX, transform.position, Quaternion.identity);
 
             enemHealth.HP -= 1;
-                if(enemHealth.HP <= 0)
-                {
-                Destroy(gameObject);
-                }
             }
 
 

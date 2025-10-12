@@ -593,7 +593,7 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = 0;
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance + 0.1f, groundMask);
             transformVelocity.x = 0f;
             transformVelocity.z = 0f;
             characterController.Move(transformVelocity * Time.deltaTime);
@@ -676,8 +676,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-                characterController.height = 0.75f;
-                characterController.center = new Vector3(0f, 0.35f, 0f);
+                characterController.height = 0.45f;
+                characterController.center = new Vector3(0f, 0.25f, 0f);
 
                 RaycastHit downHit;
 
@@ -860,7 +860,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             revTime += 1f;
-            tensionGauge -= decel;
+            tensionGauge -= 0.025f;
 
             if(revTime > revTimeMax)
             {
