@@ -7,6 +7,8 @@ public class LevelSelector : MonoBehaviour
 {
     public int levelID;
     public GameObject offset;
+
+    public bool tp = true;
     void Start()
     {
         if(ObjectiveManager.instance.level == levelID)
@@ -20,7 +22,15 @@ public class LevelSelector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (ObjectiveManager.instance.level == levelID && tp)
+        {
+            
+            PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
+
+            player.transform.position = offset.transform.position;
+
+            tp = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)

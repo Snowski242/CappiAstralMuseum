@@ -178,7 +178,7 @@ public class pauseMenu : MonoBehaviour
     public void RestartScene()
     {
 
-        ObjectiveManager.instance.munCount = 0;
+        ObjectiveManager.instance.ResetObjectives();
         StartCoroutine(LoadYourAsyncScene());
 
     }

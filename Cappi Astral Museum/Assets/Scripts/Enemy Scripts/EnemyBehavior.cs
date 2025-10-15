@@ -11,6 +11,7 @@ public class EnemyBehavior : MonoBehaviour
     EnemyHP dmg;
     EnemyDamage fx;
     NavMeshAgent agent;
+    public Animator animator;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -31,11 +32,21 @@ public class EnemyBehavior : MonoBehaviour
             case 0:
                 PlayerMovement target = FindFirstObjectByType<PlayerMovement>();
                 float distance = Vector3.Distance(target.transform.position, transform.position);
-                if (distance < enemyRadius)
+                if (distance < enemyRadius && distance > agent.stoppingDistance)
                 {
+                    animator.SetBool("idle", false);
+                    animator.SetBool("walk", true);
+
                     agent.SetDestination(target.transform.position);
                     FaceTarget();
                 }
+                else
+                {
+                    animator.SetBool("walk", false);
+                    animator.SetBool("idle", true);
+                }
+
+                ///jumping on top of them
 
                 RaycastHit downHit;
 
@@ -44,14 +55,20 @@ public class EnemyBehavior : MonoBehaviour
                 //shoots raycast forward to see if theres a raycast hit
                 if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))
                 {
-                    dmg.HP -= 1;
+                   
 
                     PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
-                    player.state = "jump";
-                    player.transformVelocity.y = Mathf.Sqrt(player.jump * -2f * player.gravity);
-                    player.isGrounded = false;
+                    if(player.canMove)
+                    {
+                        dmg.HP -= 1;
 
-                    Instantiate(fx.hitFX, transform.position, Quaternion.identity);
+                        player.state = "jump";
+                        player.transformVelocity.y = Mathf.Sqrt(player.jump * -2f * player.gravity);
+                        player.isGrounded = false;
+
+                        Instantiate(fx.hitFX, transform.position, Quaternion.identity);
+                    }
+                    
                 }
 
                 if(dmg.HP <= 0)
@@ -68,6 +85,6 @@ public class EnemyBehavior : MonoBehaviour
         PlayerMovement target = FindFirstObjectByType<PlayerMovement>();
         Vector3 direction = (target.transform.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(-direction.x, 0, -direction.z));
-        transform.rotation = lookRotation;
+        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);
     }
 }

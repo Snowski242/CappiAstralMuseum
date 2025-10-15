@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - EnemyDamage
     - EnemyHP
     - GoToLevel
+    - HPUI
     - Homing
     - HomingTarget
     - LandingMark
@@ -28,13 +29,12 @@ ScriptsOnlyBuild:
     - CartoonFX.CFXR_Effect
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineCollider
     - Cinemachine.CinemachineComposer
     - Cinemachine.CinemachineFreeLook
     - Cinemachine.CinemachineOrbitalTransposer
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineVirtualCamera
-    Unity.AI.Navigation.Editor.dll:
-    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Animation.Rigging.dll:
@@ -64,8 +64,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -205,6 +207,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 26738}
+    - Class: 114
       Script: {instanceID: 26780}
     - Class: 114
       Script: {instanceID: 27068}
@@ -213,7 +217,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 27412}
     - Class: 114
+      Script: {instanceID: 27614}
+    - Class: 114
       Script: {instanceID: 27800}
+    - Class: 114
+      Script: {instanceID: 27856}
     - Class: 114
       Script: {instanceID: 28018}
     - Class: 114
@@ -264,6 +272,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 34980}
     - Class: 114
       Script: {instanceID: 35318}
+    - Class: 114
+      Script: {instanceID: 98078}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -372,8 +382,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -410,6 +418,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 27614}
     - Class: 114
       Script: {instanceID: 27800}
+    - Class: 114
+      Script: {instanceID: 27856}
     - Class: 114
       Script: {instanceID: 28146}
     - Class: 114
@@ -474,6 +484,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 35318}
     - Class: 114
       Script: {instanceID: 35418}
+    - Class: 114
+      Script: {instanceID: 98078}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -515,7 +527,7 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: fbe2e301fb4b903ff31cfc2d28bc80ec
+      Hash: 758f49ddcfdd2a120ecb5843f753ba06
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: StellarineBehavior
@@ -827,7 +839,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b1f7a9079a9304822227e6600f618eda
+      Hash: 761fac2283d5ad6fd8d35046c7ae27ee
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerDamage
@@ -1571,7 +1583,7 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
-      Hash: 5ad0bc909a0f2d0cfd49ad00022b74e1
+      Hash: 5cd19f94a718336d328053c87212ec19
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GoToLevel
@@ -1673,7 +1685,7 @@ ScriptsOnlyBuild:
     className: TwistCorrection
   - hash:
       serializedVersion: 2
-      Hash: 67a44e0d97cac77480f8169cb134e283
+      Hash: ba5de56d25c0bebe7aadb382d6858cb2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -1841,7 +1853,7 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
-      Hash: 02d4e6803e1d18eabd50cd3d499e5a2a
+      Hash: d52f94ad724990bb80edae3967aafc04
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ObjectiveManager
@@ -1853,7 +1865,7 @@ ScriptsOnlyBuild:
     className: CinemachineDollyCart
   - hash:
       serializedVersion: 2
-      Hash: 6381293a9170e49590f6fec28a361a76
+      Hash: 379062d20cf2e7d12300123026d7d1ca
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LevelSelector
@@ -2087,7 +2099,7 @@ ScriptsOnlyBuild:
     className: CinemachineHardLockToTarget
   - hash:
       serializedVersion: 2
-      Hash: dd823c187bfa41a5a228c9545adf6530
+      Hash: a5ef507f5334d50a48b59a659e0d1883
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemyBehavior
@@ -2133,6 +2145,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: ec85225af050227acfb9c6d7b2b4f817
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HPUI
   platform: 19
   scenePathNames:
   - Assets/Scenes/Hub.unity

@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using static Cinemachine.DocumentationSortingAttribute;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GoToLevel : MonoBehaviour
 {
     public float inputDelay = 200;
+    public TextMeshProUGUI text;
 
     public Animator animator;
     void Start()
@@ -22,6 +24,11 @@ public class GoToLevel : MonoBehaviour
         if(inputDelay <= 0 && Input.GetButtonDown("Jump"))
         {
             animator.SetTrigger("Trigger");
+        }
+
+        if(ObjectiveManager.instance.level == 0)
+        {
+            text.text = "Plant Forest";
         }
     }
 

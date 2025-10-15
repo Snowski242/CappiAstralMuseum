@@ -67,12 +67,12 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 7)
             {
-                text.text = "Not in demo yet";
+                text.text = "Get 50 muns!";
             }
 
             if (gemID == 8)
             {
-                text.text = "Not in demo yet";
+                text.text = "Get 50 muns!";
             }
         }
     }

@@ -48,9 +48,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d80c5b1bcd24f4182bc1ad8f797f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gemID: 0
   gotten: 0
   winScreen: {fileID: 5629979491887330762, guid: ca8f30b3e920e1a4d9d7fb36feff98db, type: 3}
+  justSpawned: 0
+  anim: 0
   sfx: {fileID: 8300000, guid: 4f4cdd7404d431b4ca6270e782f5fe5f, type: 3}
+  shakeSound: {fileID: 8300000, guid: 6ac08892e7a0d68479e6e71f338d9731, type: 3}
+  bobDownTimer: 30
 --- !u!135 &6037541504436358890
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -84,7 +89,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bb62b9cd9dc112b4794c6e48bd79b382, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -172,6 +177,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986935675043883179, guid: acdb90624a404aa438447006f1026065, type: 3}
       propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186446616439801708, guid: acdb90624a404aa438447006f1026065, type: 3}
+      propertyPath: useUnscaledTime
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

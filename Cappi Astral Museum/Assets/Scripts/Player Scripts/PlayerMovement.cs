@@ -77,6 +77,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] ParticleSystem cloudVFX;
     [SerializeField] ParticleSystem runCloudVFX;
     public ParticleSystem railFX;
+    public AudioClip railSound;
+    public AudioClip walkSound;
 
     [Header("Animations")]
     private string currentState;
@@ -860,7 +862,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             revTime += 1f;
-            tensionGauge -= 0.025f;
+            tensionGauge -= 0.275f;
 
             if(revTime > revTimeMax)
             {
@@ -1306,6 +1308,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(state == "win")
         {
+            canMove = false;
             speed = 0;
 
             CinemachineFreeLook cine = FindAnyObjectByType<CinemachineFreeLook>();
@@ -1313,6 +1316,41 @@ public class PlayerMovement : MonoBehaviour
 
             transform.LookAt(transform.position + cam.transform.rotation * Vector3.forward,
             cam.transform.rotation * Vector3.up);
+        }
+        else if (state == "ded")
+        {
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+            canMove = false;
+
+            speed = 0;
+
+            CinemachineFreeLook cine = FindAnyObjectByType<CinemachineFreeLook>();
+            cine.m_Lens.FieldOfView = Mathf.Lerp(cine.m_Lens.FieldOfView, 16.64f, 0.2f);
+
+
+            airBoostTime -= 0.68f;
+            if ((airBoostTime < 0))
+            {
+                airBoostTime = 0;
+            }
+
+            Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+            Vector3 moveDir = transform.rotation * Vector3.forward;
+            characterController.Move(-moveDir.normalized * Time.deltaTime * 4);
+
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            characterController.Move(transformVelocity * Time.deltaTime);
+            transformVelocity.y += gravity * Time.deltaTime;
+
+            if (isGrounded && airBoostTime < 3)
+            {
+                cloudVFX.Play();
+                
+
+            }
+
         }
 
         tensionGauge = Mathf.MoveTowards(tensionGauge, tensionGaugeMax, 0.035f);
@@ -1620,6 +1658,14 @@ public class PlayerMovement : MonoBehaviour
         {
             ResetAnimations();
             animator.SetBool("GemWin", true);
+        }
+
+        if (state == "ded")
+        {
+
+            ResetAnimations();
+            animator.SetBool("Hurt", true);
+
         }
 
     }
