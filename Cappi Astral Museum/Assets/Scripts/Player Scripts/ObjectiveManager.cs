@@ -9,8 +9,10 @@ public class ObjectiveManager : MonoBehaviour
     public int gemCount;
     public int munCount;
     public bool munGem;
+    public bool redGem;
 
     public int munHealth;
+    public int redMun;
 
     public GameObject stellarineObj;
 
@@ -44,6 +46,16 @@ public class ObjectiveManager : MonoBehaviour
             PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
             var stellarine = Instantiate(stellarineObj, player.transform.position + new Vector3(0f, 3f, 0f), player.transform.rotation);
             stellarine.GetComponent<StellarineBehavior>().gemID = 7;
+            stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
+
+            munGem = true;
+        }
+
+        if (redMun >= 8 && !redGem)
+        {
+            PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
+            var stellarine = Instantiate(stellarineObj, player.transform.position + new Vector3(0f, 3f, 0f), player.transform.rotation);
+            stellarine.GetComponent<StellarineBehavior>().gemID = 5;
             stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
 
             munGem = true;

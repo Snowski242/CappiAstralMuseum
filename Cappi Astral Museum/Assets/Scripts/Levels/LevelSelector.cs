@@ -7,13 +7,14 @@ public class LevelSelector : MonoBehaviour
 {
     public int levelID;
     public GameObject offset;
+    public GameObject player;
 
     public bool tp = true;
     void Start()
     {
         if(ObjectiveManager.instance.level == levelID)
         {
-            PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
+            //PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
 
             player.transform.position = offset.transform.position;
         }
@@ -25,11 +26,19 @@ public class LevelSelector : MonoBehaviour
         if (ObjectiveManager.instance.level == levelID && tp)
         {
             
-            PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
+            //PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
 
-            player.transform.position = offset.transform.position;
+            if (player.transform.position != offset.transform.position)
+            {
+                player.transform.position = offset.transform.position;
+            }
+            else
+            {
+                tp = false;
+            }
+            
 
-            tp = false;
+            
         }
     }
 

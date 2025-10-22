@@ -8,10 +8,18 @@ public class EnemyBehavior : MonoBehaviour
 {
     public int enemyType;
     public float enemyRadius = 10f;
+    public bool hasStellar;
+    public int stellarInd;
+
+    public bool inWave;
+
     EnemyHP dmg;
     EnemyDamage fx;
     NavMeshAgent agent;
     public Animator animator;
+
+    public GameObject stellarineObj;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -23,6 +31,15 @@ public class EnemyBehavior : MonoBehaviour
     void Update()
     {
         Behavior(enemyType);
+    }
+
+    private void OnDestroy()
+    {
+        if (inWave)
+        {
+            WaveSpawner wave = FindFirstObjectByType<WaveSpawner>();
+            wave.enemyAmount--;
+        }
     }
 
     void Behavior(int type)
@@ -73,6 +90,13 @@ public class EnemyBehavior : MonoBehaviour
 
                 if(dmg.HP <= 0)
                 {
+                    if(hasStellar)
+                    {
+                        var stellarine = Instantiate(stellarineObj, transform.position + new Vector3(0f, 3f, 0f), transform.rotation);
+                        stellarine.GetComponent<StellarineBehavior>().gemID = stellarInd;
+                        stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
+                    }
+
                     Destroy(gameObject);
                 }
 

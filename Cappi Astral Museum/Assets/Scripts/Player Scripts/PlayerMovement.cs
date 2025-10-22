@@ -44,9 +44,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Flags for movement")]
     public float tensionGaugeMax = 120f;
     public float tensionGauge;
-    private bool canAirBoost = true;
+    public bool canAirBoost = true;
     public float airBoostTime = 50f;
-    private float airBoostTimeMax = 50f;
+    public float airBoostTimeMax = 50f;
     public float revTimeMax = 180;
     public float revTime;
     public float dashPadTimer;
@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
     //[HideInInspector]
     public bool isGrounded;
+    public bool groundChecking;
     public Transform ledgeCheck;
 
     [Header("Simulated Gravity Settings")]
@@ -68,17 +69,21 @@ public class PlayerMovement : MonoBehaviour
     public float turnSmoothTime = 0.1f; //allows for smoother turning of the model
     float turnSmoothVelocity;
     public Homing homing1;
+    public float coyoteTimer;
+    public float coyoteTimerMax = 3f;
+    
 
     [Header("Sound and VFX")]
     public GameObject groundHitFX;
     public AudioClip groundHitSound;
     public GameObject airDashFX;
     public AudioClip airDashSound;
-    [SerializeField] ParticleSystem cloudVFX;
+    [SerializeField] public ParticleSystem cloudVFX;
     [SerializeField] ParticleSystem runCloudVFX;
     public ParticleSystem railFX;
     public AudioClip railSound;
     public AudioClip walkSound;
+    public AudioClip jumpSound;
 
     [Header("Animations")]
     private string currentState;
@@ -89,11 +94,13 @@ public class PlayerMovement : MonoBehaviour
     const string PLAYER_FALLING = "CappiJump";
     const string PLAYER_ROLL = "CappiRoll";
     const string PLAYER_AIR_ATTACK = "Player_air_attack";
+    public float walkingAnimWeight;
 
     [Header("Hitboxes")]
     public GameObject homingHB;
+    public GameObject sliding;
 
-    
+
 
     private float runTimer = 0;
 
@@ -121,13 +128,33 @@ public class PlayerMovement : MonoBehaviour
 
     private void States()
     {
+        Physics.SyncTransforms();
 
         if (state == "idle")
         {
             //ground check
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+                if (groundChecking)
+                {
+                    coyoteTimer = coyoteTimerMax;
+                }
+                else 
+                {
+                    coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+                }
+
+                if(coyoteTimer > 0)
+                {
+                    isGrounded = true;
+                }
+                else
+                {
+                    isGrounded = false;
+                }
+
                 if(isGrounded)
                 {
                     canDoubleJump = true;
@@ -173,6 +200,7 @@ public class PlayerMovement : MonoBehaviour
                 if(speed > 0)
                 {
                     Vector3 moveDir = transform.rotation * Vector3.forward;
+                    Physics.SyncTransforms();
                     characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                 }
 
@@ -203,16 +231,16 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded)
                 {
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -245,11 +273,13 @@ public class PlayerMovement : MonoBehaviour
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);
                 Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                Physics.SyncTransforms();
                 characterController.Move(moveDir.normalized * Time.deltaTime * speed);
             }
             else
             {
                 Vector3 moveDir = transform.rotation * Vector3.forward;
+                Physics.SyncTransforms();
                 characterController.Move(moveDir.normalized * Time.deltaTime * speed);
             }
 
@@ -258,7 +288,25 @@ public class PlayerMovement : MonoBehaviour
 
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            }
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
             }
 
             if (Input.GetButtonDown("Fire2"))
@@ -271,6 +319,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 tensionGauge -= 15f;
                 Instantiate(airDashFX, transform.position, Quaternion.identity);
+                
                 AudioSource.PlayClipAtPoint(airDashSound, transform.position);
                 Debug.Log("boost (jump)");
                 airBoostTime = airBoostTimeMax;
@@ -286,7 +335,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump";
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (isGrounded && transformVelocity.y < 0)
@@ -359,6 +408,7 @@ public class PlayerMovement : MonoBehaviour
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);
                 Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                Physics.SyncTransforms();
                 characterController.Move(moveDir.normalized * Time.deltaTime * speed);
             }
             else
@@ -367,7 +417,25 @@ public class PlayerMovement : MonoBehaviour
                 characterController.Move(moveDir.normalized * Time.deltaTime * speed);
             }
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
@@ -391,7 +459,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump";
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack)
@@ -415,7 +483,25 @@ public class PlayerMovement : MonoBehaviour
             //ground check
             
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             if (isGrounded)
             {
@@ -428,7 +514,12 @@ public class PlayerMovement : MonoBehaviour
                 state = "fall";
             }
 
-
+            runTimer = Mathf.MoveTowards(runTimer, 0, 0.21f * animator.speed);
+            if(runTimer == 0)
+            {
+                
+                runTimer = 1;
+            }
 
             //movement (hanging prevents movement)
             if (!hanging && canDodgeRoll)
@@ -463,6 +554,7 @@ public class PlayerMovement : MonoBehaviour
                         transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
                         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                        Physics.SyncTransforms();
                         characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                     }
 
@@ -471,8 +563,9 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Fire2"))
                 {
                     Debug.Log("slide");
-                    speed += 2;
+                    speed += 5;
                     state = "slide";
+                    Instantiate(sliding);
                 }
 
                 if (horizontal == 0f && vertical == 0f)
@@ -496,9 +589,9 @@ public class PlayerMovement : MonoBehaviour
                 {
                     runCloudVFX.Stop();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -506,7 +599,7 @@ public class PlayerMovement : MonoBehaviour
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -518,8 +611,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 hanging = false;
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                isGrounded = false;
-                state = "jump";
+                groundChecking = false;
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
         }
         else if (state == "airboost")
@@ -528,7 +621,7 @@ public class PlayerMovement : MonoBehaviour
             float vertical = Input.GetAxisRaw("Vertical");
 
             characterController.height = 1.15f;
-            characterController.center = new Vector3(0f, 0.55f, 0f);
+            characterController.center = new Vector3(0f, 0.62f, 0f);
 
             speed = 12;
 
@@ -552,10 +645,29 @@ public class PlayerMovement : MonoBehaviour
                 //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 //transform.rotation = Quaternion.Euler(0f, angle, 0f);
                 Vector3 moveDir = transform.rotation * Vector3.forward;
+                Physics.SyncTransforms();
                 characterController.Move(moveDir.normalized * Time.deltaTime * airDashSpeed);
             }
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f );
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
@@ -573,7 +685,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump";
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && airBoostTime < 3)
@@ -595,7 +707,26 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = 0;
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance + 0.1f, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance + 0.1f, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
+
             transformVelocity.x = 0f;
             transformVelocity.z = 0f;
             characterController.Move(transformVelocity * Time.deltaTime);
@@ -627,11 +758,11 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 Debug.Log("DJ");
-                isGrounded = false;
+                groundChecking = false;
                 transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump";
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (Input.GetButtonDown("Fire3") && canAirBoost && tensionGauge > 20f)
@@ -661,14 +792,30 @@ public class PlayerMovement : MonoBehaviour
 
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
             }
             if (isGrounded && transformVelocity.y < 0)
             {
                 transformVelocity.y = 0f;
             }
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
 
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             //movement (hanging prevents movement)
             if (!hanging && canDodgeRoll)
@@ -699,7 +846,7 @@ public class PlayerMovement : MonoBehaviour
                 if (speed < 0f)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
 
                     
 
@@ -724,11 +871,13 @@ public class PlayerMovement : MonoBehaviour
                         transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
                         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                        Physics.SyncTransforms();
                         characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                     }
                     else
                     {
                         Vector3 moveDir = transform.rotation * Vector3.forward;
+                        Physics.SyncTransforms();
                         characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                     }
 
@@ -755,11 +904,11 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded && canDodgeRoll)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -771,7 +920,7 @@ public class PlayerMovement : MonoBehaviour
             //ground check
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
                 if (isGrounded)
                 {
                     canDoubleJump = true;
@@ -783,10 +932,28 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = 0f;
             }
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
+
             if (Input.GetButtonUp("Fire2"))
             {
                 characterController.height = 1.15f;
-                characterController.center = new Vector3(0f, 0.55f, 0f);
+                characterController.center = new Vector3(0f, 0.62f, 0f);
 
                 state = "idle";
             }
@@ -839,22 +1006,22 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
 
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
 
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -871,7 +1038,7 @@ public class PlayerMovement : MonoBehaviour
             //ground check
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
                 if (isGrounded)
                 {
                     canDoubleJump = true;
@@ -883,10 +1050,28 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = 0f;
             }
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
+
             if (Input.GetButtonUp("Fire3") && revTime > 20f || revTime > 20f && tensionGauge <= 0)
             {
                 characterController.height = 1.15f;
-                characterController.center = new Vector3(0f, 0.55f, 0f);
+                characterController.center = new Vector3(0f, 0.62f, 0f);
 
                 if(revTime >= 20f && revTime < 40f)
                 {
@@ -921,22 +1106,22 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
 
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     characterController.height = 1.15f;
-                    characterController.center = new Vector3(0f, 0.55f, 0f);
+                    characterController.center = new Vector3(0f, 0.62f, 0f);
 
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -948,13 +1133,30 @@ public class PlayerMovement : MonoBehaviour
 
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
             }
             if (isGrounded && transformVelocity.y < 0)
             {
                 transformVelocity.y = -5f;
             }
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
 
             //movement (hanging prevents movement)
@@ -1019,10 +1221,10 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded && canDodgeRoll)
                 {
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
                     runCloudVFX.Stop();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -1030,7 +1232,7 @@ public class PlayerMovement : MonoBehaviour
                     cloudVFX.Play();
                     runCloudVFX.Stop();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1043,7 +1245,7 @@ public class PlayerMovement : MonoBehaviour
 
             float airDashSpeed = 24f;
 
-            ringBoostTimer -= 0.68f;
+            ringBoostTimer -= 0.78f;
             if ((ringBoostTimer< 0))
             {
                 ringBoostTimer = 0;
@@ -1061,13 +1263,47 @@ public class PlayerMovement : MonoBehaviour
                 //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 //transform.rotation = Quaternion.Euler(0f, angle, 0f);
                 Vector3 moveDir = transform.rotation * Vector3.forward;
+                Physics.SyncTransforms();
                 characterController.Move(moveDir.normalized * Time.deltaTime * airDashSpeed);
             }
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
+
+            Physics.SyncTransforms();
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
+
+            if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && ringBoostTimer < 25)
+            {
+                cloudVFX.Play();
+                state = "idle";
+
+            }
+            if (horizontal != 0 && isGrounded && airBoostTime < 3 || vertical != 0 && isGrounded && ringBoostTimer < 25)
+            {
+                cloudVFX.Play();
+                runCloudVFX.Play();
+                state = "walk";
+
+            }
 
 
         }
@@ -1085,14 +1321,30 @@ public class PlayerMovement : MonoBehaviour
 
             if (transformVelocity.y < 0)
             {
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+                groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
             }
             if (isGrounded && transformVelocity.y < 0)
             {
                 transformVelocity.y = -5f;
             }
 
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
 
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             //movement (hanging prevents movement)
             if (!hanging && canDodgeRoll)
@@ -1123,11 +1375,13 @@ public class PlayerMovement : MonoBehaviour
                         transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
                         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                        Physics.SyncTransforms();
                         characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                     }
                     else
                     {
                         Vector3 moveDir = transform.rotation * Vector3.forward;
+                        Physics.SyncTransforms();
                         characterController.Move(moveDir.normalized * Time.deltaTime * speed);
                     }
 
@@ -1155,16 +1409,16 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetButtonDown("Jump") && isGrounded && canDodgeRoll)
                 {
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    isGrounded = false;
+                    groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump";
+                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1185,9 +1439,28 @@ public class PlayerMovement : MonoBehaviour
 
             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
             Vector3 moveDir = transform.rotation * Vector3.forward;
+            Physics.SyncTransforms();
             characterController.Move(-moveDir.normalized * Time.deltaTime * 4);
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
@@ -1273,7 +1546,25 @@ public class PlayerMovement : MonoBehaviour
                 //characterController.Move(moveDir.normalized * Time.deltaTime * airDashSpeed);
             }
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             //characterController.Move(transformVelocity * Time.deltaTime);
             //transformVelocity.y += gravity * Time.deltaTime;
@@ -1300,10 +1591,10 @@ public class PlayerMovement : MonoBehaviour
                 grind.onRail = false;
                 grind.currentRailScript = null;
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                isGrounded = false;
+                groundChecking = false;
                 cloudVFX.Play();
                 runCloudVFX.Stop();
-                state = "jump";
+                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
         }
         else if(state == "win")
@@ -1337,9 +1628,28 @@ public class PlayerMovement : MonoBehaviour
 
             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
             Vector3 moveDir = transform.rotation * Vector3.forward;
+            Physics.SyncTransforms();
             characterController.Move(-moveDir.normalized * Time.deltaTime * 4);
 
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            groundChecking = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            if (groundChecking)
+            {
+                coyoteTimer = coyoteTimerMax;
+            }
+            else
+            {
+                coyoteTimer = Mathf.MoveTowards(coyoteTimer, 0, 0.04f);
+            }
+
+            if (coyoteTimer > 0)
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
 
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
@@ -1410,7 +1720,7 @@ public class PlayerMovement : MonoBehaviour
 
         //if (!isGrounded && !isAttacking && transformVelocity.y > 0)
         //{
-        //    state = "jump";
+        //    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         //}
 
 
@@ -1508,22 +1818,29 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Walk", true);
             
 
-            if (speed < 7)
+            if (speed < 5)
             {
+                animator.SetLayerWeight(1, 1f);
                 animator.speed = 0.55f;
             }
-            else if (speed > 7 && speed < 11)
+            else if (speed > 5 && speed < 11)
             {
+                walkingAnimWeight = Mathf.Lerp(walkingAnimWeight, 0.65f, 0.05f);
+                animator.SetLayerWeight(1, walkingAnimWeight);
                 animator.speed = 0.75f;
             }
             else
             {
+                walkingAnimWeight = Mathf.Lerp(walkingAnimWeight, 0f, 0.05f);
+                animator.SetLayerWeight(1, walkingAnimWeight);
                 animator.speed = 1f;
             }
 
         }
         else
         {
+            walkingAnimWeight = 1;
+            animator.SetLayerWeight(1, 0f);
             animator.speed = 1f;
         }
 
@@ -1692,5 +2009,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Hurt", false);
         animator.SetBool("Homing", false);
         animator.SetBool("Rail", false);
+    }
+
+    public void RunSound()
+    {
+        AudioSource.PlayClipAtPoint(walkSound, transform.position);
     }
 }

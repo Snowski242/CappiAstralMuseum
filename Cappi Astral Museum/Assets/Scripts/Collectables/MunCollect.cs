@@ -12,6 +12,8 @@ public class MunCollect : MonoBehaviour
     public GameObject collectFX;
 
     public Vector3 offset;
+
+    public bool redMun;
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -21,17 +23,38 @@ public class MunCollect : MonoBehaviour
             
             if(player.healthPoints < 8)
             {
-                ObjectiveManager.instance.munHealth++;
-                if (ObjectiveManager.instance.munHealth >= 6)
+                if(!redMun)
                 {
-                    player.healthPoints++;
-                    ObjectiveManager.instance.munHealth = 0;
+                    ObjectiveManager.instance.munHealth++;
+                    if (ObjectiveManager.instance.munHealth >= 6)
+                    {
+                        player.healthPoints++;
+                        ObjectiveManager.instance.munHealth = 0;
+                    }
+                }
+                else
+                {
+                    ObjectiveManager.instance.munHealth+= 2;
+                    if (ObjectiveManager.instance.munHealth >= 6)
+                    {
+                        player.healthPoints++;
+                        ObjectiveManager.instance.munHealth = 0;
+                    }
                 }
                 
             }
             AudioSource.PlayClipAtPoint(soundEffect, transform.position);
             OnCoinCollect?.Invoke();
-            ObjectiveManager.instance.munCount++;
+            if(!redMun)
+            {
+                ObjectiveManager.instance.munCount++;
+            }
+            else
+            {
+                ObjectiveManager.instance.munCount+= 2;
+                ObjectiveManager.instance.redMun++;
+            }
+            
 
             Destroy(gameObject);
         }

@@ -42,27 +42,27 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 2)
             {
-                text.text = "Not in demo yet";
+                text.text = "Defeat the giant Peon!";
             }
 
             if (gemID == 3)
             {
-                text.text = "Not in demo yet";
+                text.text = "Get on top of a mountain";
             }
 
             if (gemID == 4)
             {
-                text.text = "Not in demo yet";
+                text.text = "Defeat the wave of Cursed at the platform!";
             }
 
             if (gemID == 5)
             {
-                text.text = "Not in demo yet";
+                text.text = "Get all red 8 muns";
             }
 
             if (gemID == 6)
             {
-                text.text = "Not in demo yet";
+                text.text = "Open a hidden capsule";
             }
 
             if (gemID == 7)
