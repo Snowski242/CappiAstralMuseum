@@ -14,6 +14,9 @@ public class pauseMenu : MonoBehaviour
     public Image Button1;
     public Image Button2;
     public Image Button3;
+    public AudioSource selectSound;
+    public AudioSource selectedSound;
+    public AudioSource backSound;
     public static bool isPaused;
     public static bool canPause = true;
     int inputDelay;
@@ -43,30 +46,34 @@ public class pauseMenu : MonoBehaviour
             inputDelay -= 1;
         }
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            if (options == 0)
-            {
-                ResumeGame();
-            }
-
-            if (options == 1)
-            {
-                RestartScene();
-            }
-
-            if (options == 2)
-            {
-                QuitGame();
-            }
-        }
+        
 
         if (isPaused)
         {
+            if (Input.GetButtonDown("Jump"))
+            {
+                selectedSound.Play();
+                if (options == 0)
+                {
+                    ResumeGame();
+                }
+
+                if (options == 1)
+                {
+                    RestartScene();
+                }
+
+                if (options == 2)
+                {
+                    QuitGame();
+                }
+            }
+
             if (vertical == 1)
             {
                 if (inputDelay <= 0)
                 {
+                    selectSound.Play();
                     inputDelay = 60;
                     options--;
                     if (options < 0)
@@ -80,6 +87,7 @@ public class pauseMenu : MonoBehaviour
             {
                 if (inputDelay <= 0)
                 {
+                    selectSound.Play();
                     inputDelay = 60;
                     options++;
                     if (options > 2)
@@ -121,13 +129,11 @@ public class pauseMenu : MonoBehaviour
         {
             if(isPaused)
             {
-                
 
-            
 
-                
+                backSound.Play();
 
-                
+
                 ResumeGame();
             }
             else

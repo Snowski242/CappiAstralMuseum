@@ -7,6 +7,7 @@ public class EnemyDamage : MonoBehaviour
     EnemyHP enemHealth;
 
     public GameObject hitFX;
+    public AudioClip hitSFX;
 
     public float enemyInvuln;
     public float enemyInvulnMax = 60f;
@@ -42,6 +43,7 @@ public class EnemyDamage : MonoBehaviour
                 player.transformVelocity.y = Mathf.Sqrt(player.jump * -2f * player.gravity);
                 player.isGrounded = false;
 
+            AudioSource.PlayClipAtPoint(hitSFX, transform.position);
             Instantiate(hitFX, transform.position, Quaternion.identity);
 
             enemHealth.HP -= 1;
@@ -62,6 +64,7 @@ public class EnemyDamage : MonoBehaviour
 
             PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
 
+            AudioSource.PlayClipAtPoint(hitSFX, transform.position);
             Instantiate(hitFX, transform.position, Quaternion.identity);
 
             enemHealth.HP -= 1;

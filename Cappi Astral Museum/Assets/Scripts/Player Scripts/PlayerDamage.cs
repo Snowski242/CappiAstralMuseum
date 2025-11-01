@@ -26,17 +26,30 @@ public class PlayerDamage : MonoBehaviour
     {
         invulnTimer -= 1f;
 
-        if(invulnTimer < 0)
+        if (invulnTimer < 0)
         {
             invulnTimer = 0;
         }
+
+        if (healthPoints <= 0)
+        {
+            if (player.canMove)
+            {
+                Instantiate(dedUI);
+                player.state = "ded";
+            }
+
+        }
+
+        invulnTimer = invulnTimerMax;
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (invulnTimer <= 0)
         {
-            if(other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
+            if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
             {
                 Hurt();
             }
@@ -62,21 +75,20 @@ public class PlayerDamage : MonoBehaviour
         AudioSource.PlayClipAtPoint(hurtSound, transform.position);
 
         healthPoints--;
-        if(healthPoints <= 0)
+        if (healthPoints <= 0)
         {
             if (player.canMove)
             {
                 Instantiate(dedUI);
                 player.state = "ded";
-            }  
-            
+            }
+
         }
         else
         {
             player.state = "hurt";
         }
-        
 
-        invulnTimer = invulnTimerMax;
     }
+
 }

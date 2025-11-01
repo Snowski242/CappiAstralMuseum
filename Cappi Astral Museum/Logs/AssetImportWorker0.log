@@ -15,7 +15,7 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49745
+49352
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23784] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1403921144 [EditorId] 1403921144 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [23784] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1403921144 [EditorId] 1403921144 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37752] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 193311751 [EditorId] 193311751 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [37752] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 193311751 [EditorId] 193311751 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003442 seconds.
-- Loaded All Assemblies, in  0.457 seconds
+Registered in 0.170269 seconds.
+- Loaded All Assemblies, in 12.487 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.354 seconds
-Domain Reload Profiling: 809ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.416 seconds
+Domain Reload Profiling: 12900ms
+	BeginReloadAssembly (10205ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (160ms)
+	RebuildCommonClasses (590ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (230ms)
+	LoadAllAssembliesAndSetupDomain (1444ms)
+		LoadAssemblies (10200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (1440ms)
+			TypeCache.Refresh (1439ms)
+				TypeCache.ScanAssembly (1061ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (355ms)
+	FinalizeReload (416ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (295ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -151,143 +151,98 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.042 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+- Loaded All Assemblies, in 12.163 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.841 seconds
-Domain Reload Profiling: 1878ms
-	BeginReloadAssembly (376ms)
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 13030ms
+	BeginReloadAssembly (385ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (538ms)
-		LoadAssemblies (439ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (11669ms)
+		LoadAssemblies (10751ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (27ms)
+		AnalyzeDomain (1032ms)
+			TypeCache.Refresh (995ms)
+				TypeCache.ScanAssembly (920ms)
+			BuildScriptInfoCaches (28ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (843ms)
+	FinalizeReload (878ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (624ms)
+		SetupLoadedEditorAssemblies (646ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (514ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 4491 unused Assets / (3.0 MB). Loaded Objects now: 5117.
-Memory consumption went from 229.2 MB to 226.2 MB.
-Total: 15.913400 ms (FindLiveObjects: 0.936000 ms CreateObjectMapping: 1.313000 ms MarkObjects: 10.061800 ms  DeleteObjects: 3.600000 ms)
+Memory consumption went from 229.4 MB to 226.4 MB.
+Total: 8.686800 ms (FindLiveObjects: 0.600000 ms CreateObjectMapping: 0.433000 ms MarkObjects: 4.955400 ms  DeleteObjects: 2.697300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3783.910318 seconds.
-  path: Assets/Model/Players/cappi/cappiFINAL_HoodieM_Normal.png
-  artifactKey: Guid(5909a23c0a8463b4da23680a5e8e2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Players/cappi/cappiFINAL_HoodieM_Normal.png using Guid(5909a23c0a8463b4da23680a5e8e2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccbd788555bb3053e4d9773ff0a24493') in 0.0790722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 87282.751159 seconds.
+  path: Assets/Prefabs/EnemyTest.prefab
+  artifactKey: Guid(86ebd25cdc8956145bcb41fd31cba6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyTest.prefab using Guid(86ebd25cdc8956145bcb41fd31cba6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e93e1b8c9141c8d5862a6566c79563') in 0.2552197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.051702 seconds.
-  path: Assets/Model/Players/cappi/cappiv6.fbx
-  artifactKey: Guid(3d22f1d67c282e24db625b6fc0a4c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Players/cappi/cappiv6.fbx using Guid(3d22f1d67c282e24db625b6fc0a4c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39547892d0726c9f6ec676fe8dcdaa5a') in 0.6776665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 499
+  Time since last request: 1.904784 seconds.
+  path: Assets/Prefabs/Enemies/Cursed/Peon (Enemy).prefab
+  artifactKey: Guid(d1495dcbb7af0b242b01537854b0cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Cursed/Peon (Enemy).prefab using Guid(d1495dcbb7af0b242b01537854b0cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddc7d188b69e0b728a17534c2ac4c8e9') in 0.1117221 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
 
-========================================================================
-Received Import Request.
-  Time since last request: 11.589757 seconds.
-  path: Assets/Model/Players/cappi/cappiFINAL_HoodieM_Normal.png
-  artifactKey: Guid(5909a23c0a8463b4da23680a5e8e2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Players/cappi/cappiFINAL_HoodieM_Normal.png using Guid(5909a23c0a8463b4da23680a5e8e2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e21ab1fc0a0e645b0b9287312d9cff30') in 0.0255042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 225.863799 seconds.
-  path: Assets/Model/Players/cappi/cappiv6.fbx
-  artifactKey: Guid(3d22f1d67c282e24db625b6fc0a4c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Players/cappi/cappiv6.fbx using Guid(3d22f1d67c282e24db625b6fc0a4c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caaff072966a7a7b1bfb723ffa36da3b') in 0.5092777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 499
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.946564 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-0_comp_dir.png
-  artifactKey: Guid(6dbbce665990df54babe7392420ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-0_comp_dir.png using Guid(6dbbce665990df54babe7392420ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7271bc5f5c1d56a80f545d18f79ab694') in 0.0224975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-1_comp_dir.png
-  artifactKey: Guid(20c18db7b1000a44bb2a5b4fcc1710a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-1_comp_dir.png using Guid(20c18db7b1000a44bb2a5b4fcc1710a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e8fa2594562dc015142a6c8417a4be4') in 0.009912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-2_comp_dir.png
-  artifactKey: Guid(5479523385d33294ba7d87cb66af760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-2_comp_dir.png using Guid(5479523385d33294ba7d87cb66af760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30e8e5e1ac81124dea2065874f5f881') in 0.0110828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-4_comp_dir.png
-  artifactKey: Guid(a42e8d79aa110334d80851299af70400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-4_comp_dir.png using Guid(a42e8d79aa110334d80851299af70400) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6e0c76eee0ba94ab2af58f0dcd4555') in 0.0108289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-3_comp_light.exr
-  artifactKey: Guid(20b4c866168c62d42830f40e1c095a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-3_comp_light.exr using Guid(20b4c866168c62d42830f40e1c095a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cd526418a3cc7184dcb7a236e470420') in 0.0184225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027186 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-4_comp_light.exr
-  artifactKey: Guid(3991f2d09a9066e4e93f0181f87f3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-4_comp_light.exr using Guid(3991f2d09a9066e4e93f0181f87f3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93f3fbedabb5e41203cf79144d076476') in 0.0111631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039344 seconds.
-  path: Assets/Scenes/PlantForest/Lightmap-6_comp_dir.png
-  artifactKey: Guid(0f54df508e7564c4d84d985558e8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlantForest/Lightmap-6_comp_dir.png using Guid(0f54df508e7564c4d84d985558e8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47d183a1fc044375396119a59a15afd1') in 0.0105454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

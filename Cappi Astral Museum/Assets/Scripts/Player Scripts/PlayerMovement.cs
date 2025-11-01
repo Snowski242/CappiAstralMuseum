@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController characterController;
     public Transform cam;
 
+    PlayerDamage health;
+
 
     public Animator animator;
     Rigidbody rb;
@@ -110,6 +112,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         tensionGauge = tensionGaugeMax;
         homingHB.SetActive(false);
+
+        health = GetComponent<PlayerDamage>();
     }
 
 
@@ -1431,7 +1435,7 @@ public class PlayerMovement : MonoBehaviour
 
             
 
-            airBoostTime -= 0.68f;
+            airBoostTime -= 0.38f;
             if ((airBoostTime < 0))
             {
                 airBoostTime = 0;
@@ -1723,7 +1727,10 @@ public class PlayerMovement : MonoBehaviour
         //    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         //}
 
-
+        if(transform.position.y <= -30f)
+        {
+            health.healthPoints = 0;
+        }
 
         
 
@@ -1816,14 +1823,18 @@ public class PlayerMovement : MonoBehaviour
         {
             ResetAnimations();
             animator.SetBool("Walk", true);
-            
 
-            if (speed < 5)
+            if(speed < 5)
+            {
+                animator.SetLayerWeight(1, 1f);
+                animator.speed = 0.25f;
+            }
+            else if (speed > 5 && speed < 9)
             {
                 animator.SetLayerWeight(1, 1f);
                 animator.speed = 0.55f;
             }
-            else if (speed > 5 && speed < 11)
+            else if (speed > 9 && speed < 12)
             {
                 walkingAnimWeight = Mathf.Lerp(walkingAnimWeight, 0.65f, 0.05f);
                 animator.SetLayerWeight(1, walkingAnimWeight);
@@ -1840,6 +1851,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             walkingAnimWeight = 1;
+
             animator.SetLayerWeight(1, 0f);
             animator.speed = 1f;
         }
@@ -1868,6 +1880,7 @@ public class PlayerMovement : MonoBehaviour
         if (state == "rev")
         {
             ResetAnimations();
+            animator.SetLayerWeight(1, 0f);
             animator.SetBool("Walk", true);
         }
 

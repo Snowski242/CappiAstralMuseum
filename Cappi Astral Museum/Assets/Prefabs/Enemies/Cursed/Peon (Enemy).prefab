@@ -185,6 +185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitFX: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
+  hitSFX: {fileID: 8300000, guid: 5cdcae882df42814caaf0d002d4adf57, type: 3}
+  enemyInvuln: 0
+  enemyInvulnMax: 60
 --- !u!114 &2068331621825557298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,7 +215,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 0
   enemyRadius: 10
+  hasStellar: 0
+  stellarInd: 0
+  inWave: 0
   animator: {fileID: 3649507302918089395}
+  stellarineObj: {fileID: 0}
 --- !u!195 &6924521038294398103
 NavMeshAgent:
   m_ObjectHideFlags: 0
