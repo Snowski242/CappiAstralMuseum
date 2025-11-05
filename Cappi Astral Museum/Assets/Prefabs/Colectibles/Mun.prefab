@@ -51,6 +51,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: b0bc4dd0477ceef41b78d4463606ce4a, type: 3}
   collectFX: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
   offset: {x: 0, y: 0.4, z: 0}
+  redMun: 0
 --- !u!136 &2046383711138573664
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -203,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35174ef0992f1f941b25aa8d84264770, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35174ef0992f1f941b25aa8d84264770, type: 3}
       propertyPath: m_LocalPosition.z

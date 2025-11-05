@@ -627,11 +627,11 @@ public class PlayerMovement : MonoBehaviour
             characterController.height = 1.15f;
             characterController.center = new Vector3(0f, 0.62f, 0f);
 
-            speed = 12;
+            speed = 14;
 
             float airDashSpeed = 24f;
 
-            airBoostTime -= 0.68f;
+            airBoostTime -= 0.98f;
             if ((airBoostTime < 0))
             {
                 airBoostTime = 0;
@@ -692,13 +692,13 @@ public class PlayerMovement : MonoBehaviour
                 state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
-            if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && airBoostTime < 3)
+            if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && airBoostTime < 25)
             {
                 cloudVFX.Play();
                 state = "idle";
 
             }
-            if (horizontal != 0 && isGrounded && airBoostTime < 3  || vertical != 0 && isGrounded && airBoostTime < 3)
+            if (horizontal != 0 && isGrounded && airBoostTime < 25  || vertical != 0 && isGrounded && airBoostTime < 25)
             {
                 cloudVFX.Play();
                 state = "walk";
@@ -1301,7 +1301,7 @@ public class PlayerMovement : MonoBehaviour
                 state = "idle";
 
             }
-            if (horizontal != 0 && isGrounded && airBoostTime < 3 || vertical != 0 && isGrounded && ringBoostTimer < 25)
+            if (horizontal != 0 && isGrounded && airBoostTime < 25 || vertical != 0 && isGrounded && ringBoostTimer < 25)
             {
                 cloudVFX.Play();
                 runCloudVFX.Play();
