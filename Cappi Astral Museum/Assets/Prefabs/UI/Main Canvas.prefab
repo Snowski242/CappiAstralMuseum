@@ -167,7 +167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352.99997, y: -28.999985}
+  m_AnchoredPosition: {x: 352.99997, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3118372089290637755
@@ -1732,7 +1732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353, y: -29}
+  m_AnchoredPosition: {x: 353, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2725143725810116043
@@ -1917,6 +1917,9 @@ MonoBehaviour:
   Button1: {fileID: 7722474007992243287}
   Button2: {fileID: 4822230512379226041}
   Button3: {fileID: 5246187521880088499}
+  selectSound: {fileID: 0}
+  selectedSound: {fileID: 0}
+  backSound: {fileID: 0}
   isInMenus: 0
   options: 0
 --- !u!1 &7021439977766382545
