@@ -97,6 +97,9 @@ public class EnemyBehavior : MonoBehaviour
                         stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
                     }
 
+                    PlayerMovement player = FindAnyObjectByType(typeof( PlayerMovement)) as PlayerMovement;
+                    player.tensionGauge = Mathf.MoveTowards(player.tensionGauge, player.tensionGaugeMax, 0.395f);
+
                     Destroy(gameObject);
                 }
 

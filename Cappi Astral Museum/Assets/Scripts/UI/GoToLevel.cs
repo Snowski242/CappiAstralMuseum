@@ -28,7 +28,7 @@ public class GoToLevel : MonoBehaviour
 
         if(ObjectiveManager.instance.level == 0)
         {
-            text.text = "Plant Forest";
+            text.text = "Mystic Plant";
         }
     }
 
@@ -36,7 +36,7 @@ public class GoToLevel : MonoBehaviour
     {
         if (ObjectiveManager.instance.level == 0)
         {
-            SceneManager.LoadScene("PlantForest");
+            SceneManager.LoadScene("MysticPlant");
         }
     }
 }

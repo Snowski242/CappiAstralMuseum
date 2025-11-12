@@ -1469,13 +1469,13 @@ public class PlayerMovement : MonoBehaviour
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
 
-            if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && airBoostTime < 3)
+            if (horizontal == 0 && vertical == 0 && groundChecking && !isAttacking && canAttack && airBoostTime < 0)
             {
                 cloudVFX.Play();
                 state = "idle";
 
             }
-            if (horizontal != 0 && isGrounded && airBoostTime < 3 || vertical != 0 && isGrounded && airBoostTime < 3)
+            if (horizontal != 0 && groundChecking && airBoostTime < 0 || vertical != 0 && groundChecking && airBoostTime < 0)
             {
                 cloudVFX.Play();
                 runCloudVFX.Play();
@@ -1489,6 +1489,8 @@ public class PlayerMovement : MonoBehaviour
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
+
+            canAirBoost = true;
 
             speed = 0;
             homingHB.SetActive(true);

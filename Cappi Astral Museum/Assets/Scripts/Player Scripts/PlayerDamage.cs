@@ -41,38 +41,61 @@ public class PlayerDamage : MonoBehaviour
 
         }
 
-        invulnTimer = invulnTimerMax;
+        CheckHurt(transform.position, 1);
     }
 
-
-    private void OnTriggerEnter(Collider other)
+    void CheckHurt(Vector3 center, float radius)
     {
-        if (invulnTimer <= 0)
+        Collider[] hitColliders = Physics.OverlapSphere(center, radius, LayerMask.GetMask("Homing"));
+
+        if (hitColliders.Length > 0 && invulnTimer == 0 && player.state == "walk" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "idle" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "rev" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "revrun")
         {
-            if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
-            {
-                Hurt();
-            }
+            Hurt();
         }
+
+
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        if (invulnTimer <= 0)
-        {
-            if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
-            {
-                Hurt();
-            }
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (invulnTimer <= 0)
+    //    {
+    //        if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
+    //        {
+    //            Hurt();
+    //        }
+    //    }
+    //}
+
+    //private void OnCollisionEnter(Collision other)
+    //{
+    //    if (invulnTimer <= 0)
+    //    {
+    //        if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
+    //        {
+    //            Hurt();
+    //        }
+    //    }
+    //}
+
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (invulnTimer <= 0)
+    //    {
+    //        if (other.gameObject.tag == "enemy1" && player.state == "walk" || other.gameObject.tag == "enemy1" && player.state == "idle" || other.gameObject.tag == "enemy1" && player.state == "rev" || other.gameObject.tag == "enemy1" && player.state == "revrun")
+    //        {
+    //            Hurt();
+    //        }
+    //    }
+    //}
 
     public void Hurt()
     {
-        player.airBoostTime = 5;
+        player.airBoostTime = 10;
         player.transformVelocity.y = Mathf.Sqrt(player.jump * -1.2f * player.gravity);
         Instantiate(hurtFX, transform.position, Quaternion.identity);
         AudioSource.PlayClipAtPoint(hurtSound, transform.position);
+        player.isGrounded = false;
 
         healthPoints--;
         if (healthPoints <= 0)
@@ -88,6 +111,8 @@ public class PlayerDamage : MonoBehaviour
         {
             player.state = "hurt";
         }
+
+        invulnTimer = invulnTimerMax;
 
     }
 
