@@ -1469,13 +1469,13 @@ public class PlayerMovement : MonoBehaviour
             characterController.Move(transformVelocity * Time.deltaTime);
             transformVelocity.y += gravity * Time.deltaTime;
 
-            if (horizontal == 0 && vertical == 0 && groundChecking && !isAttacking && canAttack && airBoostTime < 0)
+            if (horizontal == 0 && vertical == 0 && groundChecking && !isAttacking && canAttack && airBoostTime <= 0)
             {
                 cloudVFX.Play();
                 state = "idle";
 
             }
-            if (horizontal != 0 && groundChecking && airBoostTime < 0 || vertical != 0 && groundChecking && airBoostTime < 0)
+            if (horizontal != 0 && groundChecking && airBoostTime <= 0 || vertical != 0 && groundChecking && airBoostTime <= 0)
             {
                 cloudVFX.Play();
                 runCloudVFX.Play();
