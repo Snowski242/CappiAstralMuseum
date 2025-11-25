@@ -76,6 +76,10 @@ public class StellarineBehavior : MonoBehaviour
 
             PlayerMovement player = FindAnyObjectByType<PlayerMovement>();
 
+            var music = GameObject.Find("Music");
+
+            music.GetComponent<AudioSource>().Stop();
+
             pauseMenu.canPause = false;
             player.state = "win";
             AudioSource.PlayClipAtPoint(sfx, transform.position);

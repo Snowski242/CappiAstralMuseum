@@ -32,12 +32,12 @@ public class LevelSelectText : MonoBehaviour
         {
             if(gemID == 0)
             {
-                text.text = "Reach the platform!";
+                text.text = "At the Top of Flower Mountain!";
             }
 
             if (gemID == 1)
             {
-                text.text = "Jump past the cliff!";
+                text.text = "The Peak of Mushroom Mountain!";
             }
 
             if (gemID == 2)
@@ -47,17 +47,17 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 3)
             {
-                text.text = "Get on top of a mountain";
+                text.text = "On top of a mushroom....";
             }
 
             if (gemID == 4)
             {
-                text.text = "Defeat the wave of Cursed at the platform!";
+                text.text = "Defeat the Cursed at the platform!";
             }
 
             if (gemID == 5)
             {
-                text.text = "Get all red 8 muns";
+                text.text = "Find 8 Red Muns";
             }
 
             if (gemID == 6)

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2023.2/release' branch; Version is '2023.2.4f1 (3a7eb0602d92) revision 3833520'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16253 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32012 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2023.2.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61784
+55223
 -job-worker-count
-5
+7
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
-C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+Successfully changed project path to: C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum
+C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,28 +58,28 @@ C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20244] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 467798345 [EditorId] 467798345 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [20244] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 467798345 [EditorId] 467798345 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
-[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Player connection [33952] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 903669416 [EditorId] 903669416 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33952] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 903669416 [EditorId] 903669416 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum/Assets
+[Subsystems] Discovering subsystems at path C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   NVIDIA
-    VRAM:     8024 MB
-    Driver:   32.0.15.8097
+    VRAM:     5996 MB
+    Driver:   32.0.15.8180
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003513 seconds.
-- Loaded All Assemblies, in  0.438 seconds
+Registered in 0.005646 seconds.
+- Loaded All Assemblies, in  0.560 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 761ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (188ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (326ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (433ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (360ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -148,172 +148,64 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file data-000002071BB85410 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8A9020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8A9020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8AEE30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8BFA40 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8C4C50 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C3A4010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CD6B230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C3C6C20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8E1460 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BA94E20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BA94E20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CD6B230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020719FAA010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071E796900 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C294010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BA94E20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A9C1010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BAC0700 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071ACA0440 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AB19030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AB19030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B621420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071ACA0440 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A778020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C294010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B621420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BFF2010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BFF2010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CE9B010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071BFF2010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C2B8020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AC27480 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071ACA0440 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A9FC430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C2D0830 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C013A20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A9FC430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C2D0830 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071AD16850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.964 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.234 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.783 seconds
-Domain Reload Profiling: 1740ms
-	BeginReloadAssembly (348ms)
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 2211ms
+	BeginReloadAssembly (446ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (379ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (513ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (182ms)
-			BuildScriptInfoCaches (29ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (783ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (225ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (986ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (730ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (609ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4491 unused Assets / (2.8 MB). Loaded Objects now: 5117.
-Memory consumption went from 229.4 MB to 226.6 MB.
-Total: 7.055000 ms (FindLiveObjects: 0.533500 ms CreateObjectMapping: 0.576100 ms MarkObjects: 4.022300 ms  DeleteObjects: 1.922000 ms)
+Unloading 4492 unused Assets / (3.4 MB). Loaded Objects now: 5116.
+Memory consumption went from 229.5 MB to 226.1 MB.
+Total: 13.437000 ms (FindLiveObjects: 1.000800 ms CreateObjectMapping: 0.965100 ms MarkObjects: 7.116700 ms  DeleteObjects: 4.352200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17870.922286 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c8c959781f4030442a3a4a69c8e8ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c8c959781f4030442a3a4a69c8e8ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad25a204c0d25d36787d7d315248e3a') in 0.0919277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/New Material 1.mat
-  artifactKey: Guid(f41dee3ca71142740b9f2b77278e4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material 1.mat using Guid(f41dee3ca71142740b9f2b77278e4177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2c694bf5df15ad6a1fd3ad1d2c02f37') in 0.0573126 seconds
+  Time since last request: 174103.420595 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(2bf6ee13d81d8d14ea35f79505900787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(2bf6ee13d81d8d14ea35f79505900787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5645384d6752139df8724f60b7ddf6da') in 0.1916065 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.342056 seconds.
-  path: Assets/Scenes/GameObject.prefab
-  artifactKey: Guid(1b236a9923dab9246b8e0fa5b7938643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameObject.prefab using Guid(1b236a9923dab9246b8e0fa5b7938643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15eae23ebd25b77bf65a9b0131c25264') in 0.9502135 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19115
 
 ========================================================================
 Received Prepare
@@ -330,219 +222,987 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file data-0000020727D6E030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B57E010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D3A7160 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D3ACF70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D3ACF70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072833B020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072833B020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BD1D240 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072833B020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A40D030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207287E1010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B57E010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BD1D240 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A40D030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CC56020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071A40D030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D91D010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071C294010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CA5B4A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BF45010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020728B374A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729755010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207282B3010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DEA8080 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B57E010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207282B3010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207282B9A20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072975F420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207287E1010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DE35010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DEA8080 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B7FF010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BF74250 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071E740CF0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207287E1010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071E1183A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072975F420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BF5FA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207282B9A20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8EE020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D472FE0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071E1183A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8EE020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DEA8080 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071B8A9020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.738 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.744 seconds
-Domain Reload Profiling: 1478ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  1.204 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (367ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (450ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
+		AnalyzeDomain (215ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (169ms)
+			BuildScriptInfoCaches (196ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (744ms)
+	FinalizeReload (1205ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (522ms)
+		SetupLoadedEditorAssemblies (860ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (419ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4493 unused Assets / (3.1 MB). Loaded Objects now: 5168.
-Memory consumption went from 234.5 MB to 231.5 MB.
-Total: 6.994800 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.660900 ms MarkObjects: 3.848200 ms  DeleteObjects: 1.977500 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4490 unused Assets / (2.9 MB). Loaded Objects now: 5159.
+Memory consumption went from 218.1 MB to 215.2 MB.
+Total: 12.188500 ms (FindLiveObjects: 0.655700 ms CreateObjectMapping: 0.745600 ms MarkObjects: 6.883000 ms  DeleteObjects: 3.900200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 33.173130 seconds.
-  path: Assets/Particles/CloudFX_PS.prefab
-  artifactKey: Guid(8caf6f8e3ffa83a49aa36a2bb98c40d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles/CloudFX_PS.prefab using Guid(8caf6f8e3ffa83a49aa36a2bb98c40d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e55ed46743162a8d9123fae5ac3a03c') in 0.0946842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Particles/d1b116a4e8f4ad542007a7e15e145a5dcd06b685.png
-  artifactKey: Guid(262a555391af7954da1907b0fc0dd194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles/d1b116a4e8f4ad542007a7e15e145a5dcd06b685.png using Guid(262a555391af7954da1907b0fc0dd194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '239775a2fd7ad0d6da9715a7cf109cbc') in 0.0272593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733205 seconds.
-  path: Assets/Prefabs/Boost Ring.prefab
-  artifactKey: Guid(2df6e6d149deb5d4e8970eda6b903dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boost Ring.prefab using Guid(2df6e6d149deb5d4e8970eda6b903dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51f9620b71c7daa4be4a3d5bd3d2070b') in 0.0198661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/SpringTest.prefab
-  artifactKey: Guid(6f0424b754345f44abc19b902084cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpringTest.prefab using Guid(6f0424b754345f44abc19b902084cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7bc732bb5db5e0231564f80d6dddb40') in 0.0233925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Post Processing Volume.prefab
-  artifactKey: Guid(68f6abf8e8ae5cb498af094179dc2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Post Processing Volume.prefab using Guid(68f6abf8e8ae5cb498af094179dc2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '413641cde7408403892de476cc12c4ca') in 0.0125386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prefabs/Landing Mark.prefab
-  artifactKey: Guid(67a4bd300e7acd549a2f5343107cf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Landing Mark.prefab using Guid(67a4bd300e7acd549a2f5343107cf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b153faa3227102a8c674730d6750138') in 0.0241429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.194791 seconds.
-  path: Assets/Prefabs/Player
-  artifactKey: Guid(e57a3e15d9152574eb5e06d4db0eb20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player using Guid(e57a3e15d9152574eb5e06d4db0eb20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01434cc3961b320d575ee406a2737a28') in 0.0005347 seconds
+  Time since last request: 452.003562 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(d5886424130920d45b054fd59c4d747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d5886424130920d45b054fd59c4d747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dd56678acf35ef8bc144bdf61be4d2f') in 0.0074882 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.616443 seconds.
-  path: Assets/Prefabs/Player/Homing Trigger.prefab
-  artifactKey: Guid(06002c849edb17d4b9ace40facb44425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player/Homing Trigger.prefab using Guid(06002c849edb17d4b9ace40facb44425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fadeb12e61b9df9a50d35459653d4ca') in 0.0018587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 3.697408 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f3c00c5c371dd7947b6b320708dadfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f3c00c5c371dd7947b6b320708dadfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beec49ff772fb463c03cc4c91a952d1e') in 0.0006616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Prefabs/Player/Sliding HB.prefab
-  artifactKey: Guid(b482f95108a8a5443b686206569b41ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player/Sliding HB.prefab using Guid(b482f95108a8a5443b686206569b41ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf6f2764d8301ed3d50e4edaeca055c1') in 0.0016661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.073777 seconds.
+  path: Assets/Scenes/GameObject.prefab
+  artifactKey: Guid(1b236a9923dab9246b8e0fa5b7938643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameObject.prefab using Guid(1b236a9923dab9246b8e0fa5b7938643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2aee253cb0e69d53cd0f2c5ccb244f0') in 1.9225301 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19120
 
+========================================================================
+Received Import Request.
+  Time since last request: 60.840533 seconds.
+  path: Assets/Scenes/MysticPlant.unity
+  artifactKey: Guid(e212851490f2531469168428609672a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MysticPlant.unity using Guid(e212851490f2531469168428609672a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bad7cbe75020c38eaf5ff6e70472662') in 0.002018 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.155806 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(1b31cd57791ce43498dba57776282ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(1b31cd57791ce43498dba57776282ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '261ae821243bbfa0c83fe2d993baad83') in 0.000675 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.817657 seconds.
+  path: Assets/Scripts/UI/GoToLevel.cs
+  artifactKey: Guid(d54f570077d625b4dba9ca9f43bd9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/GoToLevel.cs using Guid(d54f570077d625b4dba9ca9f43bd9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5001abe444d6914b07e9712d023ac1b8') in 0.0010363 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.972404 seconds.
+  path: Assets/Scripts/Levels
+  artifactKey: Guid(7794467308661e041b2494475c10df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Levels using Guid(7794467308661e041b2494475c10df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ace1bc955f893b8a3838ff6710041c9') in 0.0008795 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529232 seconds.
+  path: Assets/Scripts/Levels/LevelSelectText.cs
+  artifactKey: Guid(9bca2b63daf18014d8a23cf78d2f191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Levels/LevelSelectText.cs using Guid(9bca2b63daf18014d8a23cf78d2f191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51e660dcaf54ea15b6280e30381e230') in 0.0007511 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.063271 seconds.
+  path: Assets/Scripts/Levels/LevelSelector.cs
+  artifactKey: Guid(5ede46e30a8c5e944a7aad5873d63218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Levels/LevelSelector.cs using Guid(5ede46e30a8c5e944a7aad5873d63218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f93b4ecfd41c58521d612c673ce0f7') in 0.0006943 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.877271 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(9c5681dc8b019f8488d9bfb2294c9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(9c5681dc8b019f8488d9bfb2294c9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bb467c01c96624ac3d7e203997a807d') in 0.0010712 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083333 seconds.
+  path: Assets/Prefabs/Boost Ring.prefab
+  artifactKey: Guid(2df6e6d149deb5d4e8970eda6b903dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost Ring.prefab using Guid(2df6e6d149deb5d4e8970eda6b903dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982e693158d783c5a66c3b3e5f677f8e') in 0.0330832 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002187 seconds.
+  path: Assets/Prefabs/SpringTest.prefab
+  artifactKey: Guid(6f0424b754345f44abc19b902084cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpringTest.prefab using Guid(6f0424b754345f44abc19b902084cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5d670261dc5d2ae3437c4a2c62beb13') in 0.0442264 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Post Processing Volume.prefab
+  artifactKey: Guid(68f6abf8e8ae5cb498af094179dc2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Post Processing Volume.prefab using Guid(68f6abf8e8ae5cb498af094179dc2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95001fcc4462690146c3b8ab03a4618f') in 0.0039359 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/Landing Mark.prefab
+  artifactKey: Guid(67a4bd300e7acd549a2f5343107cf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Landing Mark.prefab using Guid(67a4bd300e7acd549a2f5343107cf017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10950258324c33c69780c656fa58d955') in 0.03058 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830595 seconds.
+  path: Assets/Prefabs/Enemies
+  artifactKey: Guid(1a6badc5d7a4eb94e968d2c463db6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies using Guid(1a6badc5d7a4eb94e968d2c463db6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f753f6965dc911c9173f43ac0649e0f') in 0.0011174 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799155 seconds.
+  path: Assets/Prefabs/Enemies/Cursed
+  artifactKey: Guid(1a8a17417dd6b33498828a846bd4f8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Cursed using Guid(1a8a17417dd6b33498828a846bd4f8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '135df94057f3affac652088c9381da15') in 0.0007513 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049135 seconds.
+  path: Assets/Prefabs/Enemies/Cursed/Peon (Enemy).prefab
+  artifactKey: Guid(d1495dcbb7af0b242b01537854b0cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Cursed/Peon (Enemy).prefab using Guid(d1495dcbb7af0b242b01537854b0cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0fce5dd97d7ec17e472b3c6fbc4b195') in 0.0333371 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4487 unused Assets / (3.1 MB). Loaded Objects now: 5167.
+Memory consumption went from 238.6 MB to 235.5 MB.
+Total: 18.483000 ms (FindLiveObjects: 0.867100 ms CreateObjectMapping: 0.685200 ms MarkObjects: 12.128100 ms  DeleteObjects: 4.800300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.909 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1729ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4489 unused Assets / (3.2 MB). Loaded Objects now: 5167.
+Memory consumption went from 236.7 MB to 233.5 MB.
+Total: 7.837400 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.277900 ms MarkObjects: 4.409300 ms  DeleteObjects: 2.680800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 216.397469 seconds.
+  path: Assets/Prefabs/Colectibles/Red Mun.prefab
+  artifactKey: Guid(ffdd5bbbd6f5e7e43977138d8c5d4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Colectibles/Red Mun.prefab using Guid(ffdd5bbbd6f5e7e43977138d8c5d4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f533e3de98cb19b2e87161dce07bd6ae') in 0.1607945 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (3.2 MB). Loaded Objects now: 5168.
+Memory consumption went from 237.2 MB to 234.0 MB.
+Total: 27.245500 ms (FindLiveObjects: 1.448800 ms CreateObjectMapping: 2.400600 ms MarkObjects: 18.861600 ms  DeleteObjects: 4.532100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -558,147 +1218,149 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file data-000002072993E800 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A212BA0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206B63C3010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A3A8C20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072B5220C0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072B4653B0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D91D010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A698BD0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729EB66B0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002078E5A2010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CB5E020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A212BA0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A698BD0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072B26ED70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072B5E4150 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729D5C850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206B63C3010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072B14E030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A8D5DA0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D717020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206B50ADE40 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A856A60 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206B64CC060 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A4FC9A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729386010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A5A4010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A813E10 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002078E339100 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CB5E020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DE35010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A4FC9A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729A1BFD0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072BF74250 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071DCDC070 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071CB5E020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D717020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002078E339100 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729D5C850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000206B64CC060 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729E9AE10 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207272D9E60 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002071D717020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020729E9AE10 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072A4FC9A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002072993E800 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.741 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.960 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.793 seconds
-Domain Reload Profiling: 1530ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1884ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (448ms)
-		LoadAssemblies (368ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (496ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (793ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (928ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
+		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (434ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5169.
-Memory consumption went from 236.5 MB to 233.5 MB.
-Total: 6.615900 ms (FindLiveObjects: 0.512800 ms CreateObjectMapping: 0.627100 ms MarkObjects: 3.795300 ms  DeleteObjects: 1.680000 ms)
+Unloading 4489 unused Assets / (3.2 MB). Loaded Objects now: 5168.
+Memory consumption went from 238.7 MB to 235.5 MB.
+Total: 10.495600 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.480300 ms MarkObjects: 6.134000 ms  DeleteObjects: 3.271600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (3.5 MB). Loaded Objects now: 5168.
+Memory consumption went from 238.8 MB to 235.3 MB.
+Total: 12.912700 ms (FindLiveObjects: 1.053900 ms CreateObjectMapping: 0.951300 ms MarkObjects: 7.316300 ms  DeleteObjects: 3.588900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.996 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.053 seconds
+Domain Reload Profiling: 2047ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (611ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (192ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1054ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4489 unused Assets / (3.2 MB). Loaded Objects now: 5169.
+Memory consumption went from 240.6 MB to 237.4 MB.
+Total: 8.025000 ms (FindLiveObjects: 0.515500 ms CreateObjectMapping: 0.299300 ms MarkObjects: 4.699100 ms  DeleteObjects: 2.509500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 642.206890 seconds.
+  path: Assets/Sounds/Music/Light My World (Mystic Plant).mp3
+  artifactKey: Guid(225731a75a0bbc4499b7f8fcffd2d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Music/Light My World (Mystic Plant).mp3 using Guid(225731a75a0bbc4499b7f8fcffd2d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af42ab7397db7fe4352f504296f849b') in 0.1581811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sounds/Music/plant forest.wav
+  artifactKey: Guid(8e18d2f59215cb84bb4e1d5d539beda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Music/plant forest.wav using Guid(8e18d2f59215cb84bb4e1d5d539beda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f28c6274aff273b31221340833c481ee') in 0.0203357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
