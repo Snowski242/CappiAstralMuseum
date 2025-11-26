@@ -58,7 +58,7 @@ public class ObjectiveManager : MonoBehaviour
             stellarine.GetComponent<StellarineBehavior>().gemID = 5;
             stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
 
-            munGem = true;
+            redGem = true;
         }
     }
 

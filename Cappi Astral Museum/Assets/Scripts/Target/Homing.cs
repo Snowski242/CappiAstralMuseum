@@ -31,7 +31,7 @@ public class Homing : MonoBehaviour
                             Debug.Log("tmnt");
                             canHome = false;
                             homingTarget = hitColliders[i].gameObject;
-                            hitColliders[i].GetComponent<HomingTarget>().homingDelay = 120;
+                            hitColliders[i].GetComponent<HomingTarget>().homingDelay = 20;
                             pl.homingTime = 20;
                             pl.state = "homing";
                         }

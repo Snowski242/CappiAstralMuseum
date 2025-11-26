@@ -98,7 +98,7 @@ public class EnemyBehavior : MonoBehaviour
                     }
 
                     PlayerMovement player = FindAnyObjectByType(typeof( PlayerMovement)) as PlayerMovement;
-                    player.tensionGauge = Mathf.MoveTowards(player.tensionGauge, player.tensionGaugeMax, 0.395f);
+                    player.tensionGauge = Mathf.MoveTowards(player.tensionGauge, player.tensionGaugeMax, 2.995f);
 
                     Destroy(gameObject);
                 }
