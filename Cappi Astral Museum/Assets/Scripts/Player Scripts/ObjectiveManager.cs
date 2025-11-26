@@ -66,6 +66,8 @@ public class ObjectiveManager : MonoBehaviour
     {
         munCount = 0;
         munGem = false;
+        redGem = false;
+        redMun = 0;
     }
 
     public int SetLevel(int lvl) => level = lvl;

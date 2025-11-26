@@ -8,6 +8,7 @@ public class Capsule : MonoBehaviour
 
     public GameObject stellarineObj;
     public GameObject mun;
+    public GameObject spawn;
     public int stellarInd;
     void Start()
     {
@@ -22,7 +23,7 @@ public class Capsule : MonoBehaviour
         Vector3 p1 = transform.position;
 
         //shoots raycast forward to see if theres a raycast hit
-        if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))
+        if (Physics.SphereCast(p1, 0.9f, transform.up, out downHit, 0.4f, LayerMask.GetMask("Player")))
         {
 
 
@@ -35,14 +36,20 @@ public class Capsule : MonoBehaviour
 
                 if(capsuleType == 0)
                 {
-                    Instantiate(mun);
+                    Instantiate(mun, spawn.transform.position + new Vector3(Random.Range(0.1f, 3.1f), 0f, Random.Range(0.1f, 3.1f)), transform.rotation);
+                    Instantiate(mun, spawn.transform.position + new Vector3(Random.Range(0.1f,3.1f), 0f, Random.Range(0.1f, 3.1f)), transform.rotation);
+                    Instantiate(mun, spawn.transform.position + new Vector3(Random.Range(0.1f, 3.1f), 0f, Random.Range(0.1f, 3.1f)), transform.rotation);
+                    Instantiate(mun, spawn.transform.position + new Vector3(Random.Range(0.1f, 3.1f), 0f, Random.Range(0.1f, 3.1f)), transform.rotation);
+                    Instantiate(mun, spawn.transform.position + new Vector3(Random.Range(0.1f, 3.1f), 0f, Random.Range(0.1f, 3.1f)), transform.rotation);
                 }
                 else if (capsuleType == 1)
                 {
-                    var stellarine = Instantiate(stellarineObj, transform.position + new Vector3(0f, 3f, 0f), transform.rotation);
+                    var stellarine = Instantiate(stellarineObj, transform.position + new Vector3(0f, 5f, 0f), transform.rotation);
                     stellarine.GetComponent<StellarineBehavior>().gemID = stellarInd;
                     stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
                 }
+
+                Destroy(gameObject);
 
             }
 
