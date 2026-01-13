@@ -15,7 +15,7 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51957
+49806
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43012] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1912184050 [EditorId] 1912184050 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [43012] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1912184050 [EditorId] 1912184050 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2676] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 3606168473 [EditorId] 3606168473 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2676] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 3606168473 [EditorId] 3606168473 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004802 seconds.
-- Loaded All Assemblies, in  0.538 seconds
+Registered in 0.006400 seconds.
+- Loaded All Assemblies, in  0.677 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 960ms
-	BeginReloadAssembly (191ms)
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (187ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (226ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (426ms)
+	FinalizeReload (741ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (356ms)
+		SetupLoadedEditorAssemblies (657ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -151,579 +151,62 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.262 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.562 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.004 seconds
-Domain Reload Profiling: 2259ms
-	BeginReloadAssembly (452ms)
+- Finished resetting the current domain, in  1.201 seconds
+Domain Reload Profiling: 2755ms
+	BeginReloadAssembly (529ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (689ms)
-		LoadAssemblies (531ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (231ms)
-			BuildScriptInfoCaches (36ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1005ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (740ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (615ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4491 unused Assets / (3.2 MB). Loaded Objects now: 5117.
-Memory consumption went from 229.5 MB to 226.2 MB.
-Total: 11.269300 ms (FindLiveObjects: 0.857600 ms CreateObjectMapping: 0.935700 ms MarkObjects: 7.057300 ms  DeleteObjects: 2.417200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15303.431046 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b048354af6743779f897401d793c88c0') in 0.2474253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.590336 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93fb08773b93ce645fa80aa123fc09c5') in 0.0495886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.774 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1577ms
-	BeginReloadAssembly (217ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (407ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (155ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (807ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (473ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5128.
-Memory consumption went from 217.9 MB to 215.0 MB.
-Total: 8.352600 ms (FindLiveObjects: 0.589400 ms CreateObjectMapping: 0.402300 ms MarkObjects: 5.072800 ms  DeleteObjects: 2.286500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (3.0 MB). Loaded Objects now: 5128.
-Memory consumption went from 218.0 MB to 215.0 MB.
-Total: 20.906100 ms (FindLiveObjects: 0.698900 ms CreateObjectMapping: 0.731700 ms MarkObjects: 15.801500 ms  DeleteObjects: 3.672100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.823 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.808 seconds
-Domain Reload Profiling: 1627ms
-	BeginReloadAssembly (232ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (439ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (808ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (579ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.8 MB). Loaded Objects now: 5129.
-Memory consumption went from 219.8 MB to 217.0 MB.
-Total: 7.765000 ms (FindLiveObjects: 0.660900 ms CreateObjectMapping: 0.437800 ms MarkObjects: 4.879000 ms  DeleteObjects: 1.785700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 191.098622 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7dd5073a78759c657ff3147c07769ac') in 0.1936999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.340624 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b4863871647ab4b6a55f7ebf818b2d3') in 0.0485466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.519076 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4235d7a1890c0fd8d3be5d114bb3a60d') in 0.0457882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.990268 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c21285f9b5d8bea4af025da6197d1d88') in 0.0449049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.392080 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e9cf17c5a75681241bab22ddd9eaa47') in 0.0441569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.606543 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f27eb012672ec5bd7ea8f8cfdc3378d') in 0.0503799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.751767 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00698342d77aa8f974259f28a42f49ab') in 0.0511646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.677741 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce6b6580da549ff92a0d06c3edd0bcf2') in 0.0412802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.777460 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf875a9d65d4bd1ac3cb2c5d6c7fef6') in 0.0449564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.816 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.915 seconds
-Domain Reload Profiling: 1728ms
-	BeginReloadAssembly (225ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (504ms)
-		LoadAssemblies (435ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (880ms)
+		LoadAssemblies (682ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (167ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (915ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (280ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1202ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (646ms)
+		SetupLoadedEditorAssemblies (903ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (525ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5130.
-Memory consumption went from 221.7 MB to 218.9 MB.
-Total: 9.145400 ms (FindLiveObjects: 0.634100 ms CreateObjectMapping: 0.546500 ms MarkObjects: 5.499800 ms  DeleteObjects: 2.463200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (3.0 MB). Loaded Objects now: 5130.
-Memory consumption went from 221.9 MB to 218.9 MB.
-Total: 12.294100 ms (FindLiveObjects: 0.727200 ms CreateObjectMapping: 0.742800 ms MarkObjects: 7.520800 ms  DeleteObjects: 3.300700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.060 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1942ms
-	BeginReloadAssembly (229ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (729ms)
-		LoadAssemblies (627ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (190ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (883ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (621ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (497ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.6 MB). Loaded Objects now: 5131.
-Memory consumption went from 223.7 MB to 221.1 MB.
-Total: 6.804200 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.382300 ms MarkObjects: 4.290900 ms  DeleteObjects: 1.582500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.773 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.782 seconds
-Domain Reload Profiling: 1553ms
-	BeginReloadAssembly (214ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (422ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (148ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (783ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (564ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5132.
-Memory consumption went from 225.6 MB to 222.7 MB.
-Total: 9.075600 ms (FindLiveObjects: 0.583300 ms CreateObjectMapping: 0.451400 ms MarkObjects: 5.804900 ms  DeleteObjects: 2.234200 ms)
+Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4492 unused Assets / (3.0 MB). Loaded Objects now: 5118.
+Memory consumption went from 229.4 MB to 226.4 MB.
+Total: 10.783700 ms (FindLiveObjects: 0.581000 ms CreateObjectMapping: 1.235300 ms MarkObjects: 6.669200 ms  DeleteObjects: 2.296500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 785476.168031 seconds.
+  path: Assets/Model/Environment/Hub/astral museum.fbx
+  artifactKey: Guid(6c4a2b97e9a222041938c4c9140860f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/Hub/astral museum.fbx using Guid(6c4a2b97e9a222041938c4c9140860f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4158d05c87a7ec6cb5b0cd16a57d5d9') in 0.2477507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -742,123 +225,126 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.782 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.016 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.834 seconds
-Domain Reload Profiling: 1613ms
-	BeginReloadAssembly (217ms)
+- Finished resetting the current domain, in  1.233 seconds
+Domain Reload Profiling: 2245ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (479ms)
-		LoadAssemblies (414ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (610ms)
+		LoadAssemblies (549ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (835ms)
+			BuildScriptInfoCaches (197ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1234ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (582ms)
+		SetupLoadedEditorAssemblies (868ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (462ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.7 MB). Loaded Objects now: 5133.
-Memory consumption went from 227.5 MB to 224.8 MB.
-Total: 8.401500 ms (FindLiveObjects: 0.624400 ms CreateObjectMapping: 0.557200 ms MarkObjects: 5.057200 ms  DeleteObjects: 2.161200 ms)
+Unloading 4490 unused Assets / (3.1 MB). Loaded Objects now: 5165.
+Memory consumption went from 218.0 MB to 214.9 MB.
+Total: 15.462600 ms (FindLiveObjects: 0.666800 ms CreateObjectMapping: 1.071300 ms MarkObjects: 9.451800 ms  DeleteObjects: 4.271100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 464.400503 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2e8fb6699dff1882f95f82272c1399a') in 0.2014719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.483526 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '112466fdbe7ebf77d720e69486352022') in 0.0426467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.784135 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c280e4c5aab3392f0d55b7e697fc542') in 0.0454343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.367276 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5371bf735cafcdded81e484437532591') in 0.0450756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
+  Time since last request: 39.962118 seconds.
+  path: Assets/Scenes/Hub.unity
+  artifactKey: Guid(464fe243d9e33d844a5c25c2cd330da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hub.unity using Guid(464fe243d9e33d844a5c25c2cd330da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae8635b5f02da33defc9e539a199950f') in 0.0104072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.008 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.062 seconds
+Domain Reload Profiling: 2067ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (743ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (2.7 MB). Loaded Objects now: 5134.
-Memory consumption went from 228.2 MB to 225.5 MB.
-Total: 14.501000 ms (FindLiveObjects: 0.766100 ms CreateObjectMapping: 0.641300 ms MarkObjects: 10.226200 ms  DeleteObjects: 2.865000 ms)
+Unloading 4490 unused Assets / (3.2 MB). Loaded Objects now: 5166.
+Memory consumption went from 219.9 MB to 216.7 MB.
+Total: 16.159900 ms (FindLiveObjects: 1.006100 ms CreateObjectMapping: 1.318800 ms MarkObjects: 10.137600 ms  DeleteObjects: 3.695100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -879,533 +365,497 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.835 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.407 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.987 seconds
-Domain Reload Profiling: 1818ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  1.445 seconds
+Domain Reload Profiling: 2846ms
+	BeginReloadAssembly (379ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (502ms)
-		LoadAssemblies (454ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (864ms)
+		LoadAssemblies (802ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (151ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (988ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (229ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1446ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (700ms)
+		SetupLoadedEditorAssemblies (984ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (773ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4490 unused Assets / (3.0 MB). Loaded Objects now: 5167.
+Memory consumption went from 221.8 MB to 218.8 MB.
+Total: 13.983800 ms (FindLiveObjects: 1.068000 ms CreateObjectMapping: 1.482200 ms MarkObjects: 8.455900 ms  DeleteObjects: 2.975100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.201 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.192 seconds
+Domain Reload Profiling: 2390ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (743ms)
+		LoadAssemblies (667ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (230ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (836ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (563ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.8 MB). Loaded Objects now: 5134.
-Memory consumption went from 229.5 MB to 226.6 MB.
-Total: 10.693600 ms (FindLiveObjects: 0.701000 ms CreateObjectMapping: 0.688000 ms MarkObjects: 6.610800 ms  DeleteObjects: 2.691700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.807 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 1606ms
-	BeginReloadAssembly (234ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (427ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (165ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (802ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (478ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (683ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (3.1 MB). Loaded Objects now: 5135.
-Memory consumption went from 231.4 MB to 228.3 MB.
-Total: 8.983100 ms (FindLiveObjects: 0.545200 ms CreateObjectMapping: 0.399700 ms MarkObjects: 5.608800 ms  DeleteObjects: 2.428200 ms)
+Unloading 4490 unused Assets / (3.0 MB). Loaded Objects now: 5168.
+Memory consumption went from 223.7 MB to 220.7 MB.
+Total: 15.304400 ms (FindLiveObjects: 0.747000 ms CreateObjectMapping: 1.131500 ms MarkObjects: 9.651000 ms  DeleteObjects: 3.773200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1245.324891 seconds.
-  path: Assets/Prefabs/Colectibles/Capsule.prefab
-  artifactKey: Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Colectibles/Capsule.prefab using Guid(2a7dc71ba492473488e01d0c0ea62aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d243c9c86d741806b10d9745d36f6ac') in 0.1972277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
+  Time since last request: 253.261347 seconds.
+  path: Assets/Model/Environment/PF/Trees/neon tree.fbx
+  artifactKey: Guid(c866deec08c0a2849beae772373ef093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/PF/Trees/neon tree.fbx using Guid(c866deec08c0a2849beae772373ef093) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86df5dd1ee771f850f652f8831abc777') in 0.4650104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
+Received Import Request.
+  Time since last request: 16.559334 seconds.
+  path: Assets/Model/Players/ruv/ruv v2.fbx
+  artifactKey: Guid(5d8bc605624888c45b66fc29a57df303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Players/ruv/ruv v2.fbx using Guid(5d8bc605624888c45b66fc29a57df303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '886c260c885bb6b72c5a0dca0683f1ef') in 0.3318166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 489
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.829 seconds
-Domain Reload Profiling: 1619ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (487ms)
-		LoadAssemblies (416ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (163ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (830ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (471ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5136.
-Memory consumption went from 233.3 MB to 230.3 MB.
-Total: 9.578500 ms (FindLiveObjects: 0.600000 ms CreateObjectMapping: 0.773100 ms MarkObjects: 6.008200 ms  DeleteObjects: 2.195700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (2.7 MB). Loaded Objects now: 5136.
-Memory consumption went from 233.5 MB to 230.8 MB.
-Total: 16.734300 ms (FindLiveObjects: 1.020600 ms CreateObjectMapping: 0.875600 ms MarkObjects: 11.312700 ms  DeleteObjects: 3.523900 ms)
+Received Import Request.
+  Time since last request: 0.165967 seconds.
+  path: Assets/Model/Enemies/Cursed/Peon/peon.fbx
+  artifactKey: Guid(4eefb028be57c6c44bdc48e10c76260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Enemies/Cursed/Peon/peon.fbx using Guid(4eefb028be57c6c44bdc48e10c76260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7edc2c8d2e78f7879c6dbbc6168be81e') in 0.0722893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.851 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Bush_01.fbx
+  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062a2351f9c286f40e9ad36ea0df9976') in 0.053659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.822 seconds
-Domain Reload Profiling: 1670ms
-	BeginReloadAssembly (246ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (470ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (822ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (573ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (474ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.7 MB). Loaded Objects now: 5137.
-Memory consumption went from 235.2 MB to 232.6 MB.
-Total: 6.693100 ms (FindLiveObjects: 0.518800 ms CreateObjectMapping: 0.365100 ms MarkObjects: 4.236300 ms  DeleteObjects: 1.571800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (3.6 MB). Loaded Objects now: 5137.
-Memory consumption went from 235.4 MB to 231.8 MB.
-Total: 9.928800 ms (FindLiveObjects: 0.568600 ms CreateObjectMapping: 0.436500 ms MarkObjects: 5.217700 ms  DeleteObjects: 3.704300 ms)
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Bush_02.fbx
+  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0378fa3709769d925b7e94c02b50c65b') in 0.0468609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.866 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
+Received Import Request.
+  Time since last request: 0.095946 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Bush_03.fbx
+  artifactKey: Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Bush_03.fbx using Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a0e5bb34d0b6cc23bc2014bb8ff3758') in 0.0465151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.817 seconds
-Domain Reload Profiling: 1679ms
-	BeginReloadAssembly (228ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (540ms)
-		LoadAssemblies (458ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (817ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (2.9 MB). Loaded Objects now: 5138.
-Memory consumption went from 237.1 MB to 234.2 MB.
-Total: 9.792700 ms (FindLiveObjects: 0.606700 ms CreateObjectMapping: 0.411400 ms MarkObjects: 5.771600 ms  DeleteObjects: 3.001200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4483 unused Assets / (2.9 MB). Loaded Objects now: 5138.
-Memory consumption went from 237.3 MB to 234.5 MB.
-Total: 8.974100 ms (FindLiveObjects: 0.539700 ms CreateObjectMapping: 0.343900 ms MarkObjects: 5.959300 ms  DeleteObjects: 2.128900 ms)
+Received Import Request.
+  Time since last request: 0.295841 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash mesh.asset
+  artifactKey: Guid(03b90fa8ed1d4104abc8b7431ab290e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash mesh.asset using Guid(03b90fa8ed1d4104abc8b7431ab290e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2588a02014b9ff4657f42267e2bc090e') in 0.0321697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset
+  artifactKey: Guid(0df52a77851b6214792776cda02da918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset using Guid(0df52a77851b6214792776cda02da918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baeb59f82228a552f46041e8afcedfcc') in 0.0290914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 1580ms
-	BeginReloadAssembly (229ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (424ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (156ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (791ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (548ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4489 unused Assets / (3.0 MB). Loaded Objects now: 5139.
-Memory consumption went from 239.1 MB to 236.1 MB.
-Total: 7.877700 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.372700 ms MarkObjects: 4.976100 ms  DeleteObjects: 1.983700 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.177136 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx
+  artifactKey: Guid(b10f0a773262b9c478542ff2d1a04863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx using Guid(b10f0a773262b9c478542ff2d1a04863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '835562a2ae6667e8d712cab88611fe45') in 0.0331532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036607 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star mesh.asset
+  artifactKey: Guid(bd8a92b47db41f644ae7188f06a986a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star mesh.asset using Guid(bd8a92b47db41f644ae7188f06a986a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b4fec5f08a7ddaf4ee3192c46622a27') in 0.0292195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008310 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx
+  artifactKey: Guid(5d48695472dfda94b92ac5316397da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx using Guid(5d48695472dfda94b92ac5316397da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bac885ffd18236f9a0f905ba8bd856eb') in 0.0414766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157943 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx
+  artifactKey: Guid(f8defa343e39b2545bf3101b50eefa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx using Guid(f8defa343e39b2545bf3101b50eefa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '020dab325156eea3298879328ec11e7b') in 0.0378163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx
+  artifactKey: Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx using Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5f02053f82e8e5b13fecdec59651793') in 0.0293212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh sword_slashes.fbx
+  artifactKey: Guid(e82f2cbd6def7ff4c98963f706f00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh sword_slashes.fbx using Guid(e82f2cbd6def7ff4c98963f706f00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40d07e66605b5420465debdf3fe15f18') in 0.1347573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127563 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx
+  artifactKey: Guid(f6ce39f7cf5788047aa637110fa7ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx using Guid(f6ce39f7cf5788047aa637110fa7ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee2f640ae32907d8db761ad3939eff2b') in 0.0273768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180315 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle mesh.asset
+  artifactKey: Guid(a71649bde553d6f4b9b8ae820c34748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle mesh.asset using Guid(a71649bde553d6f4b9b8ae820c34748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893e8917f8d5533b96af90c7e82f1f1f') in 0.0212776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027691 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset
+  artifactKey: Guid(a78b06c58d03f5d4fbb74ba21020241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset using Guid(a78b06c58d03f5d4fbb74ba21020241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6a18864878fb65847d134d3858014d') in 0.0229496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004983 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset
+  artifactKey: Guid(b0456bb37d6ff3b4e956cba074fb9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset using Guid(b0456bb37d6ff3b4e956cba074fb9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab33beb1fb7c1f8139f97f50f41b3b0a') in 0.0100355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019235 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset
+  artifactKey: Guid(72b4aba81b7370a4e966fe9b365b8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset using Guid(72b4aba81b7370a4e966fe9b365b8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9885dec21deb528fc90f4747f905829e') in 0.0198712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset
+  artifactKey: Guid(5cd3984e3d521b949b5dbeff045f62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset using Guid(5cd3984e3d521b949b5dbeff045f62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05689c7577c5d63b24507075fde10818') in 0.0245179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141227 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset
+  artifactKey: Guid(a0ee99ac161e4ba45b09ccd7072aed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset using Guid(a0ee99ac161e4ba45b09ccd7072aed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09d9710394434eafc1ec00269d085cde') in 0.0203079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006927 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud01.fbx
+  artifactKey: Guid(19789040dc4a50b46b259bdf7b7f8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud01.fbx using Guid(19789040dc4a50b46b259bdf7b7f8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac37fa4038d549fa751c330998be17f') in 0.0352836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud03.fbx
+  artifactKey: Guid(e1c8328bfbac0b2458e34ae51b8da3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud03.fbx using Guid(e1c8328bfbac0b2458e34ae51b8da3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7164e9124fc4d2031f95d5758807741d') in 0.0390574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud04.fbx
+  artifactKey: Guid(20ed633237c0fd44fb11c33630101bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Cloud04.fbx using Guid(20ed633237c0fd44fb11c33630101bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cafa58c4115b57220bf7dcb28355440') in 0.0323664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Clouds.fbx
+  artifactKey: Guid(08523883f023c8b4980e6d4fe59df1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Models/Clouds/Clouds.fbx using Guid(08523883f023c8b4980e6d4fe59df1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd246eb7454748be75db8c12e8d39a21') in 0.0370034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125103 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Models/Cone.fbx
+  artifactKey: Guid(e56f90513e23b45eeb9185aa97a78f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Models/Cone.fbx using Guid(e56f90513e23b45eeb9185aa97a78f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519d67c3273ed4934bb70527ddbaa7c4') in 0.0324449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044374 seconds.
+  path: Assets/Model/Environment/PF/Flower/neon flower.fbx
+  artifactKey: Guid(a05a0ff79ca0fe947a2dc1f38525a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/PF/Flower/neon flower.fbx using Guid(a05a0ff79ca0fe947a2dc1f38525a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0f4438f2a64b2fd964d67fc1d17cc10') in 0.0263883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.834834 seconds.
+  path: Assets/Model/Collectables/Stellarine/stellarine.fbx
+  artifactKey: Guid(23d835c51ebbd4a4e9d979963d0f9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Collectables/Stellarine/stellarine.fbx using Guid(23d835c51ebbd4a4e9d979963d0f9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '276ec9edc0f6102d10e560141a8f00e0') in 0.0634089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Grass_02.fbx
+  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '432e8a0184db15ae12622cc5d1bbefb9') in 0.0423997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets Used/Anime Trees/Models/Grass.fbx
+  artifactKey: Guid(78f79c5f6d2fc2f49a5b00d115ae6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Anime Trees/Models/Grass.fbx using Guid(78f79c5f6d2fc2f49a5b00d115ae6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd64ffa62fd36c013c08d58700727de99') in 0.0643508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba81dc56ae40d11ad401e47cfc91598b') in 0.0441331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Model/Environment/PF/mushroom mid.fbx
+  artifactKey: Guid(616a93c92b702ba44b02aa182d550881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/PF/mushroom mid.fbx using Guid(616a93c92b702ba44b02aa182d550881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99b9f4b3706f63ec2f312ea52b9e7cc2') in 0.0383157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Model/Environment/PF/mushroom tall.fbx
+  artifactKey: Guid(55b8eddb7e7c9f546a9986de449c4e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/PF/mushroom tall.fbx using Guid(55b8eddb7e7c9f546a9986de449c4e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f8116b2584543d223302510dc462faf') in 0.0355157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045616 seconds.
+  path: Assets/Scenes/PlantForest/SplineExtrude_Spline.asset
+  artifactKey: Guid(a40adf26b929f8a45b19622bb72de1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlantForest/SplineExtrude_Spline.asset using Guid(a40adf26b929f8a45b19622bb72de1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e736986a6be3f2ab3b5a405264909262') in 0.0288501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023574 seconds.
+  path: Assets/Scenes/PlantForest/SplineExtrude_Spline (1).asset
+  artifactKey: Guid(7ee440d897b6f9a41ace96d89e0fd07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlantForest/SplineExtrude_Spline (1).asset using Guid(7ee440d897b6f9a41ace96d89e0fd07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1d264fe0293ae6085cc561a2dc0867') in 0.0350157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028424 seconds.
+  path: Assets/Scenes/PlantForest/SplineExtrude_Spline (3).asset
+  artifactKey: Guid(facedab5702889846ad56726b0b69b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlantForest/SplineExtrude_Spline (3).asset using Guid(facedab5702889846ad56726b0b69b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b09ebe9b41313d93ded36205501e922') in 0.0313961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003621 seconds.
+  path: Assets/Scenes/PlantForest/SplineExtrude_Spline (4).asset
+  artifactKey: Guid(57ea01889c2f197439c898cb06c8ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlantForest/SplineExtrude_Spline (4).asset using Guid(57ea01889c2f197439c898cb06c8ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503e6102111de2af17a8fe18d91242ee') in 0.0271238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021197 seconds.
+  path: Assets/Scenes/PlantForest/SplineExtrude_Spline 1.asset
+  artifactKey: Guid(d486c5b5372ac9c469fe1f9765d1479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlantForest/SplineExtrude_Spline 1.asset using Guid(d486c5b5372ac9c469fe1f9765d1479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b28cc78f9b04d1ca6a0da7a694e5e7') in 0.0300253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041516 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Tree_05.fbx
+  artifactKey: Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Tree_05.fbx using Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0a1ef08b917fa2869c60566cc502db') in 0.0448289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477479 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Tree_04.fbx
+  artifactKey: Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Tree_04.fbx using Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68d479bb443008d2dd34f86e23c4f2e1') in 0.0458171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Tree_02.fbx
+  artifactKey: Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Tree_02.fbx using Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2b5146d85028703df167d1f62b1d0ed') in 0.0433268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Rock_03.fbx
+  artifactKey: Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Rock_03.fbx using Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b16ee30de5ccad33f4f3e96a9d870a82') in 0.0354719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Rock_05.fbx
+  artifactKey: Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Rock_05.fbx using Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5280f5f4ef5e152234f8eeebef784dc2') in 0.0334016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014818 seconds.
+  path: Assets/Scenes/SampleScene/SplineExtrude_Spline.asset
+  artifactKey: Guid(b703559a61c28a54cbca3954b0e38428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/SplineExtrude_Spline.asset using Guid(b703559a61c28a54cbca3954b0e38428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33146ce71be194f43526918599960ffb') in 0.0430361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113141 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Rock_01.fbx
+  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a05bb795aaa467c7008308d3159ba2') in 0.0425829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.818457 seconds.
+  path: Assets/Model/Collectables/Muns/mun.fbx
+  artifactKey: Guid(35174ef0992f1f941b25aa8d84264770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Collectables/Muns/mun.fbx using Guid(35174ef0992f1f941b25aa8d84264770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04fdf6fab54fd34d3990ed7b63215683') in 0.0502874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336600 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Ground_02.fbx
+  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a38503460a65bc7874100a385dfaac1') in 0.028752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

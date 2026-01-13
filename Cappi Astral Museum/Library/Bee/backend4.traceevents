@@ -1,374 +1,415 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1764133634505029, "dur":110, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634505197, "dur":50729, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634555935, "dur":298, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634556298, "dur":485, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634557508, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1764133634559797, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1764133634556814, "dur":4265, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634561081, "dur":57934, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634619017, "dur":299, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634619519, "dur":3970, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1764133634557354, "dur":3751, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634561110, "dur":2124, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634563235, "dur":1514, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634564750, "dur":10918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634575680, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1764133634575750, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634575878, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1764133634577029, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634577133, "dur":9684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634586820, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587061, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587170, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587403, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587484, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587550, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587680, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587770, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587845, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587902, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634587973, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634588029, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634588095, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634588463, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1764133634588622, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1764133634588796, "dur":30213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634557353, "dur":3740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634561101, "dur":14554, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634575700, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/6398859495376623966.rsp" }}
-,{ "pid":12345, "tid":2, "ts":1764133634575820, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634575886, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
-,{ "pid":12345, "tid":2, "ts":1764133634577320, "dur":3814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634586837, "dur":2181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":2, "ts":1764133634589020, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1764133634589642, "dur":25382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1764133634589606, "dur":25420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1764133634616641, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634557537, "dur":3669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634561215, "dur":2072, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634563287, "dur":2631, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634565919, "dur":9794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634575716, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1764133634575870, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1764133634575927, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634576053, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634576179, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634576319, "dur":10476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634586801, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634586928, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587042, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.MarshallingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587227, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587419, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587520, "dur":138, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587660, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634587855, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588053, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588104, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588295, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588398, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588491, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588654, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1764133634588854, "dur":30196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634557425, "dur":3716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634561149, "dur":2479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634563628, "dur":2330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634565958, "dur":9727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634575687, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1764133634576007, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634576065, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634576354, "dur":10459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634586821, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587051, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587119, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587173, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Splines.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587285, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587391, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587449, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587566, "dur":215, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634587783, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634588211, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1764133634588587, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1764133634588947, "dur":30098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634557407, "dur":3715, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634561130, "dur":2127, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634563258, "dur":2846, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634566105, "dur":9590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634575713, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1764133634575933, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634576123, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634576240, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634576448, "dur":10417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634586866, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587019, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587090, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587268, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587327, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587559, "dur":207, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587767, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634587944, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634588153, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1764133634588210, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634588451, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1764133634588936, "dur":30112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634557468, "dur":3686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634561162, "dur":1623, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634562786, "dur":1677, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634564463, "dur":2193, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634566658, "dur":9047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634575715, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1764133634575829, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634576029, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/D3D12/D3D12Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634576167, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634576250, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634576383, "dur":10446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634586843, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587160, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587362, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587598, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587667, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587811, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587872, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587935, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634587999, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588059, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588203, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588255, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588362, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588566, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588719, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1764133634588909, "dur":30128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634557514, "dur":3670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634561193, "dur":1315, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634562509, "dur":1733, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634564243, "dur":2230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634566473, "dur":9229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634575704, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1764133634575941, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634576115, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634576257, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634576434, "dur":10398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634586843, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634586943, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587123, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587188, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587277, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587347, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587569, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587638, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587746, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634587806, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634588032, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634588262, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1764133634588595, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1764133634588827, "dur":30184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634557563, "dur":3669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634561240, "dur":1812, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634563053, "dur":1934, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634564988, "dur":10694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634575691, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1764133634575868, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1764133634576155, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634576213, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634576307, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634576397, "dur":10426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634586824, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634586947, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587032, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587096, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587387, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587441, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587643, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587777, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634587852, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1764133634588191, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634588428, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":8, "ts":1764133634588802, "dur":30210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634557613, "dur":3636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634561256, "dur":1777, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634563034, "dur":1243, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634564277, "dur":2039, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634566317, "dur":9403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634575727, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1764133634575928, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634576170, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634576263, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634576322, "dur":10470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634586794, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634586935, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587026, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587120, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587436, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587500, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587553, "dur":197, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587752, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634587991, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588049, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588271, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588528, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588697, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588753, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1764133634588964, "dur":30075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634557642, "dur":3630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634561282, "dur":1631, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634562914, "dur":1314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634564228, "dur":2055, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634566284, "dur":9424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634575710, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1764133634575952, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634576012, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1764133634576075, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634576154, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634576270, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634576369, "dur":10434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634586813, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587013, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587091, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587161, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587257, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587467, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587706, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1764133634587796, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634588113, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1764133634588333, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1764133634588831, "dur":30204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634557699, "dur":3592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634561300, "dur":1888, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634563188, "dur":2909, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634566098, "dur":9595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634575693, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1764133634575858, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1764133634576050, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634576118, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634576272, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634576356, "dur":10455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634586812, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634586959, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587073, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587136, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587349, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587411, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587615, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587719, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587838, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634587897, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634588221, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634588323, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1764133634588665, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1764133634588861, "dur":30170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634557735, "dur":3579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634561322, "dur":2015, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634563338, "dur":2652, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634565990, "dur":9699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634575689, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":12, "ts":1764133634575795, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634575853, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1764133634575993, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634576062, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634576189, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634576306, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634576428, "dur":10425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634586863, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634587307, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634587492, "dur":122, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634587617, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634587787, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634587998, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634588167, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634588281, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1764133634588535, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1764133634588837, "dur":30188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634557766, "dur":3567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634561339, "dur":1557, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634562896, "dur":2120, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634565018, "dur":10681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634575702, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":13, "ts":1764133634575834, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634575935, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634576183, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634576243, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634576445, "dur":10401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634586853, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634587009, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634587179, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634587356, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634587624, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634587730, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634588027, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634588650, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1764133634588712, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1764133634588769, "dur":30252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634557809, "dur":3563, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634561378, "dur":1429, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634562807, "dur":1668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634565214, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1764133634564476, "dur":1655, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634566131, "dur":9603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634575735, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1764133634575856, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634576048, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634576309, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634576426, "dur":10433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634586862, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634586968, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587057, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587134, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587214, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587309, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587503, "dur":130, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587634, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587705, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634587791, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634588011, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634588079, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634588548, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1764133634588613, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1764133634588814, "dur":30208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634557840, "dur":3541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634561386, "dur":1343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634562730, "dur":1663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634564394, "dur":2080, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634566475, "dur":9203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634575696, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634575854, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634576068, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634576196, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634576260, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634576386, "dur":10448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634586846, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634586948, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634587253, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634587480, "dur":109, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634587639, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634587714, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634587814, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1764133634588147, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634588634, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1764133634588977, "dur":30041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634557886, "dur":3506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634561393, "dur":1446, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634562840, "dur":1329, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634564170, "dur":2098, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634566269, "dur":9457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634575729, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1764133634576032, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634576104, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634576175, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634576314, "dur":10494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634586810, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634586985, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587086, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587148, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587237, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587336, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587540, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587666, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587754, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587834, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 10/Cappi Astral Museum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1764133634587906, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634588137, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634588543, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634588650, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1764133634588842, "dur":30191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1764133634627204, "dur":1324, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1768259300488556, "dur":71, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300488669, "dur":62119, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300550799, "dur":345, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300551215, "dur":551, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300551930, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1768259300552117, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1768259300554350, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1768259300551794, "dur":5372, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300557167, "dur":68795, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300625963, "dur":348, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300626519, "dur":55, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300626617, "dur":5508, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1768259300552196, "dur":4984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1768259300557187, "dur":18747, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1768259300575957, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/6398859495376623966.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1768259300576043, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1768259300576209, "dur":1605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cappi Astral Museum/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1768259300577815, "dur":3860, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1768259300587420, "dur":2135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1768259300589557, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1768259300590161, "dur":30386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1768259300590130, "dur":30419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1768259300623096, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300552257, "dur":4948, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300557212, "dur":1966, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300559179, "dur":2004, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300561184, "dur":14762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300575958, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1768259300576030, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300576161, "dur":1329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1768259300577491, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300577624, "dur":9817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300587443, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300587660, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300587741, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300587812, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300587871, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588050, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588107, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Splines.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588173, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588323, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588393, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588559, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588694, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588748, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300588931, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1768259300589226, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1768259300589406, "dur":36546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300552241, "dur":4952, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300557200, "dur":2133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300559333, "dur":1943, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300561276, "dur":14703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300575980, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1768259300576111, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300576417, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum.exe" }}
+,{ "pid":12345, "tid":3, "ts":1768259300576520, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300576701, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300576850, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300577142, "dur":10353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300587498, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300587662, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300587766, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588078, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588454, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588525, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588586, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588738, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588794, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588864, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300588921, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300589108, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300589164, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1768259300589217, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1768259300589361, "dur":36590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300552292, "dur":4925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300557223, "dur":2336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300559560, "dur":2208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300561769, "dur":14188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300575958, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576337, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576465, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576522, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576692, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576753, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576883, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300576943, "dur":10474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300587421, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300587650, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300587809, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588117, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588300, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588546, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588607, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588720, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588895, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300588960, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1768259300589320, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1768259300589390, "dur":36555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300552337, "dur":4890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300557235, "dur":2175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300559410, "dur":1572, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300560982, "dur":1132, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300562114, "dur":13859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300575982, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1768259300576407, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300576478, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1768259300576544, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300576673, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300577063, "dur":10386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300587457, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300587734, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300587797, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300587978, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588091, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588145, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588209, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588273, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588435, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588603, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588874, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588943, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300588999, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300589055, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1768259300589135, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300589359, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1768259300589463, "dur":36492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300552370, "dur":4871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300557248, "dur":2047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300559295, "dur":2361, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300561657, "dur":14327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300575993, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1768259300576134, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300576313, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1768259300576449, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300576722, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1768259300576857, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300577158, "dur":10390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300587549, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300587628, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300587830, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588009, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588201, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588310, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588363, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588621, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588910, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300588976, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300589044, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300589103, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300589330, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1768259300589391, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1768259300589509, "dur":36467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300552411, "dur":4843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300557260, "dur":1891, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300559151, "dur":1780, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300560932, "dur":1445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300562378, "dur":13652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576031, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576134, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576221, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576305, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576625, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576707, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1768259300576799, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300577058, "dur":10403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300587462, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300587725, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300587874, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588061, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588166, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588220, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588384, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588569, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588636, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300588939, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300589147, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1768259300589219, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1768259300589402, "dur":36540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300552462, "dur":4807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300557277, "dur":2454, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300559732, "dur":2047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300561779, "dur":14225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300576013, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1768259300576255, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300576651, "dur":119, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1768259300576787, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300577029, "dur":10434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300587467, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300587672, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300587841, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588029, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588277, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588389, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588456, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588632, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588689, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588744, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588812, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588870, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300588923, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300589102, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300589259, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1768259300589491, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1768259300589557, "dur":36456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300552499, "dur":4784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300557289, "dur":2126, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300559415, "dur":1920, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300561336, "dur":14682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576028, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576170, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576274, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576330, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576427, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576618, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300576845, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300577123, "dur":10348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300587473, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300587851, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300587923, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588095, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588183, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588295, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588361, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588417, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588531, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588584, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588750, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300588806, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1768259300589008, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1768259300589444, "dur":36504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300552541, "dur":4757, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300557306, "dur":1436, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300558743, "dur":1804, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300560548, "dur":1840, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300562388, "dur":13603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300576003, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1768259300576160, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300576339, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1768259300576783, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300576925, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300577161, "dur":10269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587435, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587628, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587749, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587825, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587918, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300587983, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588337, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588391, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588449, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588554, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588641, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588832, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300588945, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300589044, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1768259300589194, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1768259300589441, "dur":36560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300552580, "dur":4734, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300557321, "dur":1495, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300558817, "dur":1872, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300560690, "dur":1740, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300562430, "dur":13540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300575972, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1768259300576097, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300576320, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1768259300576550, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300576695, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300576780, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300577017, "dur":10410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300587529, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1768259300587628, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300587743, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1768259300587902, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300587959, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1768259300588166, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300588333, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1768259300588496, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300588777, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1768259300589073, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1768259300589390, "dur":36557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300552618, "dur":4709, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300557334, "dur":1432, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300558767, "dur":1331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300560098, "dur":1876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300561975, "dur":13979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300575958, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576115, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576175, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576276, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576415, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576500, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576586, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576650, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":12, "ts":1768259300576830, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300577100, "dur":10428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300587530, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300587706, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300587783, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300587954, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588186, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588249, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588514, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588836, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588910, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300588970, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300589027, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300589089, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1768259300589248, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1768259300589483, "dur":36476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300552655, "dur":4690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300557353, "dur":1573, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300558927, "dur":2825, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300561752, "dur":14198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300575994, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300576161, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300576434, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300576534, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300576611, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300576820, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300577074, "dur":10371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300587447, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300587652, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300587826, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300587896, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300587956, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588138, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588198, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588249, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588431, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588499, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588563, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588622, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300588687, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300589052, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300589194, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300589340, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1768259300589458, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1768259300589521, "dur":36468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300552696, "dur":4669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300557373, "dur":1395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300558769, "dur":2925, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300561694, "dur":14282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300575978, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1768259300576273, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300576679, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300576838, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300577121, "dur":10402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300587524, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1768259300587864, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300588042, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":14, "ts":1768259300588237, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300588589, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1768259300588662, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300589058, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1768259300589123, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300589190, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1768259300589247, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1768259300589428, "dur":36532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300552748, "dur":4636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300557390, "dur":1785, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300559176, "dur":1591, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300560767, "dur":1509, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300562277, "dur":13689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300575968, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1768259300576298, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300576378, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1768259300576462, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300576743, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300576831, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300577098, "dur":10359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300587460, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300587688, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300587759, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300587918, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300587999, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300588066, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300588265, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300588659, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300588730, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300588841, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300589032, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300589093, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1768259300589150, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1768259300589416, "dur":36558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300552785, "dur":4606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300557392, "dur":2041, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300559433, "dur":1319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300560753, "dur":1519, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300562273, "dur":13688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300575977, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576149, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576269, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576414, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576577, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576673, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300576938, "dur":10484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300587426, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300587630, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300587859, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300587919, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588012, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588305, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588472, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588720, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588783, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300588848, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589013, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589071, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589184, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589244, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha 11/Cappi Astral Museum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589306, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1768259300589447, "dur":36522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1768259300638986, "dur":1629, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
