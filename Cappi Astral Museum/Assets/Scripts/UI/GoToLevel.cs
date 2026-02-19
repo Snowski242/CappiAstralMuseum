@@ -30,6 +30,11 @@ public class GoToLevel : MonoBehaviour
         {
             text.text = "Mystic Plant";
         }
+
+        if (ObjectiveManager.instance.level == 1)
+        {
+            text.text = "Emberion";
+        }
     }
 
     public void GetReady()
@@ -38,5 +43,12 @@ public class GoToLevel : MonoBehaviour
         {
             SceneManager.LoadScene("MysticPlant");
         }
+
+        if (ObjectiveManager.instance.level == 1)
+        {
+            SceneManager.LoadScene("Emberion");
+        }
+
+        
     }
 }
