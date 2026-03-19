@@ -1,0 +1,730 @@
+Using pre-set license
+Built from '2023.2/release' branch; Version is '2023.2.4f1 (3a7eb0602d92) revision 3833520'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62408
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1488] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 343946528 [EditorId] 343946528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1488] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 343946528 [EditorId] 343946528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.8097
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003733 seconds.
+- Loaded All Assemblies, in  0.414 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 717ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file data-00000167B2879B80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2469090 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXR.WelcomeScreen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2469090 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRDemo.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3836190 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXREditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3836190 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2882590 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2882590 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2469090 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\KinoBloom.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B38B0940 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\ToonyColorsPro.Demo.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3836190 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2882590 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B28931A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B28983B0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0EF3F70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2469090 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0F16B80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0F25990 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1CDB010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B503F820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2469090 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0F25990 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1F2A010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0F25990 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0F303A0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24B1010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B297C840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B503F820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0A2C020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0A2C020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0A54030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B297C840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0A67440 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0ECE430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0ECE430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1D97430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1D97430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B505A230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24C1020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24C1020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1D97430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B207D410 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B207D410 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0C26010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B207D410 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B26D2020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B505A230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B505A230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B107C840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24E5030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24E5030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B24E5030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0C68420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B0C68420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B201B010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.976 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1767ms
+	BeginReloadAssembly (361ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 78 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4493 unused Assets / (3.0 MB). Loaded Objects now: 5120.
+Memory consumption went from 229.8 MB to 226.8 MB.
+Total: 6.374300 ms (FindLiveObjects: 0.501800 ms CreateObjectMapping: 0.551300 ms MarkObjects: 3.749600 ms  DeleteObjects: 1.570800 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file data-00000167BE106010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001674C35BBF0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXR.WelcomeScreen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001674C35BBF0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRDemo.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE106010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXREditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE10EA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BF062010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B4300F70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE10EA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\KinoBloom.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE10EA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\ToonyColorsPro.Demo.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE8E8040 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE8EDE50 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE8EDE50 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2786010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2786010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE8F3060 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2786010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE11E030 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B201B010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BDD5A010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE8F3060 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001674CBAC820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B1F2A010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001674CBAC820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001674CBAC820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B22F3570 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B297C840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BFCDE010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3B7D440 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3DE7F80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B451F040 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B297C840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3DE7F80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2068230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BDD5A010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3DE7F80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3DE7F80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B3DE7F80 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BFD10010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B4300F70 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2068230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B41A6010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B4E5B670 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BE2CC010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BFD10010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2546010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BD9E2020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BD9E2020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BD9E9E30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167C1838BF0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2123040 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2546010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167C1838BF0 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B2068230 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167BFD10010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.757 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1495ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4491 unused Assets / (2.9 MB). Loaded Objects now: 5121.
+Memory consumption went from 217.1 MB to 214.2 MB.
+Total: 6.663900 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.639900 ms MarkObjects: 3.816300 ms  DeleteObjects: 1.698800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 36367.571549 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e0786214752ba5e56baf052fbc7dc74') in 0.0327628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.806628 seconds.
+  path: Assets/Sounds/FX/air dash.ogg
+  artifactKey: Guid(e20bd996f74bfdd46aa48e0b8b863244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/FX/air dash.ogg using Guid(e20bd996f74bfdd46aa48e0b8b863244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '560845660d5dd3bff1c26db1d6b095b3') in 0.0796637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Model/Players/cappi/Materials/cappi_armband.mat
+  artifactKey: Guid(48e78ec4b804a004a8ba0f128e01e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Players/cappi/Materials/cappi_armband.mat using Guid(48e78ec4b804a004a8ba0f128e01e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0209e00111dd6b3be6074f6902a7ecc0') in 0.0401871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Model/Players/cappi/Materials/cappi_scarfbadge 1.mat
+  artifactKey: Guid(0ee6785cb3bc1be47b32322a01125977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Players/cappi/Materials/cappi_scarfbadge 1.mat using Guid(0ee6785cb3bc1be47b32322a01125977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59209aca6ca7843c06ee804d8f725040') in 0.0133544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Model/Players/cappi/Materials/cappi_hoodie_shirt.mat
+  artifactKey: Guid(0179c9f5f8ecf7a4dbeebda9f56d7aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Players/cappi/Materials/cappi_hoodie_shirt.mat using Guid(0179c9f5f8ecf7a4dbeebda9f56d7aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f87d76463ad823d44555346a9eb45ee2') in 0.0160186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/Players/cappi/Materials/cappi_scarfbadge.mat
+  artifactKey: Guid(2afcc5c21191bf141b6e98a2f7128617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Players/cappi/Materials/cappi_scarfbadge.mat using Guid(2afcc5c21191bf141b6e98a2f7128617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa3350f7b90ae3c9390cd20756b26450') in 0.0150968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Models/Bear.fbx
+  artifactKey: Guid(55534b674e1ad4e9988d9be64c8ed52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Models/Bear.fbx using Guid(55534b674e1ad4e9988d9be64c8ed52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23475d517f375cd336f2cddc3a186667') in 0.0628748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146494 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef
+  artifactKey: Guid(b16f2517c64fb4c43848850704aba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef using Guid(b16f2517c64fb4c43848850704aba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d697f12bbb2ab10707e4da4163d73d') in 0.0005659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009572 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Bloom Post Process.asset
+  artifactKey: Guid(90cb09980f1d2a44898356ebf979337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Bloom Post Process.asset using Guid(90cb09980f1d2a44898356ebf979337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8c2c32603d755680378d13af073bb7') in 0.0013551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png
+  artifactKey: Guid(b0394665e16ef504bb922274dd606020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png using Guid(b0394665e16ef504bb922274dd606020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4198ede0e167bf77e69b89fece52b71') in 0.0329585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png
+  artifactKey: Guid(32700198561e47044863cf80370fe63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png using Guid(32700198561e47044863cf80370fe63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d1063545a539990b7ed94c3ed2271fc') in 0.0203722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png
+  artifactKey: Guid(f446ceac60ed41a42bf4e1669eb8beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png using Guid(f446ceac60ed41a42bf4e1669eb8beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6796bf581a802036ce7d88df581e0f91') in 0.025935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png
+  artifactKey: Guid(41bf8b79c5dc7d64aafcc3c68e923096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png using Guid(41bf8b79c5dc7d64aafcc3c68e923096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edb4f407a0ea22aa95e0372b14500581') in 0.0170774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png
+  artifactKey: Guid(338685d7a91449f45a6a95b3756c4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png using Guid(338685d7a91449f45a6a95b3756c4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af77f3c43f121562e40d07ff1002466') in 0.017928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png
+  artifactKey: Guid(e77c7f9a6ebccc14e9ac9be7a2a2d5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png using Guid(e77c7f9a6ebccc14e9ac9be7a2a2d5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8f3104a6bafabc986f1e1251687a10f') in 0.0173161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.png
+  artifactKey: Guid(6f7b16d6f942a47449cc79337706918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.png using Guid(6f7b16d6f942a47449cc79337706918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab0ff955d0322d60798bcc89c285e750') in 0.0133678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab
+  artifactKey: Guid(7f906c77905876d488e88e99d13c3d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab using Guid(7f906c77905876d488e88e99d13c3d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2e7316ed06a102a7059c55da0d90281') in 0.0358496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat0.mat
+  artifactKey: Guid(89da178192942474cb10e6ba8737a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat0.mat using Guid(89da178192942474cb10e6ba8737a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f94b50d28d6076a4ce30cf4940807728') in 0.0182307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat2.mat
+  artifactKey: Guid(ef2d2a3b39a22469989c5a63af9227e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat2.mat using Guid(ef2d2a3b39a22469989c5a63af9227e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48de1e088383428b61bc78833e2dad58') in 0.0126916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat1.mat
+  artifactKey: Guid(8ed6be4d200f44763bb6a52ceb413920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat1.mat using Guid(8ed6be4d200f44763bb6a52ceb413920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8464527dea3e0192a702795e83920274') in 0.0117847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXRF Demo Logo.png
+  artifactKey: Guid(a665b2e53088caa4c89dd09f9c889f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXRF Demo Logo.png using Guid(a665b2e53088caa4c89dd09f9c889f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc8a22a8a1be201d00f84e53aff5cd0d') in 0.0190403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png
+  artifactKey: Guid(32b639b461ed6424eaacb0b92b1e8dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png using Guid(32b639b461ed6424eaacb0b92b1e8dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '370d534197e43889e4ba688a7ef8c6d8') in 0.0177481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat4.mat
+  artifactKey: Guid(e1adb895fb1b74ee5aa46f68b67ab432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat4.mat using Guid(e1adb895fb1b74ee5aa46f68b67ab432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dc085662e15e9567b3a9d7bd959e3f9') in 0.0138038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat5.mat
+  artifactKey: Guid(c36a57e577ad1419ca9f179fa166c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Demo/Materials/DemoMat5.mat using Guid(c36a57e577ad1419ca9f179fa166c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5baaffb388858e15b783746454a61e1a') in 0.0148718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/UI/Ded Screen.prefab
+  artifactKey: Guid(29599cfa94e1d964682900d9ef854dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Ded Screen.prefab using Guid(29599cfa94e1d964682900d9ef854dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '202fc575d0280fc71d94908312134187') in 0.0342236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat
+  artifactKey: Guid(5005ee354c9f83748aaf746cea1880d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat using Guid(5005ee354c9f83748aaf746cea1880d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '554bac839aa1569025042b386b483fa9') in 0.0447893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png
+  artifactKey: Guid(cacfcc09b4fbf7e4baebb23fbaaff36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png using Guid(cacfcc09b4fbf7e4baebb23fbaaff36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00efaac89add83331584b67fa35bba80') in 0.0162769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

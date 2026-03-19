@@ -1,0 +1,853 @@
+Using pre-set license
+Built from '2023.2/release' branch; Version is '2023.2.4f1 (3a7eb0602d92) revision 3833520'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59406
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8636] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 1255741649 [EditorId] 1255741649 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8636] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 1255741649 [EditorId] 1255741649 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7VA17B2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dosra/Documents/CappiAstralMuseum/Cappi Astral Museum/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.8097
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004406 seconds.
+- Loaded All Assemblies, in  0.407 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 709ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file data-000001DE1B9B7630 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ADEC220 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXR.WelcomeScreen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ADEC220 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRDemo.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B9BF840 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXREditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ADEC220 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\CFXRRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5A4DA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E65010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C4F2260 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\KinoBloom.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C4F2260 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\ToonyColorsPro.Demo.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ADEC220 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E6C220 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E7CE30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E82040 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E9E850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C4F2260 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.DocCodeExamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB5E9E850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AF7AC30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1CD59C50 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AF7AC30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C4F2260 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B276C30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C0B4040 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B276C30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AF8AC40 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AB92010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B148820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BA62010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BA62010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BA7CA20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B295020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B2A8430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B148820 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AB92010 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ABC7420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Splines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ABC7420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BAA4A30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BAA4A30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE19E6F430 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ABC7420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ABC7420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AFD4020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AFD4020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AFD4020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AFD4020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1ABC7420 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BAA4A30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1BAA4A30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1D50BC30 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B2D4850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE19721020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE19721020 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1B2D4850 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1C063A20 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE1AEAB830 doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dosra\Documents\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1698ms
+	BeginReloadAssembly (355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 78 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4493 unused Assets / (3.0 MB). Loaded Objects now: 5120.
+Memory consumption went from 229.9 MB to 226.9 MB.
+Total: 6.430500 ms (FindLiveObjects: 0.492600 ms CreateObjectMapping: 0.546000 ms MarkObjects: 3.802900 ms  DeleteObjects: 1.588300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34663.600985 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Materials/Atlas_Mat.mat
+  artifactKey: Guid(79309d31b34255e41baac821afcd4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Materials/Atlas_Mat.mat using Guid(79309d31b34255e41baac821afcd4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '846004df5e1fd5c1bc9ec7e60d75da92') in 0.1132411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.798671 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive
+  artifactKey: Guid(e6b0a35fd5a75e849941169ceb9a19f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive using Guid(e6b0a35fd5a75e849941169ceb9a19f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '542ca51bb4d1a13da3ef2b64b4f2082c') in 0.0010393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044106 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive/Emissive.mat
+  artifactKey: Guid(40a4f16b90a981f469c09115612100ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive/Emissive.mat using Guid(40a4f16b90a981f469c09115612100ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90793a75f1ad9db3b009f9ba6749c9d8') in 0.0252431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive/Emissive_04_Mat.mat
+  artifactKey: Guid(b8668fe3ab9fc7c49b002e529e16910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Materials/Emissive/Emissive_04_Mat.mat using Guid(b8668fe3ab9fc7c49b002e529e16910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dedc4d99bc18359b217f09f38d2fb01') in 0.0142594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.286118 seconds.
+  path: Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat
+  artifactKey: Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat using Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ceace0bbb5cd26425ccb94889f243ab') in 0.0236452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456181 seconds.
+  path: Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddca295ccfb06c0b96269a7fdb2f0463') in 0.0005648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038136 seconds.
+  path: Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png
+  artifactKey: Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png using Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b4d26c3fb592e4b9222d8b4acdfd7d') in 0.0255626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png
+  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131f9ee4d045a69cbb3a988d63f1771f') in 0.0179541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.375706 seconds.
+  path: Assets/Assets Used/msVFX_Free Smoke Effects Pack/Materials
+  artifactKey: Guid(e64bf4cf070df05409e660d5976fc4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/msVFX_Free Smoke Effects Pack/Materials using Guid(e64bf4cf070df05409e660d5976fc4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d49e448d3b3b30f1fa0d217622c67d') in 0.0005743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084529 seconds.
+  path: Assets/Assets Used/msVFX_Free Smoke Effects Pack/Materials/msVFX_Stylized Smoke 1_Material.mat
+  artifactKey: Guid(3217b570b11b257469c5461f0457e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/msVFX_Free Smoke Effects Pack/Materials/msVFX_Stylized Smoke 1_Material.mat using Guid(3217b570b11b257469c5461f0457e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30a0568d0c201169d5b29b1d4b76d164') in 0.0214403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.050557 seconds.
+  path: Assets/Assets Used/Simple Toon/Shaders
+  artifactKey: Guid(d6fdf08ede4bb47da9942ca6c29b83a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Shaders using Guid(d6fdf08ede4bb47da9942ca6c29b83a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f292cd048ed9afd78be32404d9427c') in 0.0005613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055782 seconds.
+  path: Assets/Assets Used/Simple Toon/Shaders/STCore.cginc
+  artifactKey: Guid(69d7471035c7c40f695a9199c7916a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Shaders/STCore.cginc using Guid(69d7471035c7c40f695a9199c7916a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cdb337ae142f11adbf5bca5c4c2ffe1') in 0.0012722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004529 seconds.
+  path: Assets/Assets Used/Simple Toon/Shaders/STFunctions.cginc
+  artifactKey: Guid(fd04a86ca133d4c3e9fbcec891df47ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Simple Toon/Shaders/STFunctions.cginc using Guid(fd04a86ca133d4c3e9fbcec891df47ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba0cdaa7f29d7b534e9f198b2ac71940') in 0.0011375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.615066 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat
+  artifactKey: Guid(886ecf0ee44718246aa083d8aad49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat using Guid(886ecf0ee44718246aa083d8aad49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '660cd3922b76e340660734e3f1aab83f') in 0.0338197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.615550 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Branch_01.fbx
+  artifactKey: Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Branch_01.fbx using Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7998d910102a9d5871945fefd0be4c0c') in 0.0459655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Ground_03.fbx
+  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bad65e04ff3e50c2a26ed44e200b0f09') in 0.0167275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Flowers_02.fbx
+  artifactKey: Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Flowers_02.fbx using Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61308489e001df87fcc25497d0e5b7ba') in 0.0313918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Rock_05.fbx
+  artifactKey: Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Rock_05.fbx using Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '659cec1c8b276e94c2daf2cef3e0c13b') in 0.0198639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Stump_01.fbx
+  artifactKey: Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Stump_01.fbx using Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1a157fec270824771f0e25221f518f4') in 0.0637829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Rock_01.fbx
+  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce8039a5ceae473401ed907195792a6c') in 0.0177563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Models/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '014aff539789696ceba8584c22614f44') in 0.0408642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.475096 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Branch_01.prefab
+  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '556a6628d14953297ddff4b689c691fd') in 0.0135689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Flowers_01.prefab
+  artifactKey: Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Flowers_01.prefab using Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de41e7757dd2620417648005ea261b5d') in 0.0137555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006663 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '528c5397f5ecd761eebea63c3a45efcc') in 0.0131832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005374 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Mushroom_02.prefab
+  artifactKey: Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Mushroom_02.prefab using Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e808b442a5d17e5ba07b0617c7e153b') in 0.0130949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005500 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Rock_03.prefab
+  artifactKey: Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Rock_03.prefab using Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20a7d49e2716c38d6fb90c9791b055fe') in 0.0127576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006129 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Tree_01.prefab
+  artifactKey: Guid(88f2fd29f58b9734683512546acec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Tree_01.prefab using Guid(88f2fd29f58b9734683512546acec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ebd12a5351563a15465b57b631827a') in 0.0143064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005809 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Prefabs/Tree_05.prefab
+  artifactKey: Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Prefabs/Tree_05.prefab using Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7062ea91c225c8821a448e9771e858be') in 0.0138906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.107838 seconds.
+  path: Assets/Assets Used/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f39b8b7cf5277b9394802fa513d755') in 0.0148279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.119080 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(2bf6ee13d81d8d14ea35f79505900787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(2bf6ee13d81d8d14ea35f79505900787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc1d9b5cd06d91645155210065a2a1df') in 0.0066534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.906354 seconds.
+  path: Assets/Sounds/FX/Cat Shine! - Super Mario 3D World + Bowser's Fury ORIGINAL SOUNDTRACK.wav
+  artifactKey: Guid(4f4cdd7404d431b4ca6270e782f5fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/FX/Cat Shine! - Super Mario 3D World + Bowser's Fury ORIGINAL SOUNDTRACK.wav using Guid(4f4cdd7404d431b4ca6270e782f5fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '611a3bfae52d4d79fe619a890b7ea2e7') in 0.0369446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat
+  artifactKey: Guid(3cc083982df3cf54fbce604867ef0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat using Guid(3cc083982df3cf54fbce604867ef0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58145d5064d98d5a5f8b986910752d2') in 0.0293908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp.png
+  artifactKey: Guid(221462f4c3da8604c9dcc63641989a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp.png using Guid(221462f4c3da8604c9dcc63641989a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa1d21c914ecaecc4a78a598b62b5bb') in 0.0148152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat
+  artifactKey: Guid(935ab430b9a17de4caf00054e74116f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat using Guid(935ab430b9a17de4caf00054e74116f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e956768108ddb605860db9c5b72ccf6b') in 0.0158965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray.png
+  artifactKey: Guid(6169cfc312e54a94ba501b9c3a5d7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray.png using Guid(6169cfc312e54a94ba501b9c3a5d7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12229d701cfc84cfdee821b65ab1bc1c') in 0.0155723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray ab.mat
+  artifactKey: Guid(d2e32673805f8974a888782e19aa2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray ab.mat using Guid(d2e32673805f8974a888782e19aa2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '332a6d7bdb65f397fc785ee13b53453d') in 0.0138064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab.mat
+  artifactKey: Guid(f2beba2f11be47c4b93abe40da54b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab.mat using Guid(f2beba2f11be47c4b93abe40da54b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd59f9f7adb22b59f0fce22c9227006') in 0.0142769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png
+  artifactKey: Guid(0f396005b9d2a904aaaccab1ad4b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png using Guid(0f396005b9d2a904aaaccab1ad4b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213590cfb34e5ed310faf83f3ece7454') in 0.0140764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve.png
+  artifactKey: Guid(04be3ad5586249443a01af1cbc46120e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve.png using Guid(04be3ad5586249443a01af1cbc46120e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '598a90e0fe398e9ae8f584dbe28d11e3') in 0.0160351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat
+  artifactKey: Guid(ab90f773c2babb1458313e761a0181b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat using Guid(ab90f773c2babb1458313e761a0181b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70144bcd17540db2cb275bffee173a9c') in 0.0140555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat
+  artifactKey: Guid(b9815bbe84bbafb469825c25a64c229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat using Guid(b9815bbe84bbafb469825c25a64c229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0324fca7868efa852ecee84abb9f13c7') in 0.0142006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat
+  artifactKey: Guid(20fdd157129f03a40ae447534dd4603c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat using Guid(20fdd157129f03a40ae447534dd4603c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4051dd12d4a34c674c34787ac3b583a') in 0.0153803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade.png
+  artifactKey: Guid(0b1da517105dcb24f8ff9bcb98aefea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade.png using Guid(0b1da517105dcb24f8ff9bcb98aefea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e9f098842795573e1e39a1c733c6b1c') in 0.0184863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png
+  artifactKey: Guid(acdb793533f4e154c9ba0b0f665f5445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png using Guid(acdb793533f4e154c9ba0b0f665f5445) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8d8745bb3df4048cc5f6a095bd56b7') in 0.0185723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp ab.mat
+  artifactKey: Guid(79d590b9f60f0114d9f0c1686411167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp ab.mat using Guid(79d590b9f60f0114d9f0c1686411167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7cf291ce205c3cfec118ff0984b3a8') in 0.0304506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray hdr ab.mat
+  artifactKey: Guid(a1efb59804352a2458135e8203cbcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray hdr ab.mat using Guid(a1efb59804352a2458135e8203cbcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e8ae922886a2abe52655dfdf96ab22e') in 0.0133015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat
+  artifactKey: Guid(75be7a7b742586840beb0b9c8ce4b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat using Guid(75be7a7b742586840beb0b9c8ce4b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b21367acf0a107244993216767f375f') in 0.0151843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png
+  artifactKey: Guid(aee727f4833685e4b989448e47b815ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png using Guid(aee727f4833685e4b989448e47b815ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df1f634364413cc798672ba79adcf9f') in 0.0154025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch steam blur distort.png
+  artifactKey: Guid(abbe7d8f7afddbb43985056fe6012b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch steam blur distort.png using Guid(abbe7d8f7afddbb43985056fe6012b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c0300f0006b5c3227465fb043ed643f') in 0.0173378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat
+  artifactKey: Guid(546ab889d8c044b49b7fc3dc12ea2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat using Guid(546ab889d8c044b49b7fc3dc12ea2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45c5a79de517eb66176a25a70fa8dd69') in 0.0306596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png
+  artifactKey: Guid(851bab4bc28a67d47b301a47a0b7ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png using Guid(851bab4bc28a67d47b301a47a0b7ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44583d51f845710926df49ec834c1aa') in 0.0321777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055808 seconds.
+  path: Assets/Assets Used/Anime Trees/Prefabs/Tree_01.prefab
+  artifactKey: Guid(54b47575c9b1ac149bae16b70607387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Anime Trees/Prefabs/Tree_01.prefab using Guid(54b47575c9b1ac149bae16b70607387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbecbcf59c7f850ddb21a1e24224ed7f') in 0.0161051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006419 seconds.
+  path: Assets/Assets Used/Anime Trees/Prefabs/Tree_04.prefab
+  artifactKey: Guid(4a378afb8de68044f986ae019d0f10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Anime Trees/Prefabs/Tree_04.prefab using Guid(4a378afb8de68044f986ae019d0f10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '045da6ee409bc96f9c44c11575513243') in 0.0154344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004584 seconds.
+  path: Assets/Assets Used/Anime Trees/Prefabs/Tree_07.prefab
+  artifactKey: Guid(d56b774f386e40441bc733dbd13b0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Anime Trees/Prefabs/Tree_07.prefab using Guid(d56b774f386e40441bc733dbd13b0a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e7bf9c3ab8f2bb04aaf905bd98e4b1') in 0.0170853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.714367 seconds.
+  path: Assets/Assets Used/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png
+  artifactKey: Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png using Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9891fff74aa3debf0fd38280ca24573') in 0.0642347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
+  artifactKey: Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc278b87e7bcf1f028b261a40eabac2') in 0.0320543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
+  artifactKey: Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bf88871b544bb369e33bb981adcdd46') in 0.031472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/AllSkyFree/Overcast Low/AllSky_Overcast4_Low Equirect.mat
+  artifactKey: Guid(54fe2f000ad8f424fb63cc3ea0ae2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/AllSkyFree/Overcast Low/AllSky_Overcast4_Low Equirect.mat using Guid(54fe2f000ad8f424fb63cc3ea0ae2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2af3aff1a8e64aae4fce56da30bb1a5c') in 0.05198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png
+  artifactKey: Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png using Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcbf93d8b9ccb20e390970950b078320') in 0.0313582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.079740 seconds.
+  path: Assets/Model/Environment/Hub/Painting PF.mat
+  artifactKey: Guid(49128cdf42a47274db7d487c81fb6cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Environment/Hub/Painting PF.mat using Guid(49128cdf42a47274db7d487c81fb6cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffb64f6be64d9b04b6864d157209a37e') in 0.0277695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.909670 seconds.
+  path: Assets/Prefabs/Colectibles/Mun.prefab
+  artifactKey: Guid(a9e7da0a01abcf54f9ff268202f3fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Colectibles/Mun.prefab using Guid(a9e7da0a01abcf54f9ff268202f3fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1baeb8f0f1e3a2487402ab5b4e65b66c') in 0.0254203 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.495007 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat
+  artifactKey: Guid(f99a4d6e0727b6c47b5a03d567bbcf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat using Guid(f99a4d6e0727b6c47b5a03d567bbcf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b041576c5963ae87345a43c085cac89e') in 0.0232144 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ice.png
+  artifactKey: Guid(a19154c5a84e906469922890c029a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ice.png using Guid(a19154c5a84e906469922890c029a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6111330d55d19e3aa5fd323534a7c84') in 0.0156017 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space partial ab.mat
+  artifactKey: Guid(d33b4e9cb7fcd474c99d6762456a3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space partial ab.mat using Guid(d33b4e9cb7fcd474c99d6762456a3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d15b36b9e12ac7747dcba3f380f0092') in 0.1662612 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png
+  artifactKey: Guid(e58503026c7eb45498f82668dbd6294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png using Guid(e58503026c7eb45498f82668dbd6294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54100de01a219cb80432904beca4b164') in 0.0210249 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space ab.mat
+  artifactKey: Guid(da4be36c7194b6245a88a2732d0fcfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space ab.mat using Guid(da4be36c7194b6245a88a2732d0fcfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d6c62cba6eff852f1483766e28576c') in 0.0272053 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

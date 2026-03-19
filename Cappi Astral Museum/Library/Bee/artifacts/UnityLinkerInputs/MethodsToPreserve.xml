@@ -4,20 +4,25 @@
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
+			<method name="QuitGame"/>
 			<method name="RestartScene"/>
 			<method name="RestartScene"/>
 			<method name="RestartScene"/>
+			<method name="RestartScene"/>
+			<method name="ResumeGame"/>
 			<method name="ResumeGame"/>
 			<method name="ResumeGame"/>
 			<method name="ResumeGame"/>
 		</type>
 		<type fullname="TitleUI">
+			<method name="DeleteFile"/>
 			<method name="File"/>
 			<method name="Prepare"/>
 		</type>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Object">
+			<method name="set_name"/>
 			<method name="set_name"/>
 			<method name="set_name"/>
 			<method name="set_name"/>

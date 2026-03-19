@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cappi_skin
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: b39c54340c7cf9c469afed1a39b4a279, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -64,6 +64,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AmbientCol: 1
+    - _Bands: 3
     - _BumpScale: 1
     - _Clipped: 1
     - _ColBright: 0
@@ -82,8 +83,10 @@ Material:
     - _OcclusionStrength: 1
     - _Offset: 0
     - _OtlWidth: 1
+    - _OutlineThickness: 0.01
     - _Parallax: 0.02
     - _Segmented: 1
+    - _ShadowStrength: 0.5
     - _ShnIntense: 0
     - _ShnOverlap: 0
     - _ShnRange: 1
@@ -99,6 +102,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
