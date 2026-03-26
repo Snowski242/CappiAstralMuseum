@@ -20,11 +20,21 @@ public class EnemyBehavior : MonoBehaviour
 
     public GameObject stellarineObj;
 
+    public float wanderRadius = 15f;
+    public float wanderTimer = 5f;
+
+    private float timer;
+    private Vector3 wanderTarget;
+
+    PlayerMovement target;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         dmg = GetComponent<EnemyHP>();
         fx = GetComponent<EnemyDamage>();
+
+        target = FindFirstObjectByType<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -42,12 +52,42 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
+    void Wander()
+    {
+        timer += Time.deltaTime;
+
+        if (timer >= wanderTimer)
+        {
+            Vector3 randomDirection = Random.insideUnitSphere * wanderRadius;
+            randomDirection += transform.position;
+
+            
+
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(randomDirection, out hit, wanderRadius, NavMesh.AllAreas))
+            {
+                wanderTarget = hit.position;
+                agent.SetDestination(wanderTarget);
+
+                Vector3 direction = (hit.position - transform.position).normalized;
+                Quaternion lookRotation = Quaternion.LookRotation(new Vector3(-direction.x, 0, -direction.z));
+
+                transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);
+            }
+
+            timer = 0;
+        }
+
+        animator.SetBool("idle", false);
+        animator.SetBool("walk", true);
+    }
+
     void Behavior(int type)
     {
         switch(type)
         {
             case 0:
-                PlayerMovement target = FindFirstObjectByType<PlayerMovement>();
+                 
                 float distance = Vector3.Distance(target.transform.position, transform.position);
                 if (distance < enemyRadius && distance > agent.stoppingDistance)
                 {
@@ -59,8 +99,8 @@ public class EnemyBehavior : MonoBehaviour
                 }
                 else
                 {
-                    animator.SetBool("walk", false);
-                    animator.SetBool("idle", true);
+                    Wander();
+
                 }
 
                 ///jumping on top of them
