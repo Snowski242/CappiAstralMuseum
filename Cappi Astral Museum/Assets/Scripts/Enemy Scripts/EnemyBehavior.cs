@@ -31,16 +31,18 @@ public class EnemyBehavior : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = true; //  auto-rotate
+
         dmg = GetComponent<EnemyHP>();
         fx = GetComponent<EnemyDamage>();
 
         target = FindFirstObjectByType<PlayerMovement>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Behavior(enemyType);
+        UpdateAnimation(); //  FIX walking in place
     }
 
     private void OnDestroy()
@@ -61,61 +63,43 @@ public class EnemyBehavior : MonoBehaviour
             Vector3 randomDirection = Random.insideUnitSphere * wanderRadius;
             randomDirection += transform.position;
 
-            
-
             NavMeshHit hit;
             if (NavMesh.SamplePosition(randomDirection, out hit, wanderRadius, NavMesh.AllAreas))
             {
                 wanderTarget = hit.position;
                 agent.SetDestination(wanderTarget);
-
-                Vector3 direction = (hit.position - transform.position).normalized;
-                Quaternion lookRotation = Quaternion.LookRotation(new Vector3(-direction.x, 0, -direction.z));
-
-                transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);
             }
 
             timer = 0;
         }
-
-        animator.SetBool("idle", false);
-        animator.SetBool("walk", true);
     }
 
     void Behavior(int type)
     {
-        switch(type)
+        switch (type)
         {
             case 0:
-                 
+
                 float distance = Vector3.Distance(target.transform.position, transform.position);
+
                 if (distance < enemyRadius && distance > agent.stoppingDistance)
                 {
-                    animator.SetBool("idle", false);
-                    animator.SetBool("walk", true);
-
                     agent.SetDestination(target.transform.position);
-                    FaceTarget();
                 }
                 else
                 {
                     Wander();
-
                 }
 
-                ///jumping on top of them
-
+                // Jump attack check
                 RaycastHit downHit;
-
                 Vector3 p1 = transform.position;
 
-                //shoots raycast forward to see if theres a raycast hit
                 if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))
                 {
-                   
+                    PlayerMovement player = FindAnyObjectByType<PlayerMovement>();
 
-                    PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
-                    if(player.canMove)
+                    if (player.canMove)
                     {
                         dmg.HP -= 1;
 
@@ -125,20 +109,29 @@ public class EnemyBehavior : MonoBehaviour
 
                         Instantiate(fx.hitFX, transform.position, Quaternion.identity);
                     }
-                    
                 }
 
-                if(dmg.HP <= 0)
+                // Death
+                if (dmg.HP <= 0)
                 {
-                    if(hasStellar)
+                    if (hasStellar)
                     {
-                        var stellarine = Instantiate(stellarineObj, transform.position + new Vector3(0f, 3f, 0f), transform.rotation);
+                        var stellarine = Instantiate(
+                            stellarineObj,
+                            transform.position + new Vector3(0f, 3f, 0f),
+                            transform.rotation
+                        );
+
                         stellarine.GetComponent<StellarineBehavior>().gemID = stellarInd;
                         stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
                     }
 
-                    PlayerMovement player = FindAnyObjectByType(typeof( PlayerMovement)) as PlayerMovement;
-                    player.tensionGauge = Mathf.MoveTowards(player.tensionGauge, player.tensionGaugeMax, 2.995f);
+                    PlayerMovement player = FindAnyObjectByType<PlayerMovement>();
+                    player.tensionGauge = Mathf.MoveTowards(
+                        player.tensionGauge,
+                        player.tensionGaugeMax,
+                        2.995f
+                    );
 
                     Destroy(gameObject);
                 }
@@ -147,11 +140,18 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
-    void FaceTarget()
+    // Animation based on REAL movement
+    void UpdateAnimation()
     {
-        PlayerMovement target = FindFirstObjectByType<PlayerMovement>();
-        Vector3 direction = (target.transform.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(-direction.x, 0, -direction.z));
-        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);
+        if (agent.velocity.magnitude > 0.1f)
+        {
+            animator.SetBool("walk", true);
+            animator.SetBool("idle", false);
+        }
+        else
+        {
+            animator.SetBool("walk", false);
+            animator.SetBool("idle", true);
+        }
     }
 }

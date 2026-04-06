@@ -145,15 +145,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23005981}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.813989}
-  m_LocalScale: {x: 0.9, y: 0.9135664, z: 0.91010284}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20381692, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1846631750}
+  m_Father: {fileID: 1082567425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -281.7, y: -155.2}
+  m_AnchoredPosition: {x: -28.239975, y: 17.294846}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23005983
@@ -176,19 +176,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WASD - Move Jump: Space
-
-    Running start: Hold Shift on ground
-
-    Air
-    dash: Shift in the air
-
-    Crouch: Standing right click
-
-    Slide: Running
-    right click
-
-    Homing attack: Left click in air'
+  m_text: "Move: WASD \nJump: Space\nRunning start: Hold Shift on ground\nAir dash:
+    Shift in the air\nCrouch: Standing right click\nSlide: Running right click\nHoming
+    attack: Left click in air"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1062,15 +1052,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571895545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.813989}
-  m_LocalScale: {x: 4.415728, y: 0.9135664, z: 0.91010284}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1846631750}
+  m_Father: {fileID: 1082567425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -157, y: -171}
+  m_AnchoredPosition: {x: 0, y: -5.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571895547
@@ -1313,7 +1303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36e9061787b205046a739c9198894a25, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: 0.313
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36e9061787b205046a739c9198894a25, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1715,6 +1705,44 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3980205272398690925, guid: 8aa75ced3b81ea34daff9682f49817a0, type: 3}
   m_PrefabInstance: {fileID: 1047733251704313846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1082567424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082567425}
+  m_Layer: 0
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1082567425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082567424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -15.813988}
+  m_LocalScale: {x: 4.4157276, y: 0.91356635, z: 0.91010284}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 571895546}
+  - {fileID: 23005982}
+  - {fileID: 1954854974}
+  m_Father: {fileID: 1846631750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -157, y: -171}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1102676909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,7 +2366,7 @@ Transform:
   m_GameObject: {fileID: 1434880346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 354.8, y: 185.1, z: -319.53}
+  m_LocalPosition: {x: 354.8, y: 183.12, z: -319.53}
   m_LocalScale: {x: 2.2689517, y: 2.2689517, z: 2.2689517}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2533,13 +2561,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5720922252834095227, guid: f504dc0db4528f747b2d3fdc50166e4e, type: 3}
       insertIndex: 8
-      addedObject: {fileID: 571895546}
-    - targetCorrespondingSourceObject: {fileID: 5720922252834095227, guid: f504dc0db4528f747b2d3fdc50166e4e, type: 3}
-      insertIndex: 9
-      addedObject: {fileID: 23005982}
-    - targetCorrespondingSourceObject: {fileID: 5720922252834095227, guid: f504dc0db4528f747b2d3fdc50166e4e, type: 3}
-      insertIndex: 10
-      addedObject: {fileID: 1954854974}
+      addedObject: {fileID: 1082567425}
     - targetCorrespondingSourceObject: {fileID: 5720922252834095227, guid: f504dc0db4528f747b2d3fdc50166e4e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 996201551}
@@ -3127,15 +3149,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954854973}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.813989}
-  m_LocalScale: {x: 0.9, y: 0.9135664, z: 0.91010284}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20381692, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1846631750}
+  m_Father: {fileID: 1082567425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33.2, y: -155.2}
+  m_AnchoredPosition: {x: 28.036156, y: 17.294846}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954854975
@@ -3158,19 +3180,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move: Stick L Jump: A
-
-    Running start: X on ground
-
-    Air dash: X
-    in the air
-
-    Crouch: Standing B
-
-    Slide: Running B
-
-    Homing attack:
-    Y in air'
+  m_text: "Move: Stick L \nJump: X\nRunning start: Square on ground\nAir dash: Square
+    in the air\nCrouch: Standing Circle\nSlide: Running Circle\nHoming attack: Triangle
+    in air"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
