@@ -102,7 +102,10 @@ public class PlayerMovement : MonoBehaviour
     public GameObject homingHB;
     public GameObject sliding;
 
-
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
 
     private float runTimer = 0;
 
@@ -1242,7 +1245,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (state == "boostring")
         {
-            speed = 12;
+            speed = 36;
 
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
