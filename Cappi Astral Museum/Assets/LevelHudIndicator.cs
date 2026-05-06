@@ -21,6 +21,8 @@ public class LevelHudIndicator : MonoBehaviour
     public Image gem8;
     public Sprite completedGem;
     public Sprite incompleteGem;
+
+    
     
 
     
@@ -154,4 +156,6 @@ public class LevelHudIndicator : MonoBehaviour
 
 
     }
+
+    
 }

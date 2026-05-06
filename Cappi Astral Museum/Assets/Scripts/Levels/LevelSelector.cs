@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,6 +11,8 @@ public class LevelSelector : MonoBehaviour
     public GameObject offset;
     public GameObject player;
     public List<int> gemList = new List<int>();
+
+    bool interact = true;
 
     public bool tp = true;
     void Start()
@@ -49,14 +52,32 @@ public class LevelSelector : MonoBehaviour
     void CheckPlayer(Vector3 center, float radius)
     {
         Collider[] hitColliders = Physics.OverlapSphere(center, radius, LayerMask.GetMask("Player"));
+        PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
 
         if (hitColliders.Length > 0)
         {
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && interact && player.isGrounded)
             {
-                ObjectiveManager.instance.level = levelID;
-                SceneManager.LoadScene("LoadToLevel");
+                
+                player.animator.SetBool("Level", true);
+
+                player.transform.rotation = Quaternion.Euler(0,0,0);
+                player.state = "null";
+
+                CinemachineFreeLook cam = FindFirstObjectByType<CinemachineFreeLook>();
+                if (cam != null)
+                {
+                    cam.m_XAxis.m_MaxSpeed = 0f;
+                    cam.m_YAxis.m_MaxSpeed = 0f;
+
+                    cam.m_XAxis.m_MinValue = 0f;
+                    cam.m_YAxis.Value = 0f;
+
+
+                    //cam.LookAt = player.transform;
+                }
+                interact = false;
             }
             
         }
