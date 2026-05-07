@@ -13,12 +13,12 @@ public class Spring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit downHit;
 
         Vector3 p1 = transform.position;
 
+        Collider[] hitColliders = Physics.OverlapSphere(p1, 1, LayerMask.GetMask("Player"));
         //shoots raycast forward to see if theres a raycast hit
-        if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))
+        if (hitColliders.Length > 0)
         {
 
 

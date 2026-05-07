@@ -57,7 +57,7 @@ public class LevelSelector : MonoBehaviour
         if (hitColliders.Length > 0)
         {
 
-            if (Input.GetMouseButtonDown(0) && interact && player.isGrounded)
+            if (Input.GetButtonDown("Fire1") && interact && player.isGrounded)
             {
                 
                 player.animator.SetBool("Level", true);

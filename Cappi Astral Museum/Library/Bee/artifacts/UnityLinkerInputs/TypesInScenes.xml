@@ -1,5 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="BalloonDamage" preserve="nothing"/>
+		<type fullname="BalloonRespawner" preserve="nothing"/>
 		<type fullname="Billboard" preserve="nothing"/>
 		<type fullname="BoostRing" preserve="nothing"/>
 		<type fullname="Capsule" preserve="nothing"/>
@@ -46,6 +48,13 @@
 		<type fullname="Cinemachine.CinemachineOrbitalTransposer" preserve="nothing"/>
 		<type fullname="Cinemachine.CinemachinePipeline" preserve="nothing"/>
 		<type fullname="Cinemachine.CinemachineVirtualCamera" preserve="nothing"/>
+		<type fullname="Cinemachine.NoiseSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="MoreMountains.Tools">
+		<type fullname="MoreMountains.Feedbacks.MMF_Player" preserve="nothing"/>
+		<type fullname="MoreMountains.Tools.MMAchievementDisplayItem" preserve="nothing"/>
+		<type fullname="MoreMountains.Tools.MMDebugOnScreenConsole" preserve="nothing"/>
+		<type fullname="MoreMountains.Tools.MMProgressBar" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.AI.Navigation">
 		<type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="nothing"/>
@@ -111,6 +120,7 @@
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
@@ -160,7 +170,10 @@
 		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
 	</assembly>
 </linker>

@@ -1,4 +1,6 @@
 using Cinemachine;
+using MoreMountains.Feedbacks;
+using MoreMountains.Tools;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -101,6 +103,11 @@ public class PlayerMovement : MonoBehaviour
     [Header("Hitboxes")]
     public GameObject homingHB;
     public GameObject sliding;
+
+    [Header("Feedback")]
+    public MMF_Player jumpFeedback;
+    public MMF_Player landFeedback;
+    public MMF_Player homingFeedback;
 
     private void Awake()
     {
@@ -240,14 +247,14 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -319,6 +326,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetButtonDown("Fire2"))
             {
                 Debug.Log("stomp");
+                jumpFeedback?.PlayFeedbacks();
                 state = "stomp";
             }
 
@@ -333,6 +341,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -0.75f * gravity);
                 canAirBoost = false;
                 cloudVFX.Play();
+                homingFeedback?.PlayFeedbacks();
                 state = "airboost";
             }
 
@@ -342,7 +351,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (isGrounded && transformVelocity.y < 0)
@@ -358,13 +367,16 @@ public class PlayerMovement : MonoBehaviour
             if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && transformVelocity.y <= 0)
             {
                 cloudVFX.Play();
+                landFeedback?.PlayFeedbacks();
                 state = "idle";
+
 
             }
             if (horizontal != 0 && isGrounded && transformVelocity.y <= 0 || vertical != 0 && isGrounded && transformVelocity.y <= 0)
             {
                 cloudVFX.Play();
                 runCloudVFX.Play();
+                landFeedback?.PlayFeedbacks();
                 state = "walk";
 
             }
@@ -457,6 +469,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -0.75f * gravity);
                 canAirBoost = false;
                 cloudVFX.Play();
+                homingFeedback?.PlayFeedbacks();
                 state = "airboost";
             }
 
@@ -466,7 +479,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack)
@@ -598,7 +611,7 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -606,7 +619,7 @@ public class PlayerMovement : MonoBehaviour
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -619,7 +632,7 @@ public class PlayerMovement : MonoBehaviour
                 hanging = false;
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 groundChecking = false;
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
         }
         else if (state == "airboost")
@@ -692,7 +705,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (horizontal == 0 && vertical == 0 && isGrounded && !isAttacking && canAttack && airBoostTime < 25)
@@ -744,6 +757,8 @@ public class PlayerMovement : MonoBehaviour
                 StartCoroutine(WaitAfterStomp());
                 AudioSource.PlayClipAtPoint(groundHitSound, transform.position);
                 Instantiate(groundHitFX, groundCheck.position, Quaternion.identity);
+                landFeedback?.PlayFeedbacks();
+                homingFeedback?.PlayFeedbacks();
                 state = "stompL";
             }
 
@@ -757,6 +772,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -0.75f * gravity);
                 canAirBoost = false;
                 cloudVFX.Play();
+                homingFeedback?.PlayFeedbacks();
                 state = "airboost";
             }
         }
@@ -769,7 +785,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
                 canDoubleJump = false;
                 cloudVFX.Play();
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
 
             if (Input.GetButtonDown("Fire3") && canAirBoost && tensionGauge > 20f)
@@ -782,6 +798,7 @@ public class PlayerMovement : MonoBehaviour
                 transformVelocity.y = Mathf.Sqrt(jump * -0.75f * gravity);
                 canAirBoost = false;
                 cloudVFX.Play();
+                homingFeedback?.PlayFeedbacks();
                 state = "airboost";
             }
         }
@@ -915,7 +932,7 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1018,7 +1035,7 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -1028,7 +1045,7 @@ public class PlayerMovement : MonoBehaviour
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1118,7 +1135,7 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -1128,7 +1145,7 @@ public class PlayerMovement : MonoBehaviour
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -4f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1231,7 +1248,7 @@ public class PlayerMovement : MonoBehaviour
                     groundChecking = false;
                     cloudVFX.Play();
                     runCloudVFX.Stop();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
@@ -1239,7 +1256,7 @@ public class PlayerMovement : MonoBehaviour
                     cloudVFX.Play();
                     runCloudVFX.Stop();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1418,14 +1435,14 @@ public class PlayerMovement : MonoBehaviour
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
                     groundChecking = false;
                     cloudVFX.Play();
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
                 else if (Input.GetButtonDown("Jump") && hanging && canDodgeRoll)
                 {
                     hanging = false;
                     cloudVFX.Play();
                     transformVelocity.y = Mathf.Sqrt(jump * -2f * gravity);
-                    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 }
             }
         }
@@ -1603,7 +1620,7 @@ public class PlayerMovement : MonoBehaviour
                 groundChecking = false;
                 cloudVFX.Play();
                 runCloudVFX.Stop();
-                state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
             }
         }
         else if(state == "win")
@@ -1729,7 +1746,7 @@ public class PlayerMovement : MonoBehaviour
 
         //if (!isGrounded && !isAttacking && transformVelocity.y > 0)
         //{
-        //    state = "jump"; coyoteTimer = 0; AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+        //    state = "jump"; coyoteTimer = 0;  jumpFeedback?.PlayFeedbacks(); AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         //}
 
         if(transform.position.y <= -30f)

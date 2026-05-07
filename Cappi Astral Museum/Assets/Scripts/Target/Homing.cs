@@ -17,6 +17,7 @@ public class Homing : MonoBehaviour
     void CheckHoming(Vector3 center, float radius)
     {
         Collider[] hitColliders = Physics.OverlapSphere(center, radius, LayerMask.GetMask("Homing"));
+        Collider[] hitColliders1 = Physics.OverlapSphere(center, radius, LayerMask.GetMask("HomingSafe"));
 
         if (Input.GetButtonDown("Fire1"))
         {
@@ -32,7 +33,25 @@ public class Homing : MonoBehaviour
                             canHome = false;
                             homingTarget = hitColliders[i].gameObject;
                             hitColliders[i].GetComponent<HomingTarget>().homingDelay = 20;
-                            pl.homingTime = 20;
+                            pl.homingFeedback?.PlayFeedbacks();
+                            pl.homingTime = 40;
+                            pl.state = "homing";
+                        }
+                    }
+
+                }
+                else if (hitColliders1.Length > 0)
+                {
+                    for (int i = 0; i < hitColliders1.Length; i++)
+                    {
+                        if (hitColliders1[i].GetComponent<HomingTarget>().homingDelay <= 0)
+                        {
+                            Debug.Log("tmnt");
+                            canHome = false;
+                            homingTarget = hitColliders1[i].gameObject;
+                            hitColliders1[i].GetComponent<HomingTarget>().homingDelay = 20;
+                            pl.homingFeedback?.PlayFeedbacks();
+                            pl.homingTime = 40;
                             pl.state = "homing";
                         }
                     }

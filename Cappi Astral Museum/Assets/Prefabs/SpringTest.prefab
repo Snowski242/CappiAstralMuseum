@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5657234562905385394}
   - component: {fileID: 1745070978672147587}
   - component: {fileID: 8468480081631278847}
-  m_Layer: 3
+  - component: {fileID: 984713907660594242}
+  m_Layer: 12
   m_Name: SpringTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,3 +121,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef03dafc19ea72147bc4a81e02729c3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &984713907660594242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8882105929612643718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4811456126723d24cade327ed93d6ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  homingDelayMax: 200
+  homingDelay: 200

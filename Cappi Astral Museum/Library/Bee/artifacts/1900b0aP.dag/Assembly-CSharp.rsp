@@ -114,6 +114,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
@@ -318,6 +319,9 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/CFXRRuntime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/KinoBloom.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Lofelt.NiceVibrations.Demo.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Lofelt.NiceVibrations.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/MoreMountains.Tools.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.AI.Navigation.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Animation.Rigging.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
@@ -363,10 +367,12 @@
 "Assets/LevelHudIndicator.cs"
 "Assets/Scripts/Collectables/MunCollect.cs"
 "Assets/Scripts/Collectables/StellarineBehavior.cs"
+"Assets/Scripts/Collisions/BalloonRespawner.cs"
 "Assets/Scripts/Collisions/Boost Ring.cs"
 "Assets/Scripts/Collisions/Capsule.cs"
 "Assets/Scripts/Collisions/GemBarrier.cs"
 "Assets/Scripts/Collisions/Spring.cs"
+"Assets/Scripts/Enemy Scripts/BalloonDamage.cs"
 "Assets/Scripts/Enemy Scripts/EnemyBehavior.cs"
 "Assets/Scripts/Enemy Scripts/EnemyDamage.cs"
 "Assets/Scripts/Enemy Scripts/EnemyHP.cs"

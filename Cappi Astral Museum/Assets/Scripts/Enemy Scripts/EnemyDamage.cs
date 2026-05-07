@@ -39,6 +39,7 @@ public class EnemyDamage : MonoBehaviour
                 {
                     player.speed = 12;
                 }
+                player.jumpFeedback?.PlayFeedbacks();
                 player.state = "jump";
                 player.transformVelocity.y = Mathf.Sqrt(player.jump * -2f * player.gravity);
                 player.isGrounded = false;

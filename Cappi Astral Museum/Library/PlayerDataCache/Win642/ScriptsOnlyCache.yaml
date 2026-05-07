@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BalloonDamage
+    - BalloonRespawner
     - Billboard
     - BoostRing
     - Capsule
@@ -37,6 +39,8 @@ ScriptsOnlyBuild:
     - tensionGaugeUI
     CFXRRuntime.dll:
     - CartoonFX.CFXR_Effect
+    Cinemachine:
+    - Cinemachine.NoiseSettings
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineCollider
@@ -45,6 +49,12 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineOrbitalTransposer
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineVirtualCamera
+    MoreMountains.Tools:
+    - MoreMountains.Tools.MMAchievementDisplayItem
+    - MoreMountains.Tools.MMDebugOnScreenConsole
+    - MoreMountains.Tools.MMProgressBar
+    MoreMountains.Tools.dll:
+    - MoreMountains.Feedbacks.MMF_Player
     Unity.AI.Navigation.Editor.dll:
     - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
@@ -55,6 +65,9 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -102,6 +115,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -124,6 +145,12 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineOrbitalTransposer/Heading
     - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
     - Cinemachine.LensSettings
+    - Cinemachine.NoiseSettings/NoiseParams
+    - Cinemachine.NoiseSettings/TransformNoiseParams
+    MoreMountains.Tools:
+    - MoreMountains.Feedbacks.MMF_ParticlesInstantiation
+    - MoreMountains.Feedbacks.MMF_SquashAndStretch
+    - MoreMountains.Feedbacks.MMFeedbacksEvents
     Unity.Mathematics:
     - Unity.Mathematics.float3
     - Unity.Mathematics.float4
@@ -173,6 +200,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.Events.UnityEvent`1
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -187,6 +217,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
@@ -293,107 +324,107 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27050}
+      Script: {instanceID: 28880}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 28936}
     - Class: 114
-      Script: {instanceID: 27408}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29356}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 27896}
+      Script: {instanceID: 29706}
     - Class: 114
-      Script: {instanceID: 27932}
+      Script: {instanceID: 29950}
     - Class: 114
-      Script: {instanceID: 28084}
+      Script: {instanceID: 29994}
     - Class: 114
-      Script: {instanceID: 28142}
+      Script: {instanceID: 30184}
     - Class: 114
-      Script: {instanceID: 28440}
+      Script: {instanceID: 30246}
     - Class: 114
-      Script: {instanceID: 28518}
+      Script: {instanceID: 30596}
     - Class: 114
-      Script: {instanceID: 28528}
+      Script: {instanceID: 30694}
     - Class: 114
-      Script: {instanceID: 28620}
+      Script: {instanceID: 30706}
     - Class: 114
-      Script: {instanceID: 28718}
+      Script: {instanceID: 30826}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 30954}
     - Class: 114
-      Script: {instanceID: 29184}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 29234}
+      Script: {instanceID: 31506}
     - Class: 114
-      Script: {instanceID: 29452}
+      Script: {instanceID: 31566}
     - Class: 114
-      Script: {instanceID: 29528}
+      Script: {instanceID: 31818}
     - Class: 114
-      Script: {instanceID: 29578}
+      Script: {instanceID: 31916}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 31986}
     - Class: 114
-      Script: {instanceID: 29964}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 29968}
+      Script: {instanceID: 32442}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32448}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 30424}
+      Script: {instanceID: 32932}
     - Class: 114
-      Script: {instanceID: 30532}
+      Script: {instanceID: 33002}
     - Class: 114
-      Script: {instanceID: 31244}
+      Script: {instanceID: 33150}
     - Class: 114
-      Script: {instanceID: 31468}
+      Script: {instanceID: 33978}
     - Class: 114
-      Script: {instanceID: 31490}
+      Script: {instanceID: 34252}
     - Class: 114
-      Script: {instanceID: 31676}
+      Script: {instanceID: 34274}
     - Class: 114
-      Script: {instanceID: 32030}
+      Script: {instanceID: 34494}
     - Class: 114
-      Script: {instanceID: 32594}
+      Script: {instanceID: 34892}
     - Class: 114
-      Script: {instanceID: 32758}
+      Script: {instanceID: 35574}
     - Class: 114
-      Script: {instanceID: 32998}
+      Script: {instanceID: 35772}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 36060}
     - Class: 114
-      Script: {instanceID: 33842}
+      Script: {instanceID: 37068}
     - Class: 114
-      Script: {instanceID: 33870}
+      Script: {instanceID: 37102}
     - Class: 114
-      Script: {instanceID: 33876}
+      Script: {instanceID: 37108}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 37772}
     - Class: 114
-      Script: {instanceID: 34492}
+      Script: {instanceID: 37836}
     - Class: 114
-      Script: {instanceID: 34674}
+      Script: {instanceID: 38054}
     - Class: 114
-      Script: {instanceID: 35018}
+      Script: {instanceID: 38452}
     - Class: 114
-      Script: {instanceID: 35284}
+      Script: {instanceID: 38774}
     - Class: 114
-      Script: {instanceID: 35424}
+      Script: {instanceID: 38936}
     - Class: 114
-      Script: {instanceID: 35446}
+      Script: {instanceID: 38968}
     - Class: 114
-      Script: {instanceID: 35462}
+      Script: {instanceID: 38986}
     - Class: 114
-      Script: {instanceID: 35670}
+      Script: {instanceID: 39228}
     - Class: 114
-      Script: {instanceID: 35792}
+      Script: {instanceID: 39376}
     - Class: 114
-      Script: {instanceID: 35894}
+      Script: {instanceID: 39494}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -476,91 +507,91 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27050}
+      Script: {instanceID: 28880}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 28936}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 27896}
+      Script: {instanceID: 29706}
     - Class: 114
-      Script: {instanceID: 27932}
+      Script: {instanceID: 29950}
     - Class: 114
-      Script: {instanceID: 28084}
+      Script: {instanceID: 29994}
     - Class: 114
-      Script: {instanceID: 28142}
+      Script: {instanceID: 30184}
     - Class: 114
-      Script: {instanceID: 28440}
+      Script: {instanceID: 30246}
     - Class: 114
-      Script: {instanceID: 28528}
+      Script: {instanceID: 30596}
     - Class: 114
-      Script: {instanceID: 28620}
+      Script: {instanceID: 30706}
     - Class: 114
-      Script: {instanceID: 28718}
+      Script: {instanceID: 30826}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 30954}
     - Class: 114
-      Script: {instanceID: 29184}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 29234}
+      Script: {instanceID: 31506}
     - Class: 114
-      Script: {instanceID: 29452}
+      Script: {instanceID: 31566}
     - Class: 114
-      Script: {instanceID: 29528}
+      Script: {instanceID: 31818}
     - Class: 114
-      Script: {instanceID: 29676}
+      Script: {instanceID: 31916}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 32102}
     - Class: 114
-      Script: {instanceID: 29964}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32442}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 30424}
+      Script: {instanceID: 32932}
     - Class: 114
-      Script: {instanceID: 31244}
+      Script: {instanceID: 33002}
     - Class: 114
-      Script: {instanceID: 31468}
+      Script: {instanceID: 33978}
     - Class: 114
-      Script: {instanceID: 32594}
+      Script: {instanceID: 34252}
     - Class: 114
-      Script: {instanceID: 32758}
+      Script: {instanceID: 35360}
     - Class: 114
-      Script: {instanceID: 32998}
+      Script: {instanceID: 35574}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 35772}
     - Class: 114
-      Script: {instanceID: 33842}
+      Script: {instanceID: 36060}
     - Class: 114
-      Script: {instanceID: 33876}
+      Script: {instanceID: 37068}
     - Class: 114
-      Script: {instanceID: 34050}
+      Script: {instanceID: 37108}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 37310}
     - Class: 114
-      Script: {instanceID: 34492}
+      Script: {instanceID: 37772}
     - Class: 114
-      Script: {instanceID: 34674}
+      Script: {instanceID: 37836}
     - Class: 114
-      Script: {instanceID: 34758}
+      Script: {instanceID: 38054}
     - Class: 114
-      Script: {instanceID: 35018}
+      Script: {instanceID: 38158}
     - Class: 114
-      Script: {instanceID: 35284}
+      Script: {instanceID: 38452}
     - Class: 114
-      Script: {instanceID: 35424}
+      Script: {instanceID: 38774}
     - Class: 114
-      Script: {instanceID: 35446}
+      Script: {instanceID: 38936}
     - Class: 114
-      Script: {instanceID: 35792}
+      Script: {instanceID: 38968}
     - Class: 114
-      Script: {instanceID: 41200}
+      Script: {instanceID: 39376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -623,23 +654,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 30168}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 32578}
+      Script: {instanceID: 32678}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 35552}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 37772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -700,111 +731,117 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27050}
+      Script: {instanceID: 28880}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 28936}
     - Class: 114
-      Script: {instanceID: 27408}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29356}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 27896}
+      Script: {instanceID: 29706}
     - Class: 114
-      Script: {instanceID: 27932}
+      Script: {instanceID: 29950}
     - Class: 114
-      Script: {instanceID: 28084}
+      Script: {instanceID: 29972}
     - Class: 114
-      Script: {instanceID: 28142}
+      Script: {instanceID: 29994}
     - Class: 114
-      Script: {instanceID: 28440}
+      Script: {instanceID: 30184}
     - Class: 114
-      Script: {instanceID: 28518}
+      Script: {instanceID: 30246}
     - Class: 114
-      Script: {instanceID: 28528}
+      Script: {instanceID: 30596}
     - Class: 114
-      Script: {instanceID: 28620}
+      Script: {instanceID: 30694}
     - Class: 114
-      Script: {instanceID: 28718}
+      Script: {instanceID: 30706}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 30826}
     - Class: 114
-      Script: {instanceID: 29184}
+      Script: {instanceID: 30954}
     - Class: 114
-      Script: {instanceID: 29234}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 29452}
+      Script: {instanceID: 31506}
     - Class: 114
-      Script: {instanceID: 29528}
+      Script: {instanceID: 31566}
     - Class: 114
-      Script: {instanceID: 29578}
+      Script: {instanceID: 31818}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 31916}
     - Class: 114
-      Script: {instanceID: 29964}
+      Script: {instanceID: 31986}
     - Class: 114
-      Script: {instanceID: 29968}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32442}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 32448}
     - Class: 114
-      Script: {instanceID: 30424}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 30532}
+      Script: {instanceID: 32932}
     - Class: 114
-      Script: {instanceID: 31244}
+      Script: {instanceID: 33002}
     - Class: 114
-      Script: {instanceID: 31468}
+      Script: {instanceID: 33150}
     - Class: 114
-      Script: {instanceID: 31490}
+      Script: {instanceID: 33978}
     - Class: 114
-      Script: {instanceID: 31676}
+      Script: {instanceID: 34252}
     - Class: 114
-      Script: {instanceID: 32030}
+      Script: {instanceID: 34274}
     - Class: 114
-      Script: {instanceID: 32594}
+      Script: {instanceID: 34494}
     - Class: 114
-      Script: {instanceID: 32758}
+      Script: {instanceID: 34892}
     - Class: 114
-      Script: {instanceID: 32848}
+      Script: {instanceID: 35574}
     - Class: 114
-      Script: {instanceID: 32998}
+      Script: {instanceID: 35772}
     - Class: 114
-      Script: {instanceID: 33326}
+      Script: {instanceID: 35866}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 36060}
     - Class: 114
-      Script: {instanceID: 33842}
+      Script: {instanceID: 36452}
     - Class: 114
-      Script: {instanceID: 33870}
+      Script: {instanceID: 37068}
     - Class: 114
-      Script: {instanceID: 33876}
+      Script: {instanceID: 37102}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 37108}
     - Class: 114
-      Script: {instanceID: 34492}
+      Script: {instanceID: 37772}
     - Class: 114
-      Script: {instanceID: 34674}
+      Script: {instanceID: 37836}
     - Class: 114
-      Script: {instanceID: 35018}
+      Script: {instanceID: 38054}
     - Class: 114
-      Script: {instanceID: 35284}
+      Script: {instanceID: 38452}
     - Class: 114
-      Script: {instanceID: 35424}
+      Script: {instanceID: 38774}
     - Class: 114
-      Script: {instanceID: 35446}
+      Script: {instanceID: 38936}
     - Class: 114
-      Script: {instanceID: 35462}
+      Script: {instanceID: 38968}
     - Class: 114
-      Script: {instanceID: 35670}
+      Script: {instanceID: 38986}
     - Class: 114
-      Script: {instanceID: 35792}
+      Script: {instanceID: 39228}
     - Class: 114
-      Script: {instanceID: 35894}
+      Script: {instanceID: 39376}
+    - Class: 114
+      Script: {instanceID: 39494}
+    - Class: 114
+      Script: {instanceID: 476816}
+    - Class: 114
+      Script: {instanceID: 476826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -883,111 +920,111 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27050}
+      Script: {instanceID: 28880}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 28936}
     - Class: 114
-      Script: {instanceID: 27408}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29356}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 27896}
+      Script: {instanceID: 29706}
     - Class: 114
-      Script: {instanceID: 27932}
+      Script: {instanceID: 29950}
     - Class: 114
-      Script: {instanceID: 28084}
+      Script: {instanceID: 29994}
     - Class: 114
-      Script: {instanceID: 28142}
+      Script: {instanceID: 30184}
     - Class: 114
-      Script: {instanceID: 28440}
+      Script: {instanceID: 30246}
     - Class: 114
-      Script: {instanceID: 28518}
+      Script: {instanceID: 30596}
     - Class: 114
-      Script: {instanceID: 28528}
+      Script: {instanceID: 30694}
     - Class: 114
-      Script: {instanceID: 28620}
+      Script: {instanceID: 30706}
     - Class: 114
-      Script: {instanceID: 28718}
+      Script: {instanceID: 30826}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 30954}
     - Class: 114
-      Script: {instanceID: 29184}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 29234}
+      Script: {instanceID: 31506}
     - Class: 114
-      Script: {instanceID: 29452}
+      Script: {instanceID: 31566}
     - Class: 114
-      Script: {instanceID: 29528}
+      Script: {instanceID: 31818}
     - Class: 114
-      Script: {instanceID: 29578}
+      Script: {instanceID: 31916}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 31986}
     - Class: 114
-      Script: {instanceID: 29964}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 29968}
+      Script: {instanceID: 32442}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32448}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 30424}
+      Script: {instanceID: 32932}
     - Class: 114
-      Script: {instanceID: 30532}
+      Script: {instanceID: 33002}
     - Class: 114
-      Script: {instanceID: 31244}
+      Script: {instanceID: 33150}
     - Class: 114
-      Script: {instanceID: 31468}
+      Script: {instanceID: 33978}
     - Class: 114
-      Script: {instanceID: 31490}
+      Script: {instanceID: 34252}
     - Class: 114
-      Script: {instanceID: 31676}
+      Script: {instanceID: 34274}
     - Class: 114
-      Script: {instanceID: 32030}
+      Script: {instanceID: 34494}
     - Class: 114
-      Script: {instanceID: 32594}
+      Script: {instanceID: 34892}
     - Class: 114
-      Script: {instanceID: 32758}
+      Script: {instanceID: 35574}
     - Class: 114
-      Script: {instanceID: 32848}
+      Script: {instanceID: 35772}
     - Class: 114
-      Script: {instanceID: 32998}
+      Script: {instanceID: 35866}
     - Class: 114
-      Script: {instanceID: 33326}
+      Script: {instanceID: 36060}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 36452}
     - Class: 114
-      Script: {instanceID: 33842}
+      Script: {instanceID: 37068}
     - Class: 114
-      Script: {instanceID: 33870}
+      Script: {instanceID: 37102}
     - Class: 114
-      Script: {instanceID: 33876}
+      Script: {instanceID: 37108}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 37772}
     - Class: 114
-      Script: {instanceID: 34492}
+      Script: {instanceID: 37836}
     - Class: 114
-      Script: {instanceID: 34674}
+      Script: {instanceID: 38054}
     - Class: 114
-      Script: {instanceID: 35018}
+      Script: {instanceID: 38452}
     - Class: 114
-      Script: {instanceID: 35284}
+      Script: {instanceID: 38774}
     - Class: 114
-      Script: {instanceID: 35424}
+      Script: {instanceID: 38936}
     - Class: 114
-      Script: {instanceID: 35446}
+      Script: {instanceID: 38968}
     - Class: 114
-      Script: {instanceID: 35462}
+      Script: {instanceID: 38986}
     - Class: 114
-      Script: {instanceID: 35670}
+      Script: {instanceID: 39228}
     - Class: 114
-      Script: {instanceID: 35792}
+      Script: {instanceID: 39376}
     - Class: 114
-      Script: {instanceID: 35894}
+      Script: {instanceID: 39494}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1074,29 +1111,97 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 27342}
+      Script: {instanceID: 18086}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 29278}
     - Class: 114
-      Script: {instanceID: 28312}
+      Script: {instanceID: 29652}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 30452}
     - Class: 114
-      Script: {instanceID: 29776}
+      Script: {instanceID: 31480}
     - Class: 114
-      Script: {instanceID: 29956}
+      Script: {instanceID: 31504}
     - Class: 114
-      Script: {instanceID: 30056}
+      Script: {instanceID: 32214}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 32428}
     - Class: 114
-      Script: {instanceID: 33052}
+      Script: {instanceID: 32552}
     - Class: 114
-      Script: {instanceID: 33352}
+      Script: {instanceID: 32932}
     - Class: 114
-      Script: {instanceID: 34358}
+      Script: {instanceID: 33332}
     - Class: 114
-      Script: {instanceID: 34436}
+      Script: {instanceID: 33620}
+    - Class: 114
+      Script: {instanceID: 35172}
+    - Class: 114
+      Script: {instanceID: 35186}
+    - Class: 114
+      Script: {instanceID: 35918}
+    - Class: 114
+      Script: {instanceID: 36120}
+    - Class: 114
+      Script: {instanceID: 37068}
+    - Class: 114
+      Script: {instanceID: 37684}
+    - Class: 114
+      Script: {instanceID: 37772}
+    - Class: 114
+      Script: {instanceID: 38054}
+    - Class: 114
+      Script: {instanceID: 38290}
+    - Class: 114
+      Script: {instanceID: 1172030}
+    - Class: 114
+      Script: {instanceID: 1172056}
+    - Class: 114
+      Script: {instanceID: 1172058}
+    - Class: 114
+      Script: {instanceID: 1172060}
+    - Class: 114
+      Script: {instanceID: 1172062}
+    - Class: 114
+      Script: {instanceID: 1172064}
+    - Class: 114
+      Script: {instanceID: 1172066}
+    - Class: 114
+      Script: {instanceID: 1172068}
+    - Class: 114
+      Script: {instanceID: 1172070}
+    - Class: 114
+      Script: {instanceID: 1172072}
+    - Class: 114
+      Script: {instanceID: 1172074}
+    - Class: 114
+      Script: {instanceID: 1172076}
+    - Class: 114
+      Script: {instanceID: 1172078}
+    - Class: 114
+      Script: {instanceID: 1172086}
+    - Class: 114
+      Script: {instanceID: 1172116}
+    - Class: 114
+      Script: {instanceID: 1172118}
+    - Class: 114
+      Script: {instanceID: 1172120}
+    - Class: 114
+      Script: {instanceID: 1172122}
+    - Class: 114
+      Script: {instanceID: 1172124}
+    - Class: 114
+      Script: {instanceID: 1172126}
+    - Class: 114
+      Script: {instanceID: 1172128}
+    - Class: 114
+      Script: {instanceID: 1172130}
+    - Class: 114
+      Script: {instanceID: 1172132}
+    - Class: 114
+      Script: {instanceID: 1172134}
+    - Class: 114
+      Script: {instanceID: 1172136}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1113,7 +1218,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 758f49ddcfdd2a120ecb5843f753ba06
@@ -1122,10 +1235,40 @@ ScriptsOnlyBuild:
     className: StellarineBehavior
   - hash:
       serializedVersion: 2
+      Hash: 428183cf7f434edcf9ed5fbff50fffe8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuData
+  - hash:
+      serializedVersion: 2
+      Hash: de6fde79275a8930c65d6c9f9167aadc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: LettersDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 989f0b5858b60d9fa5fdfad3ee7736c4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMActivationOnStart
+  - hash:
+      serializedVersion: 2
       Hash: 76985d05e160474a34860b693b206ee2
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: cf10346ad12d0eb0f9d394c2d54dbb7a
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: PowerBarElement
+  - hash:
+      serializedVersion: 2
+      Hash: ec7808e83297ec62a86be6dfe52d4764
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMApplicationPlatformActivation
   - hash:
       serializedVersion: 2
       Hash: 041d89bf0470df44922eec73e9bf30e5
@@ -1134,16 +1277,46 @@ ScriptsOnlyBuild:
     className: TwoBoneIKConstraint
   - hash:
       serializedVersion: 2
+      Hash: 1f837e5664ac639cfb18a3536c3fc45a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMLight2DShaker_URP
+  - hash:
+      serializedVersion: 2
       Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 2102fa2d0340c08997edb03ed0f73014
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMConeOfVision
+  - hash:
+      serializedVersion: 2
       Hash: 215d2dc6ec6ea06728398ea39a103cb3
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: b4f52a902bbe3d02e5e86e55803717e9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksAuthorizations
+  - hash:
+      serializedVersion: 2
+      Hash: a54e7b469295dea298c31c37fdd8bde3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMPostProcessingHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: cecae5db67a38bca78d0ea0406118501
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemTitle
   - hash:
       serializedVersion: 2
       Hash: 7dee1d3c1d776b807847bc05d2a399d1
@@ -1158,6 +1331,30 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 9118c503b271e68e02f06cf18564ede4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMApplicationQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb95df0668c0b8eba4e7792ed4955dc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementList
+  - hash:
+      serializedVersion: 2
+      Hash: 24b5e674e5a946eb886533be5d3d3c9d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMExposureShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: 43559aa4d701752218a1a0428c549be3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlotter
+  - hash:
+      serializedVersion: 2
       Hash: ecfc7e789ab4fdc8782a62fa80606929
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1170,10 +1367,40 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 2711b5133462259c251b17cba606922e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMInputExecution
+  - hash:
+      serializedVersion: 2
       Hash: a89b0448af4e1cd103a77f9fec0a961f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0044cda4ee9fc8650ce996807a66b29d
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMFPSUnlock
+  - hash:
+      serializedVersion: 2
+      Hash: cff2cb1f59c51dff336585e43414fc39
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSaveLoadManagerMethod
+  - hash:
+      serializedVersion: 2
+      Hash: 3035df25235309a77fac5d4c34f98b32
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFPSUnlock
+  - hash:
+      serializedVersion: 2
+      Hash: 232448300646780e27ec05489682123e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMObservableDemoObserverAutoSleep
   - hash:
       serializedVersion: 2
       Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
@@ -1188,16 +1415,58 @@ ScriptsOnlyBuild:
     className: LensDistortion
   - hash:
       serializedVersion: 2
+      Hash: 2ef7b85d8d247b7e718ef498218fdeb8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: SnakeFoodSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3a48b09611d56fa34a9d4262feef6e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMBloomShaker
+  - hash:
+      serializedVersion: 2
       Hash: ed8e62f07ec878233f5493a335003493
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: VirtualMouseInput
   - hash:
       serializedVersion: 2
+      Hash: cb16aae051d89e48e42a6212952cc204
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterEchoShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 9014da1613974e0a90e89e51b5a99b6e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMBloomShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 49209100a41d61cba8b919f39cfc9f00
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: FloatController
+  - hash:
+      serializedVersion: 2
+      Hash: e544d19e3260f769c47f014131b2936b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMF_MMSoundManagerSoundData
+  - hash:
+      serializedVersion: 2
       Hash: 5a4aa2850fe11587f47e34c270c7fd22
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 24ff9628df636b733932fbd849393db5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMStopMotionAnimation
   - hash:
       serializedVersion: 2
       Hash: 86344100c716167fb86137c127ca9eee
@@ -1218,6 +1487,12 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b1a68630d96748541d893e55f3a2af20
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsComparisonDemo
+  - hash:
+      serializedVersion: 2
       Hash: e061bdd0159a784b8acc0552dd0f40bb
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1236,10 +1511,28 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 68b2543d75203de1ef66a903577721f4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineZoom
+  - hash:
+      serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: bbf948ea5507886b7a98fcb386108724
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRadioBroadcaster
+  - hash:
+      serializedVersion: 2
+      Hash: 430e5455454fe561196c7d66787f24ee
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSoundSequencer
   - hash:
       serializedVersion: 2
       Hash: 80a72b656b55a7a1fc92e1a02151ea22
@@ -1248,10 +1541,28 @@ ScriptsOnlyBuild:
     className: ScreenSpaceReflections
   - hash:
       serializedVersion: 2
+      Hash: b8e7c85e26cd2343cba81eff04a7620f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: BounceRocks
+  - hash:
+      serializedVersion: 2
       Hash: 0370b9f95798139b666659c7e1be6147
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 6795123ee6cf33edf749885b590dfaf7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMTimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 85dc51f63a83ffe781af32887dafa4bc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchControls
   - hash:
       serializedVersion: 2
       Hash: 0c0b64d103fe555d830e8ca206abd12a
@@ -1272,10 +1583,46 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 75fcdb1ba8121599d5d0e82bda3785c0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMWiggle
+  - hash:
+      serializedVersion: 2
+      Hash: 291d2c16144abd0298cc223001c48800
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationParameter
+  - hash:
+      serializedVersion: 2
+      Hash: 92657d444edce0975f8a1f2322d44ef8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGameEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c1febd1ba6e06c99e3ff1ac54865082
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCursorVisible
+  - hash:
+      serializedVersion: 2
       Hash: 30219691a532d61cdbaeb190ddffa1cc
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WinUI
+  - hash:
+      serializedVersion: 2
+      Hash: bac82f9d86875cb518688730c77bcc85
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMMotionBlurShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 0fbee20a473357f8192db241370ccfbf
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMF_Player
   - hash:
       serializedVersion: 2
       Hash: febcfbf0a0d85e37808a3740e3c2c6fa
@@ -1296,16 +1643,70 @@ ScriptsOnlyBuild:
     className: HPUI
   - hash:
       serializedVersion: 2
+      Hash: 1c53c3e1750cba304027718ddb0d93e2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRadioReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 9846bcfbaa6c5f588a83f00adc447fac
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMObservableDemoSubject
+  - hash:
+      serializedVersion: 2
       Hash: 2f7cb833af938e5749df5eeb25923724
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: MultiPositionConstraint
   - hash:
       serializedVersion: 2
+      Hash: 4d67e6db9c04f100787e835cf4892ed0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringMotionBlurShutterAngle
+  - hash:
+      serializedVersion: 2
+      Hash: e852ae97aa8d7010eb2d70e2923da16e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMLineRendererDriver
+  - hash:
+      serializedVersion: 2
       Hash: dbe80c9dc024d18e75107a0b4da06133
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0c9279f3c0c988295b2222a8f6c7e31d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPSoftness
+  - hash:
+      serializedVersion: 2
+      Hash: 47462163faa58330ff8c9f2b0fe1d5a1
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Barbarian
+  - hash:
+      serializedVersion: 2
+      Hash: 4955451fd7859288667e70b5dbdc045f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemButton
+  - hash:
+      serializedVersion: 2
+      Hash: 7cc2d5c3d462bbdbe49e814711736425
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMToggleActive
+  - hash:
+      serializedVersion: 2
+      Hash: e10460f710ffd4734a217815e5c9d69e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineCameraShaker
   - hash:
       serializedVersion: 2
       Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
@@ -1332,10 +1733,22 @@ ScriptsOnlyBuild:
     className: CameraMovemnt
   - hash:
       serializedVersion: 2
+      Hash: c4f46765d3077f3e4614997dff9ffb5a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraShakerRotation
+  - hash:
+      serializedVersion: 2
       Hash: 079f8bbb032c5137806627bae6787f1f
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: ada861e58eddf8eb9a6503955c10d21a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMLookAtShaker
   - hash:
       serializedVersion: 2
       Hash: 674f86f72fc0bf1ef8d192a4dea794c8
@@ -1344,10 +1757,88 @@ ScriptsOnlyBuild:
     className: CinemachineCollider
   - hash:
       serializedVersion: 2
+      Hash: 47b23fbfee33bd41e20e231eb6402358
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSwipeZone
+  - hash:
+      serializedVersion: 2
+      Hash: f2b83f99e38113f2ca0c65fd4c7130b9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPanningTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 7de2dae91549ac686dd21811d484aca3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMBlink
+  - hash:
+      serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: eb5bca75e81d1854238c7e86d59dfc6a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineOrthographicSizeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 49ebab24cfd7d9b49ab572e78d081826
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: 21e1e07eb65d6dddd1b1ab37877618b4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringImageAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: 2c49be0b3f686c2c80bd177ff008397a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringSpriteColor
+  - hash:
+      serializedVersion: 2
+      Hash: 463a3bccea55796eb5f72331a4b571d7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineFieldOfViewShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 58436987aaf260b96c624d21c67ad4b0
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticClipsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: c99ff5e57d01b766a499cbc0afa78533
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMF_PlayerDebugInput
+  - hash:
+      serializedVersion: 2
+      Hash: da744d4539efcd628eeedc5dfa138a1b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineClippingPlanesShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71c55cc3770936c8496a8865e92e6112
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringDepthOfFieldFocusDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 5ed734365b1f1d45a5864e6a6d607963
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMInput
   - hash:
       serializedVersion: 2
       Hash: 682dfc653b22feea53b38adb3bc66414
@@ -1362,6 +1853,18 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 0fa52510264b538e3a84cc0f6ba983d6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringMMTimeScale
+  - hash:
+      serializedVersion: 2
+      Hash: c76b5c3a021174d45503aa744c14461b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterDistortionShaker
+  - hash:
+      serializedVersion: 2
       Hash: db9b308769d19e1f9e161df0392c23ca
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1372,6 +1875,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9d3d91d511ed319176ffd315a8061a15
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringImageColor
   - hash:
       serializedVersion: 2
       Hash: 9dd54ce33440072d6692a67e0c384ad1
@@ -1398,6 +1907,24 @@ ScriptsOnlyBuild:
     className: CinemachineConfiner2D
   - hash:
       serializedVersion: 2
+      Hash: b081e4815bd4cec0e064b0e4f87af014
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTab
+  - hash:
+      serializedVersion: 2
+      Hash: 46cab701bf2c0c95148bfa718db337f5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMF_BroadcastProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 70e30ae0d7b91897a380edd375575c6f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCinemachineZone2D
+  - hash:
+      serializedVersion: 2
       Hash: 6c04bc92b261f9d348177111f9147e48
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1422,10 +1949,34 @@ ScriptsOnlyBuild:
     className: Billboard
   - hash:
       serializedVersion: 2
+      Hash: 18e7d2d8c8efe5ba8634ed7a78e8d828
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapShadow
+  - hash:
+      serializedVersion: 2
+      Hash: fece3d989a622f5f7b2eace53b3f6a35
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: MMSequencerDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: 2bbd05175d4cdd21e24f9716cdd24f83
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.XR
     className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: cb9408d201d4ece070d05ca29dcef606
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchRepositionableJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 144f46b264298845aaba8dbee2539888
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMOnPointer
   - hash:
       serializedVersion: 2
       Hash: 1553f209ae0b2d5d3a35685fca55f9c3
@@ -1434,22 +1985,70 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 8bf800a764665b085fe469e8aea7f167
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseEnterMessageListener
-  - hash:
-      serializedVersion: 2
       Hash: c46f0fe7c42f22ce1a6bdae339f1bb84
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LandingMark
   - hash:
       serializedVersion: 2
+      Hash: 97774a163906d1ee9b22499755f2f54f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFlash
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 78fd547f08f5b9e5ec0326337ef7bb22
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMViewportEdgeTeleporter
+  - hash:
+      serializedVersion: 2
+      Hash: 88f1a35545e039472b8c284421e794a3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementDisplayer
+  - hash:
+      serializedVersion: 2
+      Hash: f767a84920b1d7fa23f57c50080d7e89
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAspectRatioSafeZones
+  - hash:
+      serializedVersion: 2
+      Hash: 8f294b972e01668b01dea142ae8a6574
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMSpriteReplace
+  - hash:
+      serializedVersion: 2
+      Hash: 1e89786384b3cfafbf64720a32506de6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMImage
+  - hash:
+      serializedVersion: 2
+      Hash: 87d5c6653b7210aac877d42b7ccecbae
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMAutoFocus_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 2b5b8dc13dd5547377453c44a2d06f19
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringBloomIntensity
   - hash:
       serializedVersion: 2
       Hash: 761fac2283d5ad6fd8d35046c7ae27ee
@@ -1464,10 +2063,28 @@ ScriptsOnlyBuild:
     className: Cinemachine3rdPersonFollow
   - hash:
       serializedVersion: 2
+      Hash: d1998bffbb717a520f286010be9c24b9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: d449692b14b3e5986905d6ef22aff1af
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMUIShaker
+  - hash:
+      serializedVersion: 2
       Hash: e636708ac1677b6f3be0cafe31e1bf77
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: e2b3c0d5b883c8380cf06cd4f7e7cb97
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMDepthOfFieldShaker_HDRP
   - hash:
       serializedVersion: 2
       Hash: c78ed13f6b5a632d70d4f73f56ad81f2
@@ -1494,6 +2111,12 @@ ScriptsOnlyBuild:
     className: InputDeviceDebuggerWindow
   - hash:
       serializedVersion: 2
+      Hash: 01660caceaa735970c0e8aed199d3fc8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRagdollerIgnore
+  - hash:
+      serializedVersion: 2
       Hash: e6ee7dccba41ae87d10e3d922c6cb71c
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1518,6 +2141,60 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
+      Hash: 61832c83d025fc8d292354f261761718
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMOrbitalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 16c7e78dba72f019eb92cfc31f431d05
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAudioAnalyzer
+  - hash:
+      serializedVersion: 2
+      Hash: 5c591093a9058a59d4716a0f23b19f54
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChannelMixerShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: 01a57249a6d08e0cb35c3531570825bb
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringVignetteCenter
+  - hash:
+      serializedVersion: 2
+      Hash: bc72706ba6bf8c81535dc0851934442a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: 41b04b9d63b09cd857c51c00f7e63c89
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Duck
+  - hash:
+      serializedVersion: 2
+      Hash: cfffa68720ef4237e60ac4370be4355c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraFieldOfViewShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 9849f6255c35a8c0baf8de5c1730fa25
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: SoundSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: b531ed05b520e07d7d4f5dc495deb2e7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringColorGradingTint
+  - hash:
+      serializedVersion: 2
       Hash: ee34255e3e86289bde9bad5e07b84cbc
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1530,10 +2207,10 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 0126f347d98d02424c7e030465a71ead
-    assemblyName: Unity.InputSystem
-    namespaceName: UnityEngine.InputSystem.HID.Editor
-    className: HIDDescriptorWindow
+      Hash: f6a9e7a70b6e3af2cd9ac4961e7ff52f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMProgressBar
   - hash:
       serializedVersion: 2
       Hash: 51af5d497a5c980ab155fe10148f7f5d
@@ -1542,10 +2219,10 @@ ScriptsOnlyBuild:
     className: ParticleEnd
   - hash:
       serializedVersion: 2
-      Hash: dffbd3da665050713c4b504a586a3ff5
-    assemblyName: CFXRDemo
-    namespaceName: CartoonFX
-    className: CFXR_Demo_Translate
+      Hash: 0126f347d98d02424c7e030465a71ead
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
   - hash:
       serializedVersion: 2
       Hash: ea4236e7c86c3fe5f1833f1077d5429a
@@ -1558,6 +2235,18 @@ ScriptsOnlyBuild:
     assemblyName: CFXRRuntime
     namespaceName: CartoonFX
     className: CFXR_ParticleText
+  - hash:
+      serializedVersion: 2
+      Hash: dffbd3da665050713c4b504a586a3ff5
+    assemblyName: CFXRDemo
+    namespaceName: CartoonFX
+    className: CFXR_Demo_Translate
+  - hash:
+      serializedVersion: 2
+      Hash: bff7baa8c81b56f85a1f8b13cde02007
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMWhiteBalanceShaker_HDRP
   - hash:
       serializedVersion: 2
       Hash: 43ba8d6499e36926549225e81183d2ca
@@ -1578,6 +2267,12 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 4ee389100d494e2ae1de8ba8e952d1a2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringRectTransformSizeDelta
+  - hash:
+      serializedVersion: 2
       Hash: a013bd07781ea71be78aca4d84398e85
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1588,6 +2283,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a147f39188e59b091e8bbbda64809386
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFloatingTextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 1dfb1357ee62cea7f1420303eab492c2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMHDRPHelpers
   - hash:
       serializedVersion: 2
       Hash: 98ad84ab9a7070e8ba3b6a616a057e2d
@@ -1602,10 +2309,22 @@ ScriptsOnlyBuild:
     className: PostProcessResources
   - hash:
       serializedVersion: 2
+      Hash: 0ccfbc89228013ea36e5881b834371c3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRadioSignalAudioAnalyzer
+  - hash:
+      serializedVersion: 2
       Hash: cce88ec4737eb3cf0faab402148b7c4e
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: ad955e66fc93861699844f215a5cc23d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringPosition
   - hash:
       serializedVersion: 2
       Hash: 33f160a5c07e580c29aba2bd1e4db811
@@ -1620,16 +2339,82 @@ ScriptsOnlyBuild:
     className: DepthOfField
   - hash:
       serializedVersion: 2
+      Hash: e3f0fcb8ec05d97b1e476892f4a69878
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough3D
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3c684a3ff40c7bb718c68863eb6ad
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: tensionGaugeUI
   - hash:
       serializedVersion: 2
+      Hash: 6a244dfb8f71559493eea05152063e13
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChannelMixerShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 4f8a3611ef7219e264fc157b1aecd008
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPFontSize
+  - hash:
+      serializedVersion: 2
+      Hash: dcf0c1156601963df649bd1c2a1fb69b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringAudioSourceVolume
+  - hash:
+      serializedVersion: 2
+      Hash: e31338def41b6a102c5eae2a1a93af4b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoPackageTester
+  - hash:
+      serializedVersion: 2
+      Hash: a15bb4d1fe2840958f74d00f535c25d7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringVignetteColor
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec4ad6801c2a0ad437f473f226f6b7a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringLightIntensity
+  - hash:
+      serializedVersion: 2
       Hash: 42dd8101901f4e99371139b763bc4c19
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Homing
+  - hash:
+      serializedVersion: 2
+      Hash: 4f73ad72fed7812344675073ea1db33c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMConditionalActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 145f084cacbbf51b2c57701e270df498
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTimedDestruction
+  - hash:
+      serializedVersion: 2
+      Hash: 27fd5adf64b2470d8d33642b7541a335
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSquashAndStretchCarController
+  - hash:
+      serializedVersion: 2
+      Hash: ebaa5f733161e525ef5617de3a1db2c0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterHighPassShaker
   - hash:
       serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
@@ -1668,16 +2453,46 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 8ed22cef8162016ee6fe8753e840af0b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFaceDirection
+  - hash:
+      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: 1202f97c532c5c3ddf5b222c2b43a1ca
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMBezierLineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 17fea9cf2cb764acaa37ca6d9ce2e6d0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMChannel
+  - hash:
+      serializedVersion: 2
+      Hash: 7be9a5a632bfb7bb9fcc93935fb3aa7d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAutoExecution
+  - hash:
+      serializedVersion: 2
       Hash: e9bfee93ebf3a7afacd9b5a36a892fc0
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 6d68b386efe43cf04355e76aaff600f9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringRotationAround
   - hash:
       serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
@@ -1692,10 +2507,46 @@ ScriptsOnlyBuild:
     className: RailGrind
   - hash:
       serializedVersion: 2
+      Hash: bb47e9ffcff277769e42704d44125fa0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMProgressBarDemoAuto
+  - hash:
+      serializedVersion: 2
+      Hash: 1d65b423856d478c5c0cdd1f235f3032
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTime
+  - hash:
+      serializedVersion: 2
       Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: cf0326de3962d936db12a5b1e936f5cc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringAudioSourcePitch
+  - hash:
+      serializedVersion: 2
+      Hash: ba3c12700ba028791f3616fcd52f8318
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: BallDemoBall
+  - hash:
+      serializedVersion: 2
+      Hash: bfec1ff9a650fca121bd0320da589865
+    assemblyName: Lofelt.NiceVibrations
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticSource
+  - hash:
+      serializedVersion: 2
+      Hash: c6c2da717c7ede599eec8d46444beef6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachinePriorityListener
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -1722,10 +2573,28 @@ ScriptsOnlyBuild:
     className: TitleUI
   - hash:
       serializedVersion: 2
+      Hash: 823f4fff0364f2138fdec119de0ca7eb
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: 2b82cd7e80f5448f1626cc66d53df158
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: VersionNumber
+  - hash:
+      serializedVersion: 2
       Hash: e3b44f74f702be39befc2097babcb457
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SlideHitbox
+  - hash:
+      serializedVersion: 2
+      Hash: 2cac4f1c45662832afb61742a86cedf4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMAutoFocus
   - hash:
       serializedVersion: 2
       Hash: eb149c8d8e7ddde3651978d9a5ef5509
@@ -1734,10 +2603,22 @@ ScriptsOnlyBuild:
     className: MunCollect
   - hash:
       serializedVersion: 2
+      Hash: dd4606c33a380eaa7ea31ab104b0c6a2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringVignetteIntensity
+  - hash:
+      serializedVersion: 2
       Hash: bccf042e84a1f5a4ed47c587fd78c6e3
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: MultiReferentialConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: b6f950febfe79035f669ecac130477eb
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemChoices
   - hash:
       serializedVersion: 2
       Hash: 6cac290ffa8e0f32236389de6afb8d7d
@@ -1750,6 +2631,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: MultiParentConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 727f28126dd87b4c9ef338e714e6fa80
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuCommands
   - hash:
       serializedVersion: 2
       Hash: caf06d2412ca083a30dfdad7719fd538
@@ -1782,6 +2669,18 @@ ScriptsOnlyBuild:
     className: InputSystemUIInputModuleEditor
   - hash:
       serializedVersion: 2
+      Hash: 0c8554ce933522b170e1aaa528194ede
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRigidbodyCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 422321a731db5ee7dc287bad1fcb0db6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemCheckbox
+  - hash:
+      serializedVersion: 2
       Hash: b14e186823458f549289789cccbb77ce
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1792,6 +2691,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: 
     className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 2f4c8981805cddc9fe625ef70d7456d4
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: V2DemoManager
   - hash:
       serializedVersion: 2
       Hash: ec0d35329484cbf83a42d8dd297fe94b
@@ -1806,10 +2711,58 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 39acb340db5918f4482ed2c96958ce4b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPTextColor
+  - hash:
+      serializedVersion: 2
       Hash: 27de3f57e00e818df4b30a167ba29e9e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LevelSelectText
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab290390ae9cf5eb1c6853767e309dd
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMLensDistortionShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: 6ccfeaef47e0d2d356c212c6f579dcfa
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSpawnAroundTester
+  - hash:
+      serializedVersion: 2
+      Hash: a016a246dcbceb7a998c1b7ccaf67bf4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMObservableDemoObserver
+  - hash:
+      serializedVersion: 2
+      Hash: f347160be9e2daa82d24e3ee15bda314
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMLensDistortionShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: f2fbfaafee8351c37d4af93ddc2f73e6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSelectionBase
+  - hash:
+      serializedVersion: 2
+      Hash: 338f2bf80d88db5dbe4c654fa65d181f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchFollowerJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 540a83e1519ceef9ccb0acc2cdb90077
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: AIBrain
   - hash:
       serializedVersion: 2
       Hash: 5b47c667a93e350389d0f06f9be40d9d
@@ -1818,10 +2771,46 @@ ScriptsOnlyBuild:
     className: CinemachineCameraOffset
   - hash:
       serializedVersion: 2
+      Hash: 243fb41f102fc0f59b60429494c0f6f5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMHealthBar
+  - hash:
+      serializedVersion: 2
+      Hash: 88b738fbb75ab99cf121a0408bf35997
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAutoDestroyParticleSystem
+  - hash:
+      serializedVersion: 2
       Hash: 191c3402cd43ee08f0a96795440c294e
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7b9eb3497a5c0bb6071b58aabba48d3c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: ShaderController
+  - hash:
+      serializedVersion: 2
+      Hash: 9d50f98923e666689c6688a9c5dc71b2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: dae5ce34a3cecfa844c759038915027e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationCurveGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 49bf138d0891c17ccc651f3afd3aa666
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMFPSCounter
   - hash:
       serializedVersion: 2
       Hash: 35bb517bac2f684076b9999b33de0400
@@ -1836,6 +2825,18 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 74e035d3ddd293bec058156e204c9d09
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringImageFillAmount
+  - hash:
+      serializedVersion: 2
+      Hash: bcb695e69bd143903e025649267f0250
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMControlsTestInputManager
+  - hash:
+      serializedVersion: 2
       Hash: 0e12ea39b961a59d1364569ae06e2282
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1848,10 +2849,46 @@ ScriptsOnlyBuild:
     className: StandaloneInputModuleModuleEditor
   - hash:
       serializedVersion: 2
+      Hash: 4b7d12c7ea99868944fa685d451a8af1
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMShaker
+  - hash:
+      serializedVersion: 2
+      Hash: b9b87d419e87f990bf03261b0c38f9bd
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMPaniniProjectionShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 19d0799855f8b974fcad2a17ef9997e3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAudioListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf3f6384e68cf861df21379b25006e34
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: BarbarianEnemy
+  - hash:
+      serializedVersion: 2
+      Hash: 30ead4cf3434ca3b60b4e7d371c201d3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRendererSortingLayer
+  - hash:
+      serializedVersion: 2
       Hash: 4663ce278bf334bc7cb334ea8061129e
     assemblyName: Unity.AI.Navigation
     namespaceName: Unity.AI.Navigation
     className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 02011704cf1677e8b12fddbe072c09b5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMStayInPlace
   - hash:
       serializedVersion: 2
       Hash: f6ab7a9b71acfe83e379495ba640aa71
@@ -1866,16 +2903,46 @@ ScriptsOnlyBuild:
     className: MultiAimConstraint
   - hash:
       serializedVersion: 2
+      Hash: d7ac97d3043b1a1bdc2e348417717e98
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoButton
+  - hash:
+      serializedVersion: 2
+      Hash: 1dc8f23d37d8802c47ac9c2bb483871c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapCleaner
+  - hash:
+      serializedVersion: 2
       Hash: aa0d9690d4fcf762950bd9364343ca93
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineSameAsFollowTarget
   - hash:
       serializedVersion: 2
+      Hash: 50ee34f8ad8905f393083201983426c6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPath
+  - hash:
+      serializedVersion: 2
+      Hash: e76ec64edaf7951614bd5bfe87e35217
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsVector3Demo
+  - hash:
+      serializedVersion: 2
       Hash: 4bf8d6f446d3cafb03a885a5cf6f2cd9
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: a24612d3f6a8d71582f47ecd2b5f5aa8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlaylist
   - hash:
       serializedVersion: 2
       Hash: 84fd5b58131005680184ae89163ce396
@@ -1888,6 +2955,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: 
     className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 31b8712bab0f456d3cff5404f577b84f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSpriteReplace
+  - hash:
+      serializedVersion: 2
+      Hash: 4548a8a5765ea201dfcf85eb6cb352a7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringScale
   - hash:
       serializedVersion: 2
       Hash: a86c76e3081313bbddd26f2d2c1c6830
@@ -1920,6 +2999,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: 4a84707d88ae84f4f639e943f0e0733e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelBrassGroundGenerator
+  - hash:
+      serializedVersion: 2
       Hash: b30c8635462e66ac20f4241106119f77
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1932,10 +3017,58 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
+      Hash: eb437afdd50e3e945c1c221dc18a7819
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceVolumeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1917dd5cfb70a54d6bec5e2802aef6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMGlobalPostProcessingVolumeAutoBlend_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 826734ab5b818f699d35386c48a2a577
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFilmGrainShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: 3fb69f146896f56638e02bddb98191be
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMWhiteBalanceShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 4f961dbc5dbd1ed6ce9ba249188c43c4
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: EmphasisHapticsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: d52d122f55461b547b33ac9ec04bd07f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMOffsetAnimation
+  - hash:
+      serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 4a9e989c9f89924883ae7ecac07648c9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugTouchDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: e878383566c5c6f34de7d5f23cefa5c3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMLensDistortionShaker
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -1944,16 +3077,64 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 168c518a2e1ff9415dbd0f935bb32d0c
+    assemblyName: Lofelt.NiceVibrations
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticClip
+  - hash:
+      serializedVersion: 2
+      Hash: bf04a4471cf0fa51a63714110691050e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMLineRendererCircle
+  - hash:
+      serializedVersion: 2
+      Hash: d2329b9a10e884e7bc0458787888ca17
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneLoadingImageProgress
+  - hash:
+      serializedVersion: 2
       Hash: 110aa327d5a5138dcfcbacb388ae0acc
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessEffectSettings
   - hash:
       serializedVersion: 2
+      Hash: 15430f6e0509c4207e6b00017303b552
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraClippingPlanesShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 9ce02e4445fb38dca8c5380d4d2a3831
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFilmGrainShaker_URP
+  - hash:
+      serializedVersion: 2
       Hash: 51b80d3734ea86b38e3101db98029e15
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3bc50b68b1ad9adc13fa39d500c881b5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: PlaylistDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 6b1b98994dc2aae807adaa2f685724f9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsVector2Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 62c1f757b08835d0f5683866ff9a604d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlotterGenerator
   - hash:
       serializedVersion: 2
       Hash: 423a204f105739da55558e8e0d136a67
@@ -1966,6 +3147,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d6e8e7f82f0ca852b356faed0ea701d8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3c6e0768bfcc936419841cb5862e94
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: e3d63d813edfdd4160e95b33edc4cdac
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSimpleObjectPooler
+  - hash:
+      serializedVersion: 2
+      Hash: 81d55ea8e6c13ec88a3177970e3cf811
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRandomInstantiator
   - hash:
       serializedVersion: 2
       Hash: 7bb32d6e4c7614a97d9723ce7e26588c
@@ -1986,6 +3191,18 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: e531af74e4ad270caf5bd754aa5efca4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMPositionShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff94a74aa6df383a5ff5084cfaa8bea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTestClass
+  - hash:
+      serializedVersion: 2
       Hash: f7eb0324729080ddaf63ba59c931745b
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
@@ -1996,6 +3213,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: Rig
+  - hash:
+      serializedVersion: 2
+      Hash: d9695e235fe3b6b350a8121ca8116982
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 756fa0139cf664039243fefafc57417a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMMultipleObjectPooler
   - hash:
       serializedVersion: 2
       Hash: c0e97241d89036e9763306181a147128
@@ -2010,10 +3239,40 @@ ScriptsOnlyBuild:
     className: UnityOnDropMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 778d1026e7a738ede7ec5d94b74d4445
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringLensDistortionIntensity
+  - hash:
+      serializedVersion: 2
+      Hash: 150df5ca22c58173719c1547584b4261
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugController
+  - hash:
+      serializedVersion: 2
+      Hash: 7d18f5a393aca1c75349606a72ef2d5c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneLoadingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 593194d448e771d734a4a8995a6969e7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
       Hash: 04b6685b6f724c0d6024e6b6f96c8202
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1762e024623cd5b24f57c0ecdd3c271
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSoundManagerSettingsSO
   - hash:
       serializedVersion: 2
       Hash: 6d394de691f6d0187f61c08889353d0e
@@ -2040,6 +3299,12 @@ ScriptsOnlyBuild:
     className: CustomRigBuilderEvaluator
   - hash:
       serializedVersion: 2
+      Hash: f4830572f913d1ca208f4896aa6804db
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMLoadScene
+  - hash:
+      serializedVersion: 2
       Hash: b838cbada0b03f1cfbaebc8e124f4f39
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -2058,6 +3323,48 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: dd467973397ce6ace05a12de7a9f8772
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMScreenshot
+  - hash:
+      serializedVersion: 2
+      Hash: 7b0ce3d4235ee99cd1baa8823f2bfec1
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRigidbodyInterface
+  - hash:
+      serializedVersion: 2
+      Hash: 2e152399ae0c65bf0f3678771af1cd77
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelCardsUIStackButton
+  - hash:
+      serializedVersion: 2
+      Hash: 9c0779a9b9cea10728a6a373b9f75349
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMBoundsExtensions
+  - hash:
+      serializedVersion: 2
+      Hash: 6af2888e1ef899746ae35f903042ec7d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAnimatorMirror
+  - hash:
+      serializedVersion: 2
+      Hash: d1a13f23d48a2202382ce7b89336e363
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSaveLoadTester
+  - hash:
+      serializedVersion: 2
+      Hash: a05b2bd89fdbbe3e2defbe62350cbd48
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Blob
+  - hash:
+      serializedVersion: 2
       Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2068,6 +3375,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 27518dfb020a45901fca47eda3dd84c7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMColorGradingShaker
+  - hash:
+      serializedVersion: 2
+      Hash: fec2213566c36d12d9e272fbeb551e6c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMVignetteShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: 5bd0af58b95e299bdd3e5a0e1a9ca1f6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRadioSignalGenerator
   - hash:
       serializedVersion: 2
       Hash: 8b556dc4efa9e7f65d49bf45ac6c4c84
@@ -2082,10 +3407,22 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
+      Hash: f34464000d13efb5566baeefe85ca191
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAutoInputModule
+  - hash:
+      serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 576231f94caa4eb826c764f829882a50
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChromaticAberrationShaker_HDRP
   - hash:
       serializedVersion: 2
       Hash: d2ecd94550edf1b56aff07b1f4e41c57
@@ -2112,16 +3449,52 @@ ScriptsOnlyBuild:
     className: CinemachineStoryboard
   - hash:
       serializedVersion: 2
+      Hash: 00708253eb8b8f6157565340bb7c82ea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoGhost
+  - hash:
+      serializedVersion: 2
+      Hash: db0833a432f9fc9577045edd38ec2a8c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMMiniPoolableObject
+  - hash:
+      serializedVersion: 2
       Hash: 02a47340661d2ea7c6d30e292cfef403
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnToggleValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: dc42edea913f48cc620bf336221f4a63
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringCameraFieldOfView
+  - hash:
+      serializedVersion: 2
+      Hash: 37267fac128134fb990d5132482daa17
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMLootTableGameObjectSO
+  - hash:
+      serializedVersion: 2
       Hash: a3901985eb076c1c9b7562fca82ca3e0
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8f927e9a6fda5a6e6d89269000f7f2b7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMDepthOfFieldShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: d38c56fb8d0603170d445318387c8c85
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Strike
   - hash:
       serializedVersion: 2
       Hash: f295412bc00b58b9095a71e9764cc886
@@ -2154,10 +3527,22 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
+      Hash: b494ec6e512e94150a35420d194185d8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSquashAndStretch
+  - hash:
+      serializedVersion: 2
       Hash: cf32d98954e63b8e30e9334b152e9b8e
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: b6cc91392fbdd946fbd5288530c2fbb2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMConsole
   - hash:
       serializedVersion: 2
       Hash: c4cd63f10b16ed4d4ae3c19f0ab18f0d
@@ -2166,10 +3551,46 @@ ScriptsOnlyBuild:
     className: CinemachineIndependentImpulseListener
   - hash:
       serializedVersion: 2
+      Hash: 8811477cbf119b6229d0be47a2aabf8f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMBillboard
+  - hash:
+      serializedVersion: 2
+      Hash: 366082de1664afa061f567b64209b617
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: LightController
+  - hash:
+      serializedVersion: 2
+      Hash: 97c80d82b5a5ccce856fa0cc080a50cc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMVisibleParticle
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe07874222b49a32f7e9fa0fb7273cd
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: BounceFeedbacks
+  - hash:
+      serializedVersion: 2
+      Hash: f3fd12e3dbc8d5d0763ccac40315944a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCameraFog
+  - hash:
+      serializedVersion: 2
       Hash: ff71db1a48de41d3a8a5ffdfae1ea607
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 836b238f1043e93ef279a5020acd87b3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksSequencer
   - hash:
       serializedVersion: 2
       Hash: 95cec85248d20787021305cfe145ab16
@@ -2178,10 +3599,52 @@ ScriptsOnlyBuild:
     className: SplineInstantiate
   - hash:
       serializedVersion: 2
+      Hash: bccbb0c699f66e94b6e0e0bb7dde5f2d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringRectTransformPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 1613908dda01bc370f21b1d1a886b780
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMMotionBlurShaker_HDRP
+  - hash:
+      serializedVersion: 2
       Hash: b5007673bbbdb9d12597a1d8201370f5
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 7f012d3a05cf965966aeddff9228e499
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 0e3a8da364a9d7b244f5a8fda0cee4bc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementDisplayItem
+  - hash:
+      serializedVersion: 2
+      Hash: 18c7eda44990ccc4fad7af265740cafe
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: BallDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 53ca211eb3142955d6eddfc50119bd86
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPCharacterSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: b4d627064d8da6c22bc85be1173082fd
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: BallDemoWall
   - hash:
       serializedVersion: 2
       Hash: fdf716d1b5b6357f894b35bb8fcaebca
@@ -2190,16 +3653,40 @@ ScriptsOnlyBuild:
     className: ChainIKConstraint
   - hash:
       serializedVersion: 2
+      Hash: 306768230f54b7135f131f09e02924dc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenu
+  - hash:
+      serializedVersion: 2
       Hash: d5cd7f207e91ca8336c65a577a6fb2a0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: ff1c4789686a72057a2c9ace86fe5aad
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChromaticAberrationShaker
+  - hash:
+      serializedVersion: 2
       Hash: a049c5dd35cb574ae69ebee47a5f1bb8
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8eacdab2302c4bd1e5b75bf989dad5df
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuDebugTab
+  - hash:
+      serializedVersion: 2
+      Hash: 96589fdfeb1ce979754e2cb3d33c7038
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelTransitionScript
   - hash:
       serializedVersion: 2
       Hash: 0ccd3dafcf8319e223afdb4ffed425f4
@@ -2232,16 +3719,46 @@ ScriptsOnlyBuild:
     className: CinemachineTriggerAction
   - hash:
       serializedVersion: 2
+      Hash: f47ca4a7e0078c93c30421f060769912
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPeriodicExecution
+  - hash:
+      serializedVersion: 2
+      Hash: 0dcb4c2f733ce8105dbcb0ffb78b2dba
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRuntimeParticleControl
+  - hash:
+      serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 24d0f7491a1dfcebacfd76ea13b5c0d7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Falcon
+  - hash:
+      serializedVersion: 2
+      Hash: 6262bb8f1b5c3e23107b3a56cd8903a4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMVignetteShaker_HDRP
+  - hash:
+      serializedVersion: 2
       Hash: 9a6bfc1bbbd2b31fc470c7ce85567266
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 9096e1c4756ff74cd8c92b9d2e3107fd
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: RegularPresetsDemoManager
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -2254,6 +3771,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GoToLevel
+  - hash:
+      serializedVersion: 2
+      Hash: ac212af1c45360bdf8ac8d99c1268924
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringColorGradingTemperature
+  - hash:
+      serializedVersion: 2
+      Hash: 153eafeefabe20c0269dd5ec84d87ccc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMGlobalPostProcessingVolumeAutoBlend
   - hash:
       serializedVersion: 2
       Hash: 4457ce3d43ff730d542f03e62399ff70
@@ -2280,10 +3809,22 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e4eb08a70dcb94b938ecf3d497d383fd
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: CarDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: 6217b1287eca7eed313cf0b864249a30
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 954357784ba5324d7bfb35dfc82b111a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTextureScale
   - hash:
       serializedVersion: 2
       Hash: fb79e95da8891fc7ac6c36ca6967af23
@@ -2298,6 +3839,36 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4394217d3cdcad75d4e0e3486d678989
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSoundManagerTrackVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 5203182485c714d44dc7c438b4d208d8
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: f658a48fa83b6979540509327ce3f578
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMParentingOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: cf2fd2a46d351d93449964afcc518bd0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlotterAxis
+  - hash:
+      serializedVersion: 2
+      Hash: 42280d34d57b22c4b28bca4c6dcbfcb7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemValue
+  - hash:
+      serializedVersion: 2
       Hash: 8dc40a01667ca02b3354a4e7a61be082
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -2308,6 +3879,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 735ca286455d224e7f3804b658113b68
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRagdoller
   - hash:
       serializedVersion: 2
       Hash: 5e5bcf63f5906febf9ed1ec2d3cb88b3
@@ -2322,16 +3899,46 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 25027b653770d3db88a488d2cceca88b
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: ContinuousHapticsDemoManager
+  - hash:
+      serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: AnimatorMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 649541423e4e683bed83b43978f01d2f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPLineSpacing
+  - hash:
+      serializedVersion: 2
       Hash: c504a00205f1fce96532e548c019e2a3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BoostRing
+  - hash:
+      serializedVersion: 2
+      Hash: 312f938309c43e40fa3b90db50acc871
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMChangeFogColor
+  - hash:
+      serializedVersion: 2
+      Hash: f2a985b637321704b5b74327f77f22d6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpriteRendererShaker
+  - hash:
+      serializedVersion: 2
+      Hash: deabfb0eed74584bd0367480d81700b4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGyroscope
   - hash:
       serializedVersion: 2
       Hash: bc75926bfd3609757f7bf33ff766f026
@@ -2346,10 +3953,34 @@ ScriptsOnlyBuild:
     className: InputActionReference
   - hash:
       serializedVersion: 2
+      Hash: d31504038f2104beb7b53834244f2ed4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMInputSequenceRecorder
+  - hash:
+      serializedVersion: 2
       Hash: 4878e735441f4041539853759559c86f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2e7fd9cfd51adea1c1f2cc646650fdf4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsCellMovementDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 74489aac2034f89cd30eb072180ad060
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTrailRendererSortingLayer
+  - hash:
+      serializedVersion: 2
+      Hash: fc95156ad451afab607c0a4d908f8ac3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAdditiveSceneLoadingManager
   - hash:
       serializedVersion: 2
       Hash: 40be2ad159aa1a2b72ecc74cb38c7824
@@ -2358,16 +3989,58 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
+      Hash: 3c86a3901b07f372ae672ff4ddc94b89
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsAdvancedFloatDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 09e130921e7eb8300ae0108242b8d881
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFloatingTextSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 6dadb8deecadfae62513c1c8db255ab4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMColorAdjustmentsShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: d08854c64a378ee9a99fa3ba2ec2dbda
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPSBToUIConverter
+  - hash:
+      serializedVersion: 2
       Hash: f8564b4c2d4a7f5c7f1fcaab23156624
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: TwistCorrection
   - hash:
       serializedVersion: 2
-      Hash: 83acd75c23f25311bbc178f9671e08a6
+      Hash: 693067060cd2de24d7505f2bce4a4892
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 1c0e9ff5c841f5f7f2aba9c5c74c0704
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSMPlaylist
+  - hash:
+      serializedVersion: 2
+      Hash: 48a33c74099221b89102ebad962bb6a7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: fda8f87b9fc869c1ba4db71f164d206f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTwoSidedUI
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -2382,6 +4055,18 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 0e3850f0104acf209cf803a4b409df0f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 02f22d09fe39a598e5799fd1299b0a54
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGhostCamera
+  - hash:
+      serializedVersion: 2
       Hash: e18dfd2b913b09fbbb2405165a2e6a44
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -2394,10 +4079,70 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 0d3d3b14230225d65243393317830ef0
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: Pagination
+  - hash:
+      serializedVersion: 2
+      Hash: f7eadea91958a38455a98522fbceb42e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: TransformController
+  - hash:
+      serializedVersion: 2
+      Hash: ac9cb28c2fe9aaf149cc977a217d9b52
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPersistentBase
+  - hash:
+      serializedVersion: 2
+      Hash: e7109d11cfc56b7ed7cd148527246858
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuRadioButton
+  - hash:
+      serializedVersion: 2
+      Hash: b2bc0f39cb29acda8f2982120741c5d2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: SnakeBodyPart
+  - hash:
+      serializedVersion: 2
+      Hash: cc16a1a300ee727d96aa5f0eb1c78c39
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoBall
+  - hash:
+      serializedVersion: 2
+      Hash: 0c9d81e4528e6a6795c3c306ee778436
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringRotation
+  - hash:
+      serializedVersion: 2
+      Hash: e359ca1be5848c54f0d8c7055bc7edf7
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticClipsDemoRotator
+  - hash:
+      serializedVersion: 2
+      Hash: daddb8298e0cb45596271467ccfbb528
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMConeOfVision2D
+  - hash:
+      serializedVersion: 2
       Hash: 715f7928b39881049ce8c46350cb8681
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f82e986bc76d43049008fdaa2a43686
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringColorGradingSaturation
   - hash:
       serializedVersion: 2
       Hash: 42284ecb06b05bfc619be3758fa5dd7a
@@ -2410,6 +4155,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 63c9ec327f28e2ab9a0119a3e92a4388
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMParallaxUI
   - hash:
       serializedVersion: 2
       Hash: e402a382f213255c22bda9254dd831b3
@@ -2430,16 +4181,46 @@ ScriptsOnlyBuild:
     className: NavMeshSurface
   - hash:
       serializedVersion: 2
+      Hash: cc95caf8d9e193320a30cf371fb1a161
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDelayParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 93bd097579e63b6e7558773c558701b1
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPoolableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 75c13ebe689955df6c44ceb814fa84b0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTextureOffset
+  - hash:
+      serializedVersion: 2
       Hash: 6cf63e9dc888f92a3672d2e4db631c8e
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: PlayerInputManagerEditor
   - hash:
       serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
+      Hash: a8fedff388a3c457dff31ab5dd5ebe84
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMColorAdjustmentsShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: a3d29a151c2c7bdcc686ad47dbff9306
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 136653516714bf413611eedb85d58e96
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: BallTouchZone
   - hash:
       serializedVersion: 2
       Hash: 3074afe1b03a0fb081e176a4ef1b9d09
@@ -2454,6 +4235,12 @@ ScriptsOnlyBuild:
     className: ExampleSceneManagerController
   - hash:
       serializedVersion: 2
+      Hash: 7b2820f196794bf4d5156ec9e5a9fc2c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMRotationShaker
+  - hash:
+      serializedVersion: 2
       Hash: 17142b03663387290480c82303274c02
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2466,10 +4253,40 @@ ScriptsOnlyBuild:
     className: CinemachineFixedSignal
   - hash:
       serializedVersion: 2
+      Hash: e892a26081d8b0c0150a48d34e7ec7ea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMObjectPool
+  - hash:
+      serializedVersion: 2
       Hash: 2dad32af7d5faa52f0bb3d6670290c91
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: OverrideTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 2cb43f48c667fa6f3115b514520425e3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSequence
+  - hash:
+      serializedVersion: 2
+      Hash: e14f1a0ca5bf3034f161992af871ce19
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 53206b8a4102bb797b3108f350dae973
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTimedActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 2a0d16bfeb7e5122c2045a566c43d1e8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringColorGradingHueShift
   - hash:
       serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
@@ -2478,16 +4295,52 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 1e24e21b23f41698d5007bc723931b99
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksShaker
+  - hash:
+      serializedVersion: 2
+      Hash: f5262476fff350fd6db819a6a59e33c9
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMLightShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 2b27dd3acdae8ca180d8f70646f68af6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTabManager
+  - hash:
+      serializedVersion: 2
       Hash: 28fd3d045acc780719a17f02073eb448
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: InputField
   - hash:
       serializedVersion: 2
+      Hash: 73352d19c77b5bfede283379b473e2dd
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: bf1622455fd04f58128993c5d477e94a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: SnakeFood
+  - hash:
+      serializedVersion: 2
       Hash: 07ac5abbf1211711231ba9fc21c550e6
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 04a8e4aa50eb8aba95112efe0a69ff37
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksInspectorColors
   - hash:
       serializedVersion: 2
       Hash: e49f64f6c7006f2a8a0e7674b5de1fae
@@ -2526,6 +4379,24 @@ ScriptsOnlyBuild:
     className: MotionBlur
   - hash:
       serializedVersion: 2
+      Hash: 9071419cdefac1d071824f46bd9844e2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCameraZoom
+  - hash:
+      serializedVersion: 2
+      Hash: c8600031f2380b649caa7631cbf0f85d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: 8b0b74f024ef367619f853bf28d18c6a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGizmo
+  - hash:
+      serializedVersion: 2
       Hash: ffaaa6b08bc8a8928411e8e402432358
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -2538,10 +4409,22 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
+      Hash: e94a07de07fb58b17f94fc24a3f98757
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelBrass
+  - hash:
+      serializedVersion: 2
       Hash: 240a44072d406174c464da5916816589
     assemblyName: Cinemachine
     namespaceName: Cinemachine.PostFX
     className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1df0447c1eeb4ae8e38f0b5f8490215b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMOpenURL
   - hash:
       serializedVersion: 2
       Hash: ed83cfd8c965e1a0e3d33d8ce606c6e4
@@ -2556,10 +4439,58 @@ ScriptsOnlyBuild:
     className: ObjectiveManager
   - hash:
       serializedVersion: 2
+      Hash: 0a0767eeef60a97ea0c2dffb81e31d19
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationModifier
+  - hash:
+      serializedVersion: 2
+      Hash: d472a1a23a55dd758f41378f5f7d30d0
+    assemblyName: Lofelt.NiceVibrations
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticReceiver
+  - hash:
+      serializedVersion: 2
       Hash: 0515d3107a65fdbab3ad88c2c94de99f
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 9eef43a757fa0507916492a53cc5ee79
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPWordSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: 1d8d8b0446dd8d7bf3bfe4295d950d2b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsFloatDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 64bad2b3705cc20a06e7db30b1e2c80a
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 719d52d18ba8503f6f2c9be40668ed02
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPersistenceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0b10096b0906c68928d27b71df259024
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTilemap
+  - hash:
+      serializedVersion: 2
+      Hash: 4da6a0891ef2accf42cb2f939f64ffc6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlaylistRemote
   - hash:
       serializedVersion: 2
       Hash: 3fc11cb7154bc273c01c3e7e1de59ceb
@@ -2568,16 +4499,64 @@ ScriptsOnlyBuild:
     className: LevelSelector
   - hash:
       serializedVersion: 2
+      Hash: 4eaaf90c467ce88697a097130ffa1041
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneName
+  - hash:
+      serializedVersion: 2
+      Hash: 39bc974c9eccb71a60fd36f2c69036d0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSliderStep
+  - hash:
+      serializedVersion: 2
+      Hash: bb19ab34986ea14bdd07d80bf051a346
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraOrthographicSizeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: f7382fbb5ede86c04e9ca53eca5b3186
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: SelectionBase
+  - hash:
+      serializedVersion: 2
+      Hash: 04a431f416827152dee55493726c0bd2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMEmmiterReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 55bddb84b047cd1e0e232edc3c5d5808
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTransformRandomizer
+  - hash:
+      serializedVersion: 2
       Hash: 81abcac4f15fd2dfc76ce16711dd5df5
     assemblyName: CFXRRuntime
     namespaceName: CartoonFX
     className: CFXR_ParticleTextFontAsset
   - hash:
       serializedVersion: 2
+      Hash: 0085f495c643a9a0441a7e189fcc7c8e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTween
+  - hash:
+      serializedVersion: 2
       Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c05d04eca6c90a06d3ee100efca1291d
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMSignal
   - hash:
       serializedVersion: 2
       Hash: 424074d3010ce4ec3d155fbdba52a3b3
@@ -2598,16 +4577,64 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 90d0efede5c2baddd2d0a617b8f88171
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPlatformActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 3364df76197d8af0f4cebffc1ceec7a8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringChromaticAberrationIntensity
+  - hash:
+      serializedVersion: 2
       Hash: 79e0e9f4f282cddce0c072486f495860
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MovingPlat
   - hash:
       serializedVersion: 2
+      Hash: fed27145654490e848779a3000ad56a3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMOnMouse
+  - hash:
+      serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 3cf8f8ba997d14a84b1c21005f7b20e2
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGyroParallax
+  - hash:
+      serializedVersion: 2
+      Hash: bcfed9b287b099c97a59ba2c08173232
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: WobbleButton
+  - hash:
+      serializedVersion: 2
+      Hash: 41daf118bba71da9fce11ee741fd99ba
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Wheel
+  - hash:
+      serializedVersion: 2
+      Hash: 447749981b492a5b7b15619f6fb016e9
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: WobbleDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 021e21febd5e7d983e84c95fbe594915
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuButtonEventListener
   - hash:
       serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
@@ -2628,16 +4655,46 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: f7e6add8aab5b62e317e3b6794ec1502
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSMPlaylistManager
+  - hash:
+      serializedVersion: 2
       Hash: e5f9868e485ac5248f96a3be584a5e4a
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 8a3dc9dbb02d5b079921fd9c9186deb4
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAutoOrderInLayer
+  - hash:
+      serializedVersion: 2
       Hash: 9ebb206587356b4f57cd7f4108f0f87f
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ba58818483be021b4e7e2efa0764f313
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: 7ff300cdd725df3d619c0bcf72c317ea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterReverbShaker
+  - hash:
+      serializedVersion: 2
+      Hash: cd5f2ca86bd8a3d76a407df4897ca426
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMDepthOfFieldShaker
   - hash:
       serializedVersion: 2
       Hash: 11d65a9119626daae656690fd1fb8d1e
@@ -2652,10 +4709,28 @@ ScriptsOnlyBuild:
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: f4bb1ffdd9f57c81cddf90a7ddcf0946
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMBloomShaker_HDRP
+  - hash:
+      serializedVersion: 2
       Hash: 1799e2459e3f656b6f21094fd998eaee
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 621c44a9e49dd4edc74d5ecdfa3229f3
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringShaderController
+  - hash:
+      serializedVersion: 2
+      Hash: 3e3d14554f688e93eac3feb8a72f4d5d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: StrikeBall
   - hash:
       serializedVersion: 2
       Hash: 488f3922fa1ec8f7d72cbb04b88bf18d
@@ -2664,10 +4739,40 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
+      Hash: f8e046efee377419bd4070e0544b1f7e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachinePriorityBrainListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2bad48e06add9f419679763ba5040143
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPAlpha
+  - hash:
+      serializedVersion: 2
       Hash: d7d424ed392cf89bdce865cf7461334f
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineAnimate
+  - hash:
+      serializedVersion: 2
+      Hash: 8478c59645012f06da0332be2154ded8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMGetFocusOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: f8d3594fbcb2192189d7d2ffea43e4a5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: 526ef2fc0874f92b1ce37371b3b03940
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSliderEventListener
   - hash:
       serializedVersion: 2
       Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
@@ -2682,6 +4787,24 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 2d6fc51e99fcf6874fe8e5c178a4473e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringLightRange
+  - hash:
+      serializedVersion: 2
+      Hash: d354974bfa179dd1459ba6f2d489bb87
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRadialProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 8a3aad411cfbb4ed7c5493c618dd4b04
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: HapticCurve
+  - hash:
+      serializedVersion: 2
       Hash: 429ce0b58f9d2275bbc4ed740bee78ec
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -2694,10 +4817,34 @@ ScriptsOnlyBuild:
     className: PostProcessProfile
   - hash:
       serializedVersion: 2
+      Hash: 25884fc269966c47b6fa28ef965205b9
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMKnob
+  - hash:
+      serializedVersion: 2
       Hash: 2875aabd0b0eab484a5ff1048f8d06ba
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: BlendConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 3253699321bed883015c0985191f0585
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringCameraOrthographicSize
+  - hash:
+      serializedVersion: 2
+      Hash: f6646599131c1619ad032e9118a064eb
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelDemosNextDemoButtonInput
+  - hash:
+      serializedVersion: 2
+      Hash: 35e7515911780b9ce0f322cc818c4c6d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuCheckboxEventListener
   - hash:
       serializedVersion: 2
       Hash: 72269a5e2a0c34486d67f955498a6d89
@@ -2712,16 +4859,40 @@ ScriptsOnlyBuild:
     className: GemBarrier
   - hash:
       serializedVersion: 2
+      Hash: 0c2cbdb61fe7e818f55a51372db2a609
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourcePitchShaker
+  - hash:
+      serializedVersion: 2
       Hash: fe111e830148f07e5735ebe7620f752e
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ChromaticAberration
   - hash:
       serializedVersion: 2
+      Hash: eb1664098ec5ff4b6ad6fb7def0397bc
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPathMovement
+  - hash:
+      serializedVersion: 2
+      Hash: fb183446c480ad9a37d0df3b56f7100b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugOnScreenConsole
+  - hash:
+      serializedVersion: 2
       Hash: 43ebd945b04bced376c791411cf5a289
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 474ef1a1fff170f224e59cf814275d7c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMArray
   - hash:
       serializedVersion: 2
       Hash: ad7a5ffad8a32193d069882ae204e288
@@ -2736,10 +4907,46 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
+      Hash: af989203909f0e808a88b6012a4e0af7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCameraAspectRatio
+  - hash:
+      serializedVersion: 2
+      Hash: 20b3516d57be3938d5d77bdc2d40829e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringTMPDilate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a8b5dbdc88d89f0b648f94d7fc9418e
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMF_PlayerEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: 886105920cd3b610dd03619be5289b74
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: UIToolkitDemo
+  - hash:
+      serializedVersion: 2
+      Hash: b68ce2593df42032ff9cd14d67b61f09
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringColorGradingContrast
+  - hash:
+      serializedVersion: 2
       Hash: 81c1ae8a097b2ae92f03307a9a3d2771
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 8be7da6c0b1a9696ab674522a62a3f8d
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPostProcessingMovingFilter
   - hash:
       serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
@@ -2748,10 +4955,58 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: a55e4def487b44cea638e19a6d0e162c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMObjectBounds
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3a0d4e664e20e18761c07b9d293659
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFaderDirectional
+  - hash:
+      serializedVersion: 2
+      Hash: 6c1d42c52cd60b33f37130c397d24d8b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough
+  - hash:
+      serializedVersion: 2
+      Hash: 6da18171d1222272ff397eebc78223d6
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMScaleShaker
+  - hash:
+      serializedVersion: 2
+      Hash: f7d117f5d5ede9a1ee234aa9f2b085ae
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterLowPassShaker
+  - hash:
+      serializedVersion: 2
+      Hash: b872f0bb5dc85423ef4a12a6109606da
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPersistent
+  - hash:
+      serializedVersion: 2
       Hash: 3ec218b63ce6384a3b005c0cd27fcef4
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: DampedTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 6e6bcb0d247a109465724a0847085e62
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Snake
+  - hash:
+      serializedVersion: 2
+      Hash: e41b891c61b92cef751673a7ca9dea69
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringLightColor
   - hash:
       serializedVersion: 2
       Hash: 13f262cc0741566a7ab72682984bc3e1
@@ -2760,10 +5015,46 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 66a47242c10befcfea1d9c13347a5bab
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 30c4b81a07aca2c753b671052ef253b8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacks
+  - hash:
+      serializedVersion: 2
+      Hash: 143b1afaf48a39bd95f72dee19e08711
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringAnimatorSpeed
+  - hash:
+      serializedVersion: 2
       Hash: 4ea4c44e4bc7a8be3bb8497fc35e1049
     assemblyName: Unity.Animation.Rigging
     namespaceName: UnityEngine.Animations.Rigging
     className: RigTransform
+  - hash:
+      serializedVersion: 2
+      Hash: d6a07fafc28fd71a04bf9370eb63eb82
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRaycastTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 4738ed2ed1b006573cf6afab9ecb0b37
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: Tactical
+  - hash:
+      serializedVersion: 2
+      Hash: 829077faff4613a58dd629a436d5fdea
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: DemoManager
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
@@ -2784,10 +5075,34 @@ ScriptsOnlyBuild:
     className: ColorGrading
   - hash:
       serializedVersion: 2
+      Hash: 87abb1be0a3c670c8ea445a42eb46c80
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCountdown
+  - hash:
+      serializedVersion: 2
       Hash: 5c07dd30a788898a98f349bde9e84e19
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: a5342d672d6d1f8815428ecf1bb955f7
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelSpringsDemoSlider
+  - hash:
+      serializedVersion: 2
+      Hash: d9cb269b652c2af4c9b7a2512edf677b
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTouchAxis
+  - hash:
+      serializedVersion: 2
+      Hash: e8f15694d81f6a77a1d52003a8bcbd15
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMCinemachineZone3D
   - hash:
       serializedVersion: 2
       Hash: 85f24827eddd27f43d0c2c836b171707
@@ -2796,16 +5111,52 @@ ScriptsOnlyBuild:
     className: CinemachineExternalCamera
   - hash:
       serializedVersion: 2
+      Hash: fdaaaae5619e8a17fa9e9f2207fe3e17
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: MMTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: a802e61d41ed151c474bb646042fa217
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMTriggerAndCollision
+  - hash:
+      serializedVersion: 2
       Hash: 83cfda82082c233d96cc677c19f57e07
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 2ad02b0c40a0f6ef24486aa92868b3f0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough2D
+  - hash:
+      serializedVersion: 2
       Hash: ff086b2fc4609f8b094e7c0435c6db0a
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 5749b02c288ae27ddb3db8e428816918
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: GettingStartedTutorialHeroReference
+  - hash:
+      serializedVersion: 2
+      Hash: d73f2a6db7e1d44a7cb767bf6f499ba5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMUIFollowMouse
+  - hash:
+      serializedVersion: 2
+      Hash: f935f546b29506f57432dab7eab33b8a
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMVignetteShaker
   - hash:
       serializedVersion: 2
       Hash: efd02e05d05bad651e8a5a2d1836f6cb
@@ -2820,6 +5171,18 @@ ScriptsOnlyBuild:
     className: WaveSpawner
   - hash:
       serializedVersion: 2
+      Hash: 70185a43981557d89ba9fc67a910ffd5
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMPositionRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 432af91083e54b89c0d65320eabc7449
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneRestarter
+  - hash:
+      serializedVersion: 2
       Hash: e23d2210701e34e6850023cabe554c1f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2832,10 +5195,34 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 2ff6f419c4e52013ed02a7ff2534d099
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: FeelDemosInstructions
+  - hash:
+      serializedVersion: 2
+      Hash: 28b8bc56652b3a7532607a7101ac80eb
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTabContents
+  - hash:
+      serializedVersion: 2
       Hash: b462ce9b96d7f3f3a8a18557fbf44071
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 1abf117ed742694a11c23300996336c1
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneViewIcon
+  - hash:
+      serializedVersion: 2
+      Hash: 259557c6e10f11a3e0c69789aec5eb4c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMAutoRotate
   - hash:
       serializedVersion: 2
       Hash: 4718916586b3818eb69bf65df61f0f3a
@@ -2850,6 +5237,30 @@ ScriptsOnlyBuild:
     className: CinemachineHardLockToTarget
   - hash:
       serializedVersion: 2
+      Hash: 8df3f39e83310cedf54c472870f99ed0
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMPaniniProjectionShaker_HDRP
+  - hash:
+      serializedVersion: 2
+      Hash: 3b94b7f56fdbaf7093835729cfb356ea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMMiniObjectPooler
+  - hash:
+      serializedVersion: 2
+      Hash: cee05a64da22ff6a0dc03526b3d93e49
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChromaticAberrationShaker_URP
+  - hash:
+      serializedVersion: 2
+      Hash: ee8f5b3adcbe7a5775f2f3478a0e112c
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMURPHelpers
+  - hash:
+      serializedVersion: 2
       Hash: e6e09b0a3f0fc87b665178f21f8a40e9
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -2862,10 +5273,28 @@ ScriptsOnlyBuild:
     className: UnityOnBecameInvisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4fee466864e4e9203463b68f45dbd2ac
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineFreeLookZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 2ad7ad7f4016366bf113f15aefe13fb8
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMRandomBoundsInstantiator
+  - hash:
+      serializedVersion: 2
       Hash: 800d7bbf0edb0055aeacdbfbe84a84b8
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 2e464a2e14ddc80b99b90c37f032cb58
+    assemblyName: Lofelt.NiceVibrations.Demo
+    namespaceName: Lofelt.NiceVibrations
+    className: BallPusher
   - hash:
       serializedVersion: 2
       Hash: 36cfad5d3046100301b650b8eb6329e8
@@ -2874,10 +5303,28 @@ ScriptsOnlyBuild:
     className: CinemachinePostProcessing
   - hash:
       serializedVersion: 2
+      Hash: f926f8ff6fe6109d77da25348eaf3cda
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceStereoPanShaker
+  - hash:
+      serializedVersion: 2
       Hash: a90f6a00b23520788be7d89ee3b0773d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 7863b2cbea972f829b6418df79c6a922
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemText
+  - hash:
+      serializedVersion: 2
+      Hash: d679d73db43be3e207479467359ea176
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpringSquashAndStretch
   - hash:
       serializedVersion: 2
       Hash: 5124a0cfb9e335814a7a8eb88ed00b85
@@ -2886,10 +5333,28 @@ ScriptsOnlyBuild:
     className: CFXR_Effect
   - hash:
       serializedVersion: 2
+      Hash: 4dec271358670cf9aa8f5bfad74d6784
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFaderRound
+  - hash:
+      serializedVersion: 2
       Hash: f2305da2400dfe6f069770a1a63f0f7c
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: be148e6038de0a09dfc273d42572a9da
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMFader
+  - hash:
+      serializedVersion: 2
+      Hash: d84be2610ae455a19749549efd398e3f
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feel
+    className: BounceManager
   - hash:
       serializedVersion: 2
       Hash: 737e17faf790d408b2bc124eed30063a
@@ -2898,10 +5363,22 @@ ScriptsOnlyBuild:
     className: SplineExtrude
   - hash:
       serializedVersion: 2
-      Hash: 96589fdfeb1ce979754e2cb3d33c7038
+      Hash: 78bb390029d011abb03d9d9466025a94
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Tools
+    className: MMSceneLoadingTextProgress
+  - hash:
+      serializedVersion: 2
+      Hash: f49804936196631ad9dddc8ded9b0ab3
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: LevelTransitionScript
+    className: BalloonRespawner
+  - hash:
+      serializedVersion: 2
+      Hash: c74c682026e4f17b41663b417656a6fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BalloonDamage
   platform: 19
   scenePathNames:
   - Assets/Scenes/Title.unity
@@ -2910,5 +5387,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/PlantForest.unity
   - Assets/Scenes/MysticPlant.unity
   - Assets/Scenes/Emberion.unity
-  playerPath: C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha
-    13/Cappi Astral Museum.exe
+  playerPath: C:/Users/trety/OneDrive/Desktop/games/cappi astral museum builds/Alpha14/Cappi
+    Astral Museum.exe
