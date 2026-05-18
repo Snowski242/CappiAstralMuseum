@@ -12,6 +12,12 @@ public class EnemyDamage : MonoBehaviour
     public float enemyInvuln;
     public float enemyInvulnMax = 60f;
 
+    PlayerMovement player;
+
+    private void Awake()
+    {
+        player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
+    }
 
     void Start()
     {
@@ -34,7 +40,6 @@ public class EnemyDamage : MonoBehaviour
             {
                 Debug.Log("tmnt");
 
-                PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
                 if(Input.GetButtonDown("Fire1"))
                 {
                     player.speed = 12;

@@ -114,14 +114,14 @@ public class EnemyBehavior : MonoBehaviour
                 {
                    
 
-                    PlayerMovement player = FindAnyObjectByType(typeof(PlayerMovement)) as PlayerMovement;
-                    if(player.canMove)
+                    
+                    if(target.canMove)
                     {
                         dmg.HP -= 1;
 
-                        player.state = "jump";
-                        player.transformVelocity.y = Mathf.Sqrt(player.jump * -2f * player.gravity);
-                        player.isGrounded = false;
+                        target.state = "jump";
+                        target.transformVelocity.y = Mathf.Sqrt(target.jump * -2f * target.gravity);
+                        target.isGrounded = false;
 
                         Instantiate(fx.hitFX, transform.position, Quaternion.identity);
                     }
@@ -137,8 +137,7 @@ public class EnemyBehavior : MonoBehaviour
                         stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
                     }
 
-                    PlayerMovement player = FindAnyObjectByType(typeof( PlayerMovement)) as PlayerMovement;
-                    player.tensionGauge = Mathf.MoveTowards(player.tensionGauge, player.tensionGaugeMax, 2.995f);
+                    target.tensionGauge = Mathf.MoveTowards(target.tensionGauge, target.tensionGaugeMax, 2.995f);
 
                     Destroy(gameObject);
                 }
@@ -149,7 +148,6 @@ public class EnemyBehavior : MonoBehaviour
 
     void FaceTarget()
     {
-        PlayerMovement target = FindFirstObjectByType<PlayerMovement>();
         Vector3 direction = (target.transform.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(-direction.x, 0, -direction.z));
         transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);

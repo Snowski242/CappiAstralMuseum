@@ -11,20 +11,26 @@ public class pauseMenu : MonoBehaviour
 
 
     public GameObject PauseMenu;
+    public GameObject regularMenu;
+    public GameObject optionMenu;
+    public Slider volumeSlider;
     public Image Button1;
     public Image Button2;
     public Image Button3;
+    public Image Button4;
     public AudioSource selectSound;
     public AudioSource selectedSound;
     public AudioSource backSound;
     public static bool isPaused;
     public static bool canPause = true;
+    public bool inMenu = false;
     int inputDelay;
 
 
 
     public bool isInMenus;
     public int options;
+    public int section;
 
     // Start is called before the first frame update
     void Start()
@@ -53,20 +59,39 @@ public class pauseMenu : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 selectedSound.Play();
-                if (options == 0)
+                if(section == 0)
                 {
-                    ResumeGame();
-                }
+                    if (options == 0)
+                    {
+                        ResumeGame();
+                    }
 
-                if (options == 1)
-                {
-                    RestartScene();
-                }
+                    if (options == 1)
+                    {
+                        RestartScene();
+                    }
 
-                if (options == 2)
-                {
-                    QuitGame();
+                    if (options == 2)
+                    {
+                        QuitGame();
+                    }
                 }
+                else
+                {
+                    if (options == 0)
+                    {
+                        if(inMenu)
+                        {
+                            BackToRegularMenu();
+                        }
+                        else
+                        {
+                            Options();
+                        }
+                        
+                    }
+                }
+                
             }
 
             if (vertical == 1)
@@ -79,6 +104,36 @@ public class pauseMenu : MonoBehaviour
                     if (options < 0)
                     {
                         options = 2;
+                    }
+                }
+            }
+
+            if (horizontal == 1 && !inMenu)
+            {
+                if (inputDelay <= 0)
+                {
+                    selectSound.Play();
+                    inputDelay = 60;
+                    section++;
+                    options = 0;
+                    if (section > 1)
+                    {
+                        section = 0;
+                    }
+                }
+            }
+
+            if (horizontal == -1 && !inMenu)
+            {
+                if (inputDelay <= 0)
+                {
+                    selectSound.Play();
+                    inputDelay = 60;
+                    section--;
+                    options = 0;
+                    if (section < 0)
+                    {
+                        section = 1;
                     }
                 }
             }
@@ -97,32 +152,53 @@ public class pauseMenu : MonoBehaviour
                 }
             }
 
-            if (options == 0)
+            if(section == 0)
             {
-                Button1.gameObject.SetActive(true);
+                if (options == 0)
+                {
+                    Button1.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Button1.gameObject.SetActive(false);
+                }
+
+                if (options == 1)
+                {
+                    Button2.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Button2.gameObject.SetActive(false);
+                }
+
+                if (options == 2)
+                {
+                    Button3.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Button3.gameObject.SetActive(false);
+                }
+
+                Button4.gameObject.SetActive(false);
             }
             else
             {
+                if (options == 0 && !inMenu)
+                {
+                    Button4.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Button4.gameObject.SetActive(false);
+                }
+
                 Button1.gameObject.SetActive(false);
-            }
-
-            if (options == 1)
-            {
-                Button2.gameObject.SetActive(true);
-            }
-            else
-            {
                 Button2.gameObject.SetActive(false);
-            }
-
-            if (options == 2)
-            {
-                Button3.gameObject.SetActive(true);
-            }
-            else
-            {
                 Button3.gameObject.SetActive(false);
             }
+            
         }
         
         if (Input.GetButtonDown("Pause") && canPause)
@@ -179,6 +255,20 @@ public class pauseMenu : MonoBehaviour
         }
 
         
+    }
+
+    public void Options()
+    {
+        optionMenu.SetActive(true);
+        regularMenu.SetActive(false);
+        inMenu = true;
+    }
+
+    public void BackToRegularMenu()
+    {
+        optionMenu.SetActive(false);
+        regularMenu.SetActive(true);
+        inMenu = false;
     }
 
     public void RestartScene()
