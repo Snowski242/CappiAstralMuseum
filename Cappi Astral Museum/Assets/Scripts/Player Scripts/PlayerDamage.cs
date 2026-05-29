@@ -48,7 +48,14 @@ public class PlayerDamage : MonoBehaviour
     {
         Collider[] hitColliders = Physics.OverlapSphere(center, radius, LayerMask.GetMask("Homing"));
 
+        Collider[] indestructibleColliders = Physics.OverlapSphere(center, radius, LayerMask.GetMask("Hurt"));
+
         if (hitColliders.Length > 0 && invulnTimer == 0 && player.state == "walk" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "idle" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "rev" || hitColliders.Length > 0 && invulnTimer == 0 && player.state == "revrun")
+        {
+            Hurt();
+        }
+
+        if (indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "walk" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "idle" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "rev" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "revrun")
         {
             Hurt();
         }

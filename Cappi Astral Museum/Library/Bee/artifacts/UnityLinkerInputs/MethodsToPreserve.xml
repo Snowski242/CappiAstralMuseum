@@ -1,6 +1,14 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="pauseMenu">
+			<method name="BackToRegularMenu"/>
+			<method name="BackToRegularMenu"/>
+			<method name="BackToRegularMenu"/>
+			<method name="BackToRegularMenu"/>
+			<method name="Options"/>
+			<method name="Options"/>
+			<method name="Options"/>
+			<method name="Options"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
@@ -22,6 +30,10 @@
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Object">
+			<method name="set_name"/>
+			<method name="set_name"/>
+			<method name="set_name"/>
+			<method name="set_name"/>
 			<method name="set_name"/>
 			<method name="set_name"/>
 			<method name="set_name"/>

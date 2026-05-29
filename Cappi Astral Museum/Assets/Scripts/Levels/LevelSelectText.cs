@@ -32,12 +32,12 @@ public class LevelSelectText : MonoBehaviour
         {
             if(gemID == 0)
             {
-                text.text = "At the Top of Flower Mountain!";
+                text.text = "At the Top of a Floating Platform";
             }
 
             if (gemID == 1)
             {
-                text.text = "The Peak of Mushroom Mountain!";
+                text.text = "A risky leap past flowers";
             }
 
             if (gemID == 2)
@@ -47,7 +47,7 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 3)
             {
-                text.text = "On top of a mushroom....";
+                text.text = "In an Ancient Building...";
             }
 
             if (gemID == 4)
@@ -62,12 +62,12 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 6)
             {
-                text.text = "Open a hidden capsule";
+                text.text = "A Hidden Capsule Under The World...";
             }
 
             if (gemID == 7)
             {
-                text.text = "Get 50 muns!";
+                text.text = "Get 50 Muns!";
             }
 
             if (gemID == 8)

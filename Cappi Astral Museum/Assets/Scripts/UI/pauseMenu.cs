@@ -1,3 +1,4 @@
+using Cinemachine;
 using NUnit.Framework.Interfaces;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ public class pauseMenu : MonoBehaviour
 {
 
 
-
+    CinemachineFreeLook cam;
     public GameObject PauseMenu;
     public GameObject regularMenu;
     public GameObject optionMenu;
@@ -39,6 +40,8 @@ public class pauseMenu : MonoBehaviour
         PauseMenu.SetActive(false);
         isPaused = false;
         inputDelay = 0;
+
+        cam = FindFirstObjectByType<CinemachineFreeLook>();
     }
 
     // Update is called once per frame
@@ -56,6 +59,12 @@ public class pauseMenu : MonoBehaviour
 
         if (isPaused)
         {
+            cam.m_XAxis.m_MaxSpeed = 0f;
+            cam.m_YAxis.m_MaxSpeed = 0f;
+
+            cam.m_XAxis.m_MinValue = 0f;
+            cam.m_YAxis.Value = 0f;
+
             if (Input.GetButtonDown("Jump"))
             {
                 selectedSound.Play();
@@ -99,7 +108,7 @@ public class pauseMenu : MonoBehaviour
                 if (inputDelay <= 0)
                 {
                     selectSound.Play();
-                    inputDelay = 60;
+                    inputDelay = 30;
                     options--;
                     if (options < 0)
                     {
@@ -113,7 +122,7 @@ public class pauseMenu : MonoBehaviour
                 if (inputDelay <= 0)
                 {
                     selectSound.Play();
-                    inputDelay = 60;
+                    inputDelay = 30;
                     section++;
                     options = 0;
                     if (section > 1)
@@ -128,7 +137,7 @@ public class pauseMenu : MonoBehaviour
                 if (inputDelay <= 0)
                 {
                     selectSound.Play();
-                    inputDelay = 60;
+                    inputDelay = 30;
                     section--;
                     options = 0;
                     if (section < 0)
@@ -143,7 +152,7 @@ public class pauseMenu : MonoBehaviour
                 if (inputDelay <= 0)
                 {
                     selectSound.Play();
-                    inputDelay = 60;
+                    inputDelay = 30;
                     options++;
                     if (options > 2)
                     {
@@ -238,7 +247,10 @@ public class pauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
 
+        cam.m_XAxis.m_MaxSpeed = 250f;
+        cam.m_YAxis.m_MaxSpeed = 2f;
 
+        cam.m_YAxis.Value = 0.4336098f;
     }
 
     public void QuitGame()

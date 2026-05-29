@@ -15,7 +15,7 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64965
+55004
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/trety/OneDrive/Documents/GitHub/CappiAstralMuseum/CappiAstralMuseum/Cap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12652] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 3754400678 [EditorId] 3754400678 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [12652] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 3754400678 [EditorId] 3754400678 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35780] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1186463619 [EditorId] 1186463619 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35780] Host "[IP] 192.168.191.142 [Port] 0 [Flags] 2 [Guid] 1186463619 [EditorId] 1186463619 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K6D0DOT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -80,7 +80,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -94,41 +94,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005568 seconds.
-- Loaded All Assemblies, in  0.664 seconds
+Registered in 0.003817 seconds.
+- Loaded All Assemblies, in  0.415 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1234ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (257ms)
-		LoadAssemblies (227ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (229ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (575ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (316ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (480ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (358ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -152,83 +152,1032 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.679 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.875 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <51ee0c51c90047b488b10b1b78b365d8>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <adf0e73faa2b4739bc17dcc108877e1a>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.3.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.459 seconds
-Domain Reload Profiling: 3130ms
-	BeginReloadAssembly (574ms)
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1667ms
+	BeginReloadAssembly (305ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (949ms)
-		LoadAssemblies (712ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (413ms)
-			TypeCache.Refresh (335ms)
-				TypeCache.ScanAssembly (305ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1460ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (27ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (798ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1058ms)
+		SetupLoadedEditorAssemblies (580ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (874ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5368 unused Assets / (3.3 MB). Loaded Objects now: 6011.
-Memory consumption went from 322.8 MB to 319.4 MB.
-Total: 15.436300 ms (FindLiveObjects: 2.183100 ms CreateObjectMapping: 1.064500 ms MarkObjects: 7.519100 ms  DeleteObjects: 4.666800 ms)
+Unloading 5371 unused Assets / (3.2 MB). Loaded Objects now: 6014.
+Memory consumption went from 322.7 MB to 319.5 MB.
+Total: 11.258200 ms (FindLiveObjects: 0.937400 ms CreateObjectMapping: 0.702600 ms MarkObjects: 6.839600 ms  DeleteObjects: 2.777400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 786484.670827 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Alert1.haptic
+  artifactKey: Guid(27b2f1a81ed0042058d5e12a4ff355c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Alert1.haptic using Guid(27b2f1a81ed0042058d5e12a4ff355c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49dc4c5cd158c969048363e67159051b') in 0.0217098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003857 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep1.haptic
+  artifactKey: Guid(fafb36cf7b1ae455cb46b5f952075a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep1.haptic using Guid(fafb36cf7b1ae455cb46b5f952075a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c90eedb6a9bef5078021423d7253c422') in 0.00167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006222 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep2.haptic
+  artifactKey: Guid(02f81e28fa53f46de9734ba5a14d9891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep2.haptic using Guid(02f81e28fa53f46de9734ba5a14d9891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4519428e2b711cf483b43e43e27a20bd') in 0.002036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005067 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep3.haptic
+  artifactKey: Guid(6a7e2ca1987944de39aba76339acf1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep3.haptic using Guid(6a7e2ca1987944de39aba76339acf1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c60944e486a965fc82036f0c5324be4') in 0.0015334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004619 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body1.haptic
+  artifactKey: Guid(ce8bd75dffeee4051b8952ee4b2ca7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body1.haptic using Guid(ce8bd75dffeee4051b8952ee4b2ca7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '129fec705db05c6794fcee035fb2291f') in 0.0014594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004727 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body2.haptic
+  artifactKey: Guid(e0d9d544789ef40469cd266d3ba5a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body2.haptic using Guid(e0d9d544789ef40469cd266d3ba5a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6311f3dbc455e6cd237078f3a5676710') in 0.0014182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004786 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body3.haptic
+  artifactKey: Guid(3d30a37fa8b8b4239a9e5a8ecf2bcca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Body3.haptic using Guid(3d30a37fa8b8b4239a9e5a8ecf2bcca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67916f888c17dde2d7c33b3c2d064da') in 0.0015715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005774 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Book1.haptic
+  artifactKey: Guid(0aa9d325f040949238fe3e95649505e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Book1.haptic using Guid(0aa9d325f040949238fe3e95649505e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '276caaf65deec58e804219b8157724a9') in 0.0014407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005246 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Book2.haptic
+  artifactKey: Guid(079721a2efb9b41559557cc7cfaf01f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Book2.haptic using Guid(079721a2efb9b41559557cc7cfaf01f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765ae4b1647d2aa9a88d49eced8939f8') in 0.0015138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004543 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Book3.haptic
+  artifactKey: Guid(54fb76d2c037a4e29a0644454a80d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Book3.haptic using Guid(54fb76d2c037a4e29a0644454a80d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dafae7a5600d5d0f768182a85301ec0') in 0.0015387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961902 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/Boost1.haptic
+  artifactKey: Guid(05308c4aa64da4ba2ab52866c1733bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/Boost1.haptic using Guid(05308c4aa64da4ba2ab52866c1733bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd9dec8a1361311920ff1c36565ed09') in 0.0019492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006443 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/BowRelease1.haptic
+  artifactKey: Guid(51438239b78e140d0aa04a97e8b073bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/BowRelease1.haptic using Guid(51438239b78e140d0aa04a97e8b073bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c495cbfebed59c50a170174d01ffd8c8') in 0.0023411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003637 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack1.haptic
+  artifactKey: Guid(473149a0cff2b4a01901360eef1fcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack1.haptic using Guid(473149a0cff2b4a01901360eef1fcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44c7061a24389903ddde6d73749fb531') in 0.0024133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062400 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack2.haptic
+  artifactKey: Guid(2760372a5930146c880106e10f9a3c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack2.haptic using Guid(2760372a5930146c880106e10f9a3c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33716a1e170edade0a87954d375b3f23') in 0.0026038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007915 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack3.haptic
+  artifactKey: Guid(c7833764644ba41a29b1d11de2f3a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack3.haptic using Guid(c7833764644ba41a29b1d11de2f3a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007d1ee587a7a826bdecc1c4414abd94') in 0.0025436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008235 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletMetal1.haptic
+  artifactKey: Guid(7d9f91002f7704512888884c6e6c0cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/BulletMetal1.haptic using Guid(7d9f91002f7704512888884c6e6c0cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4728ad08a1ee9bc16754e9010000e122') in 0.002748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029167 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button1.haptic
+  artifactKey: Guid(288ca76b927d24b3eb9b30fc8a464b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button1.haptic using Guid(288ca76b927d24b3eb9b30fc8a464b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a08a06f004537dc018fd862acae470ec') in 0.0040145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008070 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button2.haptic
+  artifactKey: Guid(2a076dfae72a84088855d51a4c2259f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button2.haptic using Guid(2a076dfae72a84088855d51a4c2259f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c5e5902f14ac0801a4ef3dd4a4f0b95') in 0.0029579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005031 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button3.haptic
+  artifactKey: Guid(bb27b2715855c43e68e953138ae502c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button3.haptic using Guid(bb27b2715855c43e68e953138ae502c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9e4b7a86d5f8403463185e3716a452') in 0.0022185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163892 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button4.haptic
+  artifactKey: Guid(0d2b5984bc090493787fc3bc832277d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button4.haptic using Guid(0d2b5984bc090493787fc3bc832277d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77d09e45f24a3cbb85d9c5c7c12800b5') in 0.0016925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003478 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/CameraShutter1.haptic
+  artifactKey: Guid(66f3ca43b4d1b4b69936896892e1eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/CameraShutter1.haptic using Guid(66f3ca43b4d1b4b69936896892e1eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e2baa5e52b0787be25d8ae4d387bd7') in 0.0013849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005905 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/CarCrash1.haptic
+  artifactKey: Guid(59d416c84824f4c428a7087364aa244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/CarCrash1.haptic using Guid(59d416c84824f4c428a7087364aa244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '820d3b2534e3875ccea6919a6071c4ae') in 0.0018111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020609 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarEngine1.haptic
+  artifactKey: Guid(699c16359745b45799bcd0733bf9d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarEngine1.haptic using Guid(699c16359745b45799bcd0733bf9d138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd026579b76aa1f4960d37f1f4e00780f') in 0.0014469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarEngine2.haptic
+  artifactKey: Guid(e6d33a698322947bba2f08602e361b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarEngine2.haptic using Guid(e6d33a698322947bba2f08602e361b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8417af5faf15af5a9fa7811d7d26fd64') in 0.001727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004483 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarScreech1.haptic
+  artifactKey: Guid(c6a6f0a33d034415d8d9fb7447656551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarScreech1.haptic using Guid(c6a6f0a33d034415d8d9fb7447656551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '855c804ba6320cbbaabcf4aeef7de731') in 0.0024038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022288 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarScreech2.haptic
+  artifactKey: Guid(86eb5bb1ab5ce46cdb049f224abba5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/CarScreech2.haptic using Guid(86eb5bb1ab5ce46cdb049f224abba5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbdabbac86bb08ce56af44ec920a728f') in 0.0016017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005022 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Cash1.haptic
+  artifactKey: Guid(4416df1735b754000b010148943fa8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Cash1.haptic using Guid(4416df1735b754000b010148943fa8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56ffdac0b9a8c22a3f8e2aa324c7582b') in 0.0013518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005053 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Cash2.haptic
+  artifactKey: Guid(2f5e8b6a048334226a6f0e74aa86b882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Cash2.haptic using Guid(2f5e8b6a048334226a6f0e74aa86b882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac83f4315d0ce6e1d1258d0bae014a0b') in 0.0017814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004229 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/CashRegister1.haptic
+  artifactKey: Guid(574ff42b380334a6eafcf5857b050cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/CashRegister1.haptic using Guid(574ff42b380334a6eafcf5857b050cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7257d80fb4ffd59d2d3dbf1e7034c6d0') in 0.0017468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003846 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Nature/CatPurr1.haptic
+  artifactKey: Guid(f7201d9cdb3ce48338e0d5a2e3c5a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Nature/CatPurr1.haptic using Guid(f7201d9cdb3ce48338e0d5a2e3c5a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2145505c9a74464ce55097bc6828e08f') in 0.0014439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006919 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset
+  artifactKey: Guid(6107d49d5744fb24eb855f7abb997756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset using Guid(6107d49d5744fb24eb855f7abb997756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e344485f50425ac2e269c8e7610e9b27') in 0.0118276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145880 seconds.
+  path: Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset
+  artifactKey: Guid(248c4661420fe3d48b7f14d4c8afe6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset using Guid(248c4661420fe3d48b7f14d4c8afe6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1ed4374a8d58aaebdf69c4e0f5200d5') in 0.0095133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006641 seconds.
+  path: Assets/Assets Used/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uss
+  artifactKey: Guid(f8b971f10a610844f968f582415df874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uss using Guid(f8b971f10a610844f968f582415df874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0e309a9fb36ee02cb3c14ff8b55267c') in 0.0074247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020030 seconds.
+  path: Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelA.asset
+  artifactKey: Guid(6ba165fd91edb434aa2f1cd6f6b05885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelA.asset using Guid(6ba165fd91edb434aa2f1cd6f6b05885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9ba53d409473196e1453a6671237f7') in 0.0015477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005418 seconds.
+  path: Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelB.asset
+  artifactKey: Guid(7471a7ccb4c5bdb4e9c9d5b51f6db888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelB.asset using Guid(7471a7ccb4c5bdb4e9c9d5b51f6db888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5952bc64d1af5b5c8f2fe6eba77de6a2') in 0.0015132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005765 seconds.
+  path: Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelC.asset
+  artifactKey: Guid(277be439bdc9329468f9e6d0799d54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/MMFeedbacks/Core/MMChannels/ChannelC.asset using Guid(277be439bdc9329468f9e6d0799d54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42ad2f06a6aa37e57ca5ea2976d4597c') in 0.0013798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004906 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin1.haptic
+  artifactKey: Guid(4c96effbae347483baac103413c85cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin1.haptic using Guid(4c96effbae347483baac103413c85cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '926df7a1c1dcd53c27414b1aa3d40750') in 0.0012998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004550 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin2.haptic
+  artifactKey: Guid(28c21a0b5fca848f285ed713ce34a5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin2.haptic using Guid(28c21a0b5fca848f285ed713ce34a5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5dfb6309427b3161369bec01f089421') in 0.0015405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004611 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin3.haptic
+  artifactKey: Guid(54b8ec0fd166140138ef6eef0c341c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin3.haptic using Guid(54b8ec0fd166140138ef6eef0c341c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b091262aae141d370f8a0629ca02018c') in 0.0017767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.730570 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin4.haptic
+  artifactKey: Guid(df6ba66827ad642daa95fb9bc020da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin4.haptic using Guid(df6ba66827ad642daa95fb9bc020da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379120da8bbfaf6d0180e0c89590a039') in 0.0014571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004299 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin5.haptic
+  artifactKey: Guid(dd23a3cec55974f40b54e572b9630bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin5.haptic using Guid(dd23a3cec55974f40b54e572b9630bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b42cabf2a9c6f905644a459af6dc0ef') in 0.0013205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004501 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin6.haptic
+  artifactKey: Guid(03186835bb5cd4cee99ddc8a7e4ed5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Coin6.haptic using Guid(03186835bb5cd4cee99ddc8a7e4ed5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '956a4821ec60b9c9306e456897b63077') in 0.0016176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033381 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/CombatPunch1.haptic
+  artifactKey: Guid(d2b7fe7395e1243c08b607ed95765840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/CombatPunch1.haptic using Guid(d2b7fe7395e1243c08b607ed95765840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30bbfa10b45707cb0e1f3fabc22c8a4e') in 0.0015983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005875 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/CombatPunch2.haptic
+  artifactKey: Guid(d6f022528b4a64551bd772c576be2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/CombatPunch2.haptic using Guid(d6f022528b4a64551bd772c576be2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6460194f7b6882f86862a2e199b4181') in 0.0014732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004672 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete1.haptic
+  artifactKey: Guid(b842d36097a784c6e9639ff0d7a42557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete1.haptic using Guid(b842d36097a784c6e9639ff0d7a42557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efdee370297c46ebc1398c3f02ec17a7') in 0.0015468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004443 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete2.haptic
+  artifactKey: Guid(403c90a1ed71b4c92970bae66c263683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete2.haptic using Guid(403c90a1ed71b4c92970bae66c263683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '538975248e3d13240960ff8c792333fc') in 0.0014373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004470 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete3.haptic
+  artifactKey: Guid(3c2b770a337e648528945c0b97fa31f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Concrete3.haptic using Guid(3c2b770a337e648528945c0b97fa31f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a137c57500c59a416367b02e670ed71') in 0.0014068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004732 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Nature/CreatureRoar1.haptic
+  artifactKey: Guid(bbf069ce5bd1c4360ba1993ed2633bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Nature/CreatureRoar1.haptic using Guid(bbf069ce5bd1c4360ba1993ed2633bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b952fe0b8371d515d278a11e5267dcb') in 0.0016693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025438 seconds.
+  path: Assets/Feel/FeelDemos/Letters/PostProcessing/FeelLettersDemoPostProcessingProfileMotionBlur.asset
+  artifactKey: Guid(6296d403fae67ba4d9e25ff1bab02180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Letters/PostProcessing/FeelLettersDemoPostProcessingProfileMotionBlur.asset using Guid(6296d403fae67ba4d9e25ff1bab02180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db47ce0a7a1a99a62ee6a24eaefdd331') in 0.0074853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Feel/FeelDemos/Letters/Cinemachine/FeelLettersDemoVerticalImpulse.asset
+  artifactKey: Guid(12b5ede874e698048b6aed355a6066e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Letters/Cinemachine/FeelLettersDemoVerticalImpulse.asset using Guid(12b5ede874e698048b6aed355a6066e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9fec68ebbdb785c04d2a36424fff881') in 0.0019866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006978 seconds.
+  path: Assets/Feel/FeelDemos/MMProgressBar/PostProcessing/FeelMMProgressBarPPProfile.asset
+  artifactKey: Guid(98e14f8747723c14ab608315e74299e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/MMProgressBar/PostProcessing/FeelMMProgressBarPPProfile.asset using Guid(98e14f8747723c14ab608315e74299e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74ea0db16f50ba35e5efea190da228e3') in 0.0058081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002125 seconds.
+  path: Assets/Feel/FeelDemos/Snake/PostProcessing/FeelSnakeDemoPostProcessingProfile.asset
+  artifactKey: Guid(2679027a5cb70f547aa504583d355f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Snake/PostProcessing/FeelSnakeDemoPostProcessingProfile.asset using Guid(2679027a5cb70f547aa504583d355f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d49bf2cdbb7e04c8dde80b23d427e85') in 0.0015704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005532 seconds.
+  path: Assets/Feel/FeelDemos/Springs/Channels/FeelSpringsDemoAnimatorSpeedChannel.asset
+  artifactKey: Guid(86637982991ef464497bf77bd49b9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Springs/Channels/FeelSpringsDemoAnimatorSpeedChannel.asset using Guid(86637982991ef464497bf77bd49b9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81a34ff2fc7f60c3dfca3b4de575c00') in 0.0013628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005037 seconds.
+  path: Assets/Feel/FeelDemos/Springs/Channels/FeelSpringsDemoMaterialPropertyChannel.asset
+  artifactKey: Guid(9d5ac922c10fc194d832e790fa6200cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Springs/Channels/FeelSpringsDemoMaterialPropertyChannel.asset using Guid(9d5ac922c10fc194d832e790fa6200cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29f3b497b82e59f4ccf5786055092576') in 0.0011562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006407 seconds.
+  path: Assets/Feel/FeelDemos/Springs/PostProcessing/FeelSpringsPostProcessingVolume.asset
+  artifactKey: Guid(ae32d99acf9017a4d970aafeb23a50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Springs/PostProcessing/FeelSpringsPostProcessingVolume.asset using Guid(ae32d99acf9017a4d970aafeb23a50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7658d2186dd5e33848e8c96c06e7715') in 0.0029764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006227 seconds.
+  path: Assets/Feel/FeelDemos/Springs/PostProcessing/FeelSpringsTreesPostProcessingVolume.asset
+  artifactKey: Guid(6d3808af06b15344d9ec6756eb711b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Springs/PostProcessing/FeelSpringsTreesPostProcessingVolume.asset using Guid(6d3808af06b15344d9ec6756eb711b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5739a9a9b390648d9b2f2fcb96ebccb3') in 0.0018502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005902 seconds.
+  path: Assets/Feel/FeelDemos/SquashAndStretch/PostProcessingProfile/FeelSquashAndStretchSkyboxPostProcessingProfile.asset
+  artifactKey: Guid(fc310f0002b9b714884ea8fb1517d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/SquashAndStretch/PostProcessingProfile/FeelSquashAndStretchSkyboxPostProcessingProfile.asset using Guid(fc310f0002b9b714884ea8fb1517d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b36347c4290a3497b4bb7e537ebe1f4') in 0.0021417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007197 seconds.
+  path: Assets/Feel/FeelDemos/Tactical/PostProcessing/FeelTacticalPostProcessingProfile.asset
+  artifactKey: Guid(a8ab5bb476387734aa188aca8b22c24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Tactical/PostProcessing/FeelTacticalPostProcessingProfile.asset using Guid(a8ab5bb476387734aa188aca8b22c24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03443952fae19ba31a796e79f6d125e8') in 0.0018944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007202 seconds.
+  path: Assets/Feel/FeelDemos/Toaster/PostProcessing/FeelToasterPostProcessingProfile.asset
+  artifactKey: Guid(c6b50230460947f409d8c959ea2e760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/Toaster/PostProcessing/FeelToasterPostProcessingProfile.asset using Guid(c6b50230460947f409d8c959ea2e760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f926c95e5c1384a757c40cb8148ed364') in 0.0022129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005755 seconds.
+  path: Assets/Feel/FeelDemos/UIToolkitFeedbacksDemo/PanelSettings/FeelUIToolkitDemoPanelSettings.asset
+  artifactKey: Guid(163ab44657be0cb4c94660830d851752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/UIToolkitFeedbacksDemo/PanelSettings/FeelUIToolkitDemoPanelSettings.asset using Guid(163ab44657be0cb4c94660830d851752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '735df76124ae97a12bcec25ee1e71d91') in 0.0169735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019348 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Keyboard3.haptic
+  artifactKey: Guid(c6f36653924a447c18e1cdbc2e14a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Keyboard3.haptic using Guid(c6f36653924a447c18e1cdbc2e14a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a55bf9e7cee1006a81d6258c9a39cc') in 0.0023359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006181 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Keychain1.haptic
+  artifactKey: Guid(98451e6cac8844354b9c809764ce80ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Keychain1.haptic using Guid(98451e6cac8844354b9c809764ce80ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68742e53f3852e931489c770f460cecc') in 0.0015452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005260 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Keys1.haptic
+  artifactKey: Guid(21aa582084c8e4125991f4cbf42a47f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Keys1.haptic using Guid(21aa582084c8e4125991f4cbf42a47f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad573c3c0a1261800bb575a1a3b0ba5') in 0.0012804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004617 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Music/Kick1.haptic
+  artifactKey: Guid(c967e91fd14e9473e914fb827a8febc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Music/Kick1.haptic using Guid(c967e91fd14e9473e914fb827a8febc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7912f5bb831e56a803a7110436b55b9') in 0.0013638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005128 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Music/Kick2.haptic
+  artifactKey: Guid(ee64990eca96a44ee9ae0026023073fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Music/Kick2.haptic using Guid(ee64990eca96a44ee9ae0026023073fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd20e4c71e93f9f3c7f99906b37500178') in 0.0012828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008412 seconds.
+  path: Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato SDF.asset
+  artifactKey: Guid(3944eaaf70beffa4097d8c293604125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato SDF.asset using Guid(3944eaaf70beffa4097d8c293604125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '996ee4b09ad1728eb20a56fb52759517') in 0.3722852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Hairline SDF.asset
+  artifactKey: Guid(932db15dad1eb664ab1a91d94a8b6fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Hairline SDF.asset using Guid(932db15dad1eb664ab1a91d94a8b6fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97c0ea42ce63696389991b92e01fe15a') in 0.0314521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI Toolkit/UnityThemes/MainMenuStyle.uss
+  artifactKey: Guid(250ed4051e5ffa14bb8745c6d7f75474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UnityThemes/MainMenuStyle.uss using Guid(250ed4051e5ffa14bb8745c6d7f75474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7d4169b66890385b8bdd38496e41f53') in 0.0018218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-HairlineItalic SDF.asset
+  artifactKey: Guid(5c362fec725a413469a94a06a01b6c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-HairlineItalic SDF.asset using Guid(5c362fec725a413469a94a06a01b6c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fe8eaff0cf0059dbdf499dff799e628') in 0.0245253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Feel/MMTools/Accessories/Editor/MMCurves/MMCurves.curves
+  artifactKey: Guid(d7ae097ceef007248a49d4df212cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Accessories/Editor/MMCurves/MMCurves.curves using Guid(d7ae097ceef007248a49d4df212cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d9ad4e3d8a4aed885ef0e29c6f9595c') in 0.0061387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d9766e6847038c233c2b4accccf7329') in 0.0234456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706c289708dcf7039967c469907aceed') in 0.0358955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/LightMachineGunLoad1.haptic
+  artifactKey: Guid(43af5559b3ab34a388ebee466729f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/LightMachineGunLoad1.haptic using Guid(43af5559b3ab34a388ebee466729f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1db753db76fde9924fb6cc1856c01f3') in 0.002363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Thin SDF.asset
+  artifactKey: Guid(3ca4d2f306ccea545b06ae7c31441886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Thin SDF.asset using Guid(3ca4d2f306ccea545b06ae7c31441886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ca125f3adbed46c703194cb79b0a2fe') in 0.0342314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Feel/MMTools/Demos/MMDebugMenu/MMDebugMenuDemoData.asset
+  artifactKey: Guid(244fc583bba6930489841e197a9677db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMDebugMenu/MMDebugMenuDemoData.asset using Guid(244fc583bba6930489841e197a9677db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78ea1049f8ff0d4157668b2251f1cd05') in 0.1150952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 325
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003254 seconds.
+  path: Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/Resources/MMDefaultPostProcessingProfile.asset
+  artifactKey: Guid(c1bea42a5942a4c09a3ecd393f6054aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/Resources/MMDefaultPostProcessingProfile.asset using Guid(c1bea42a5942a4c09a3ecd393f6054aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '286ad1dc81d684d8ae1ec78c89e2d867') in 0.0020554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431093 seconds.
+  path: Assets/Feel/MMFeedbacks/Editor/Resources/MMF_PlayerConfiguration.asset
+  artifactKey: Guid(c14ab46a507c8324c8b54e6a3fdc2b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Editor/Resources/MMF_PlayerConfiguration.asset using Guid(c14ab46a507c8324c8b54e6a3fdc2b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cefd3872538f27e8082f70184e2a95d3') in 0.0032041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012232 seconds.
+  path: Assets/Feel/MMFeedbacks/Editor/Curves/Editor/MMFAntiCurves.curves
+  artifactKey: Guid(dcef6f636a0aab845a6c8d9b97bb4b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Editor/Curves/Editor/MMFAntiCurves.curves using Guid(dcef6f636a0aab845a6c8d9b97bb4b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e328cfb4e12a9e1c31bb4714b8f249a7') in 0.006011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010444 seconds.
+  path: Assets/Feel/MMFeedbacks/Editor/Curves/Editor/MMFCurves.curves
+  artifactKey: Guid(378d85c023238454db159ae565d259dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Editor/Curves/Editor/MMFCurves.curves using Guid(378d85c023238454db159ae565d259dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24cce5ce310f0c73f5bf174f2680a8fb') in 0.0059137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026593 seconds.
+  path: Assets/Feel/MMFeedbacks/Editor/Resources/MMFeedbacksConfiguration.asset
+  artifactKey: Guid(59a4add72d602ce4a9693b14a97d2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Editor/Resources/MMFeedbacksConfiguration.asset using Guid(59a4add72d602ce4a9693b14a97d2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90948017d82de4e18c762ab401df7d11') in 0.0018118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007639 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Alt Camera Profile.asset
+  artifactKey: Guid(9c0dc5f873bf5f0408db5b316cac722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Alt Camera Profile.asset using Guid(9c0dc5f873bf5f0408db5b316cac722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8970d90961f2de48bbefcfe28ee905d') in 0.004082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006117 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Filter Camera Profile.asset
+  artifactKey: Guid(4cd05aacfb949444182ef66d63efdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Filter Camera Profile.asset using Guid(4cd05aacfb949444182ef66d63efdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63863ce2b6b99bbcbe71825b48a21ef3') in 0.002857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008154 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Main Camera Profile.asset
+  artifactKey: Guid(3df5c6d6c97a31e469c12a71aa1834ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo Main Camera Profile.asset using Guid(3df5c6d6c97a31e469c12a71aa1834ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a559d2fcf82873f8038d3a0c074429') in 0.0024368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007703 seconds.
+  path: Assets/Feel/MMTools/Demos/MMGhostCamera/PostProcessing/MMGhostCameraPostProcessingProfile.asset
+  artifactKey: Guid(ee91928957b9b5b48b0b338bc5fbf32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMGhostCamera/PostProcessing/MMGhostCameraPostProcessingProfile.asset using Guid(ee91928957b9b5b48b0b338bc5fbf32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924f6fbe2f72b25ee4c49681d8183e13') in 0.0017327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006365 seconds.
+  path: Assets/Feel/MMTools/Core/Editor/MMAttributes/MMMonoBehaviourUITKEditorStylesheet.uss
+  artifactKey: Guid(9da245a6982a71d45b143036ec3684bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Core/Editor/MMAttributes/MMMonoBehaviourUITKEditorStylesheet.uss using Guid(9da245a6982a71d45b143036ec3684bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '406d6e4c96d47c5c6d1045fdaf3c64d3') in 0.0022381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025141 seconds.
+  path: Assets/Feel/MMTools/Demos/MMTween/Camera/MMPlotterPostProcessingProfile.asset
+  artifactKey: Guid(a362ed6a986e00d43b99c55140c54676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMTween/Camera/MMPlotterPostProcessingProfile.asset using Guid(a362ed6a986e00d43b99c55140c54676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97c3be1e93d62d7497420d7fb5a475a') in 0.0021479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007221 seconds.
+  path: Assets/Feel/MMTools/Demos/MMPrototypeTextures/PostProcessing/MMPrototypeTexturesPPProfile.asset
+  artifactKey: Guid(377b03b64b8e4ea45bd7f79c650610b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Demos/MMPrototypeTextures/PostProcessing/MMPrototypeTexturesPPProfile.asset using Guid(377b03b64b8e4ea45bd7f79c650610b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e129efd46dbd14500254916bd0772c') in 0.0022312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012050 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/SequencingDemo/SequencerDemo_Profiles/MMSequencerDemoGlobalPPP.asset
+  artifactKey: Guid(07c0d76c76e70e64c82dc522636cd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/SequencingDemo/SequencerDemo_Profiles/MMSequencerDemoGlobalPPP.asset using Guid(07c0d76c76e70e64c82dc522636cd034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73674e8a7610222ef2be8ab148e3b79f') in 0.0026993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009199 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/SequencingDemo/SequencerDemo_Profiles/MMSequencerDemoMovingPPP.asset
+  artifactKey: Guid(2a591d6cae1533b45bfbbe06de11f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/SequencingDemo/SequencerDemo_Profiles/MMSequencerDemoMovingPPP.asset using Guid(2a591d6cae1533b45bfbbe06de11f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc09153ad59299d026528aedcce65573') in 0.0019934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006937 seconds.
+  path: Assets/Feel/MMTools/Core/MMAudio/MMSoundManager/Settings/MMSoundManagerSettings.asset
+  artifactKey: Guid(07ea3ff88e1ecb84d91f58aa804badc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMTools/Core/MMAudio/MMSoundManager/Settings/MMSoundManagerSettings.asset using Guid(07ea3ff88e1ecb84d91f58aa804badc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '8353c748a9812291a95e1b19e2d3179e') in 0.0226428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558182 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/SoundFX/MovieProjector1.haptic
+  artifactKey: Guid(88ea752cd53264cdd8eb2ad769b8c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/SoundFX/MovieProjector1.haptic using Guid(88ea752cd53264cdd8eb2ad769b8c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b504e9910986d0dba1732db528d9a74e') in 0.0021308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007014 seconds.
+  path: Assets/Assets Used/Low Poly Nature Pack/Terrain/NewBrush.brush
+  artifactKey: Guid(263e5ca60067bc94d8f1d2b7a88bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Used/Low Poly Nature Pack/Terrain/NewBrush.brush using Guid(263e5ca60067bc94d8f1d2b7a88bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c0fb39eced9dc184790970e2fb3da6') in 0.0343601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001510 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVDrumsLoop.haptic
+  artifactKey: Guid(21b5c105f373e476c93ac1a61c2a671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVDrumsLoop.haptic using Guid(21b5c105f373e476c93ac1a61c2a671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da5cb41c89fd9e4e7d6fde51ad1a525d') in 0.0017906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005636 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVGameOver.haptic
+  artifactKey: Guid(4c1fed00d51304ffbbcd07464f90b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVGameOver.haptic using Guid(4c1fed00d51304ffbbcd07464f90b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fa3138ec5dbfa71d7ebdd707fc0dd41') in 0.0017334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.258099 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVHeartbeats.haptic
+  artifactKey: Guid(bc8515b2736d340359b4c718c4f565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVHeartbeats.haptic using Guid(bc8515b2736d340359b4c718c4f565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5cb8b1c4f07228981db4a73d0b9207') in 0.001645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005532 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVLaser.haptic
+  artifactKey: Guid(db702dc4cff314785bbc5a16becaaeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVLaser.haptic using Guid(db702dc4cff314785bbc5a16becaaeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fae684d7d5723b3f385f9b50329b340') in 0.0016117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005290 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVPowerOff.haptic
+  artifactKey: Guid(5a367fd990b07468bb3bd4c42368b7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVPowerOff.haptic using Guid(5a367fd990b07468bb3bd4c42368b7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1472f278dd6ffc75218e928599b332a') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055777 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVReload.haptic
+  artifactKey: Guid(9c40e0330eb2346cb90e006681c4feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVReload.haptic using Guid(9c40e0330eb2346cb90e006681c4feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00192b353ca0dfe451ce6d8d5157897f') in 0.0014311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005339 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVTeleport.haptic
+  artifactKey: Guid(a90fad83145944657936507a7a1c4ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/HapticClipsDemo/Haptics/NVTeleport.haptic using Guid(a90fad83145944657936507a7a1c4ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45c15868ad6e3e0d3384b4464aa22b6c') in 0.0018202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005381 seconds.
+  path: Assets/Feel/NiceVibrations/Demo/DemoAssets/WobbleDemo/Haptics/NVWobbleSpring.haptic
+  artifactKey: Guid(467545e1cb04a457cb322ddd400e03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/Demo/DemoAssets/WobbleDemo/Haptics/NVWobbleSpring.haptic using Guid(467545e1cb04a457cb322ddd400e03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8371e06014ec5e8a9b891bdec3932b5') in 0.0026018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199571 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Objects/Pen1.haptic
+  artifactKey: Guid(2b230f5d89c034cebb5c6f0ca5e2673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Objects/Pen1.haptic using Guid(2b230f5d89c034cebb5c6f0ca5e2673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd469fd45dc7c6f1e1875616cb1fa973d') in 0.0017827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008319 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire1.haptic
+  artifactKey: Guid(d22e8270dde474957803199e71e64fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire1.haptic using Guid(d22e8270dde474957803199e71e64fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a3502befca972f75beda2313faf5dca') in 0.0015946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006098 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire2.haptic
+  artifactKey: Guid(d03459874a5824152b9f05808a1955de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire2.haptic using Guid(d03459874a5824152b9f05808a1955de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67897ae7b451badebcaec397672f8779') in 0.0023207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024362 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire3.haptic
+  artifactKey: Guid(d757bd5e13ca64b2392045091e372177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolFire3.haptic using Guid(d757bd5e13ca64b2392045091e372177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a802b11f481f02458ea96183b90258b') in 0.0021847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005443 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad1.haptic
+  artifactKey: Guid(9f6ba142c954246868317548c7c93b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad1.haptic using Guid(9f6ba142c954246868317548c7c93b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ff806c3765aed0fd915bacbc4d1cf40') in 0.0018703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005679 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad2.haptic
+  artifactKey: Guid(69a217bbc5a4f46cf961eb14307123af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad2.haptic using Guid(69a217bbc5a4f46cf961eb14307123af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8d8411952d00c977d94ee776bc660de') in 0.001675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026546 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad3.haptic
+  artifactKey: Guid(a3b5426862ac8458fbde2bd74cc5ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/PistolLoad3.haptic using Guid(a3b5426862ac8458fbde2bd74cc5ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a586524edbf1062185a71fe9052410d') in 0.0019227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008450 seconds.
+  path: Assets/Feel/FeelDemos/MMSoundManager/Playlists/PlaylistA.asset
+  artifactKey: Guid(70538f880606c8248a68f53d1fdcbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/MMSoundManager/Playlists/PlaylistA.asset using Guid(70538f880606c8248a68f53d1fdcbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff6ce0bff330c892d26f694f57febdb9') in 1.0367491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003567 seconds.
+  path: Assets/Feel/FeelDemos/MMSoundManager/Playlists/PlaylistB.asset
+  artifactKey: Guid(5e4655ec53a3491479570fc11c155acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/FeelDemos/MMSoundManager/Playlists/PlaylistB.asset using Guid(5e4655ec53a3491479570fc11c155acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7572b756076b0ad0a7509c923cd070') in 0.1535933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008134 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Pop1.haptic
+  artifactKey: Guid(ea7d34d87f5e647b087c1b6e686028ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/ApplicationUX/Pop1.haptic using Guid(ea7d34d87f5e647b087c1b6e686028ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d24acb4b11319b9a16af7c68237185') in 0.0021215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007830 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Impacts/Punch1.haptic
+  artifactKey: Guid(f5fabd937f2c64601beaefd717589e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Impacts/Punch1.haptic using Guid(f5fabd937f2c64601beaefd717589e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f009b8e065a87258fdef529f3ceb9d7') in 0.0022244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047077 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Nature/Rain1.haptic
+  artifactKey: Guid(0d4b3aa2605184d2ca37daa0d83d7f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Nature/Rain1.haptic using Guid(0d4b3aa2605184d2ca37daa0d83d7f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bcb4d35661dae632859a02d792f9991') in 0.0024687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008932 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Nature/RaininCar1.haptic
+  artifactKey: Guid(c3ce4ac22ce844496866ad9499f57d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Nature/RaininCar1.haptic using Guid(c3ce4ac22ce844496866ad9499f57d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c53ef0fca1c7b4e4c600b4f43a09813') in 0.0020302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007618 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Nature/RainonUmbrella1.haptic
+  artifactKey: Guid(86299ffd493034c65bf4c255664bbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Nature/RainonUmbrella1.haptic using Guid(86299ffd493034c65bf4c255664bbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdba599803dee51915694495ced72a0') in 0.0019557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008247 seconds.
+  path: Assets/Feel/MMFeedbacks/Demos/SequencingDemo/DemoSequences/RecordedSequence.asset
+  artifactKey: Guid(93ad4be8fe21349468146612eea82b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/MMFeedbacks/Demos/SequencingDemo/DemoSequences/RecordedSequence.asset using Guid(93ad4be8fe21349468146612eea82b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '510197b728aabd09fd0cb4c3a1421427') in 0.0053836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010825 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/ScifiGunshot1.haptic
+  artifactKey: Guid(68139b13ff2fc4759a9c17d340afcb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/ScifiGunshot1.haptic using Guid(68139b13ff2fc4759a9c17d340afcb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a26355bde4c24add2de521fcd760b98a') in 0.0031468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011594 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire1.haptic
+  artifactKey: Guid(6dd37df61490f4beca8547a32139ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire1.haptic using Guid(6dd37df61490f4beca8547a32139ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7dd307fa9eb3fc59bb91bf3dc01eb7d') in 0.0033711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011089 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire2.haptic
+  artifactKey: Guid(c1a7a4e32d30d4b6c9c73f61b7d22f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire2.haptic using Guid(c1a7a4e32d30d4b6c9c73f61b7d22f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5fd4f6120b5b1dfa9015e96a47faae1') in 0.0028426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010526 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire3.haptic
+  artifactKey: Guid(d6fc63a0d606d42d5afa4d84d1bd63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunFire3.haptic using Guid(d6fc63a0d606d42d5afa4d84d1bd63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8586b9876dbd59ab8ba56f581802c65') in 0.0029979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010488 seconds.
+  path: Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunLoad1.haptic
+  artifactKey: Guid(5527f1ddc0edb497cb8e914b23cad718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Feel/NiceVibrations/HapticSamples/Weapons/ShotgunLoad1.haptic using Guid(5527f1ddc0edb497cb8e914b23cad718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e0a78a852f74acb3f821825b8be99f1') in 0.0028754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 872.743978 seconds.
+  path: Assets/UIToolkit/MainMwnu.uxml
+  artifactKey: Guid(0c8b1a277ecdd3b4fabec84f0739cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIToolkit/MainMwnu.uxml using Guid(0c8b1a277ecdd3b4fabec84f0739cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88728394754116702c1fcbbf0760b7e2') in 0.050875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Prepare
@@ -248,56 +1197,197 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.235 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.179 seconds
-Domain Reload Profiling: 2408ms
-	BeginReloadAssembly (332ms)
+- Finished resetting the current domain, in  0.798 seconds
+Domain Reload Profiling: 1627ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (758ms)
-		LoadAssemblies (665ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (433ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (278ms)
-			TypeCache.Refresh (12ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (243ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1180ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (798ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (859ms)
+		SetupLoadedEditorAssemblies (571ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5366 unused Assets / (3.7 MB). Loaded Objects now: 6012.
-Memory consumption went from 306.1 MB to 302.4 MB.
-Total: 15.505900 ms (FindLiveObjects: 1.029900 ms CreateObjectMapping: 1.225800 ms MarkObjects: 8.873800 ms  DeleteObjects: 4.374400 ms)
+Unloading 5373 unused Assets / (3.4 MB). Loaded Objects now: 6065.
+Memory consumption went from 306.6 MB to 303.2 MB.
+Total: 11.111500 ms (FindLiveObjects: 0.676200 ms CreateObjectMapping: 0.873700 ms MarkObjects: 6.468200 ms  DeleteObjects: 3.092100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 2.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5359 unused Assets / (3.1 MB). Loaded Objects now: 6065.
+Memory consumption went from 306.7 MB to 303.6 MB.
+Total: 10.388200 ms (FindLiveObjects: 0.716700 ms CreateObjectMapping: 0.629100 ms MarkObjects: 6.338300 ms  DeleteObjects: 2.702300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1586ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5369 unused Assets / (3.1 MB). Loaded Objects now: 6066.
+Memory consumption went from 308.4 MB to 305.4 MB.
+Total: 8.288900 ms (FindLiveObjects: 0.736400 ms CreateObjectMapping: 0.561600 ms MarkObjects: 4.873600 ms  DeleteObjects: 2.115800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trety\OneDrive\Documents\GitHub\CappiAstralMuseum\CappiAstralMuseum\Cappi Astral Museum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cappi Astral Museum
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5369 unused Assets / (3.2 MB). Loaded Objects now: 6067.
+Memory consumption went from 310.4 MB to 307.1 MB.
+Total: 13.101400 ms (FindLiveObjects: 0.966900 ms CreateObjectMapping: 0.934300 ms MarkObjects: 7.084500 ms  DeleteObjects: 4.114100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
