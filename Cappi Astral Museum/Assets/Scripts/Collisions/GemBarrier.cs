@@ -7,9 +7,14 @@ public class GemBarrier : MonoBehaviour
 {
     public int gemRequirement = 2;
     public TextMeshProUGUI textM;
+
+    public int id = 0;
     void Start()
     {
-        
+        if (CutsceneFlags.instance.removedWindyDoor)
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -29,6 +34,13 @@ public class GemBarrier : MonoBehaviour
             Debug.Log("player hit");
 
             Destroy(gameObject);
+
+            if(id == 0)
+            {
+                CutsceneFlags.instance.removedWindyDoor = true;
+
+                CutsceneFlags.instance.SavingCutsceneFlags();
+            }
         }
 
 

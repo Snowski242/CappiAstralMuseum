@@ -38,12 +38,19 @@ public class SaveManager : MonoBehaviour
     {
         QuickSaveWriter.Create("Gems").Write("Amount", gems)
             .Commit();
+
+        CutsceneFlags.instance.SavingCutsceneFlags();
     }
 
     public void Load()
     {
         var reader = QuickSaveReader.Create("Gems");
         reader.Read<List<int>>("Amount", r => gems = r);
+
+
+        var reader2 = QuickSaveReader.Create("Flags");
+        reader2.Read<bool>("Intro", r => CutsceneFlags.instance.introCutscene = r);
+        reader2.Read<bool>("WindyCut", r => CutsceneFlags.instance.removedWindyDoor = r);
 
     }
 }

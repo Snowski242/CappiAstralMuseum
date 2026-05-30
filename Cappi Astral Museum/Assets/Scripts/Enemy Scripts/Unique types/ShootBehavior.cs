@@ -88,13 +88,14 @@ public class ShootBehavior : MonoBehaviour
 
     void Behavior(int type)
     {
+
         switch (type)
         {
             case 0:
 
                 float distance = Vector3.Distance(target.transform.position, transform.position);
 
-                if(distance <= enemyRadius)
+                if (distance <= enemyRadius)
                 {
                     ChargeShot();
                     FaceTarget();
@@ -122,6 +123,70 @@ public class ShootBehavior : MonoBehaviour
                 RaycastHit downHit;
 
                 Vector3 p1 = transform.position;
+
+                //shoots raycast forward to see if theres a raycast hit
+                if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))
+                {
+
+
+
+                    if (target.canMove)
+                    {
+                        dmg.HP -= 1;
+
+                        target.state = "jump";
+                        target.transformVelocity.y = Mathf.Sqrt(target.jump * -2f * target.gravity);
+                        target.isGrounded = false;
+
+                        Instantiate(fx.hitFX, transform.position, Quaternion.identity);
+                    }
+
+                }
+
+                if (dmg.HP <= 0)
+                {
+                    if (hasStellar)
+                    {
+                        var stellarine = Instantiate(stellarineObj, transform.position + new Vector3(0f, 3f, 0f), transform.rotation);
+                        stellarine.GetComponent<StellarineBehavior>().gemID = stellarInd;
+                        stellarine.GetComponent<StellarineBehavior>().justSpawned = true;
+                    }
+
+                    target.tensionGauge = Mathf.MoveTowards(target.tensionGauge, target.tensionGaugeMax, 2.995f);
+
+                    Destroy(gameObject);
+                }
+
+                break;
+
+            case 1:
+
+                distance = Vector3.Distance(target.transform.position, transform.position);
+
+                if (distance <= enemyRadius)
+                {
+                    ChargeShot();
+                    FaceTarget();
+                }
+
+                if (distance < enemyRadius && distance > agent.stoppingDistance)
+                {
+                    animator.SetBool("idle", false);
+                    animator.SetBool("walk", true);
+
+                    agent.SetDestination(target.transform.position);
+
+
+
+
+                }
+
+
+                ///jumping on top of them
+
+                
+
+                 p1 = transform.position;
 
                 //shoots raycast forward to see if theres a raycast hit
                 if (Physics.SphereCast(p1, 0.4f, transform.up, out downHit, 1.1f, LayerMask.GetMask("Player")))

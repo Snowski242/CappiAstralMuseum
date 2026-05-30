@@ -25,23 +25,33 @@ public class TitleUI : MonoBehaviour
 
     private void Awake()
     {
-        VisualElement root = mainMenuDocument.rootVisualElement;
+        //VisualElement root = mainMenuDocument.rootVisualElement;
 
-        optionsButton = root.Q<Button>("settings");
-        playButton = root.Q<Button>("play");
-        deleteButton = root.Q<Button>("delete");
+        //optionsButton = root.Q<Button>("settings");
+        //playButton = root.Q<Button>("play");
+        //deleteButton = root.Q<Button>("delete");
 
-        optionsButton.clickable.clicked += ShowOptionsMenu;
-        playButton.clickable.clicked += PlayGame;
-        deleteButton.clickable.clicked += DeleteSave;
+        //optionsButton.clickable.clicked += ShowOptionsMenu;
+        //playButton.clickable.clicked += PlayGame;
+        //deleteButton.clickable.clicked += DeleteSave;
     }
 
-    public void PlayGame()
+    public void GoToHub()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name != "Hub")
+        if (!CutsceneFlags.instance.introCutscene)
         {
-            SceneManager.LoadScene("Hub");
+            if (currentScene.name != "Cut_Intro")
+            {
+                SceneManager.LoadScene("Cut_Intro");
+            }
+        }
+        else
+        {
+            if (currentScene.name != "Hub")
+            {
+                SceneManager.LoadScene("Hub");
+            }
         }
     }
 

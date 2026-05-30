@@ -47,7 +47,7 @@ public class LevelSelectText : MonoBehaviour
 
             if (gemID == 3)
             {
-                text.text = "In an Ancient Building...";
+                text.text = "On top of a flower....";
             }
 
             if (gemID == 4)

@@ -55,7 +55,7 @@ public class PlayerDamage : MonoBehaviour
             Hurt();
         }
 
-        if (indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "walk" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "idle" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "rev" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "revrun")
+        if (indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "walk" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "idle" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "rev" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "revrun" || indestructibleColliders.Length > 0 && invulnTimer == 0 && player.state == "slide")
         {
             Hurt();
         }
